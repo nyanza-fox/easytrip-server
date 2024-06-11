@@ -4,6 +4,7 @@ import destinationController from '../controllers/destinationController';
 
 const router = express.Router();
 
-router.get('/destinations', destinationController.getHello);
+router.get('/destinations', destinationController.getAllDestinations);
+router.get('/destinations/:id', destinationController.getDestinationById);
 
 export default router;

@@ -16,3 +16,5 @@ export type Destination = {
   createdAt: Date;
   updatedAt: Date;
 };
+
+export type DestinationInput = Omit<Destination, '_id' | 'createdAt' | 'updatedAt'>;

@@ -7,8 +7,10 @@ export type Guide = {
   pricePerDay: number;
   contact: {
     email: string;
-    phone: string;
+    phoneNumber: string;
   };
   createdAt: Date;
   updatedAt: Date;
 };
+
+export type GuideInput = Omit<Guide, '_id' | 'createdAt' | 'updatedAt'>;

@@ -22,3 +22,5 @@ export type Accommodation = {
   createdAt: Date;
   updatedAt: Date;
 };
+
+export type AccommodationInput = Omit<Accommodation, '_id' | 'createdAt' | 'updatedAt'>;

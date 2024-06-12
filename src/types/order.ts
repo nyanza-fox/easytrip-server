@@ -29,3 +29,5 @@ export type Order = {
   createdAt: Date;
   updatedAt: Date;
 };
+
+export type OrderInput = Omit<Order, '_id' | 'createdAt' | 'updatedAt'>;

@@ -16,3 +16,5 @@ export type Transportation = {
   createdAt: Date;
   updatedAt: Date;
 };
+
+export type TransportationInput = Omit<Transportation, '_id' | 'createdAt' | 'updatedAt'>;

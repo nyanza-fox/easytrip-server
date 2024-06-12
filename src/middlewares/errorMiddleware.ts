@@ -21,6 +21,11 @@ const errorMiddleware = (
     error = "Conflict";
     message = "email already exists";
   }
+  if (err.name == "LoginError") {
+    error = "InvalidLogin";
+    message = "Please input email or password";
+    statusCode = 400;
+  }
 
   if (err.name === "JsonWebTokenError") {
     statusCode = 401;

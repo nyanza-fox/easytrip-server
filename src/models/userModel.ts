@@ -6,6 +6,7 @@ import type { User, UserInput } from "../types/user";
 type UserModel = {
   findAll: () => Promise<User[]>;
   register: (payload: UserInput) => Promise<InsertOneResult>;
+  getUserByEmail: (email: string) => Promise<User>;
 };
 
 const userModel: UserModel = {
@@ -18,6 +19,13 @@ const userModel: UserModel = {
     const users = await db.collection("users").insertOne(payload);
 
     return users;
+  },
+  getUserByEmail: async (email: string) => {
+    const user = (await db
+      .collection("users")
+      .findOne({ email: email })) as User;
+
+    return user;
   },
 };
 

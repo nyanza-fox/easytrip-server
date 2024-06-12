@@ -9,8 +9,10 @@ export type User = {
     firstName: string;
     lastName: string;
     phoneNumber: string;
-    dateOfBirth: string;
+    dateOfBirth: Date;
   };
-  createdAt: string;
-  updatedAt: string;
+  createdAt: Date;
+  updatedAt: Date;
 };
+
+export type UserInput = Omit<User, '_id' | 'createdAt' | 'updatedAt'>;

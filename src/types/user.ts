@@ -1,18 +1,19 @@
-import { ObjectId } from 'mongodb';
+import { ObjectId } from "mongodb";
 
 export type User = {
   _id: ObjectId;
-  role: 'admin' | 'user';
+  role: "admin" | "user";
   email: string;
   password: string;
   profile: {
     firstName: string;
     lastName: string;
-    phoneNumber: string;
-    dateOfBirth: Date;
+    phoneNumber?: string;
+    dateOfBirth?: Date;
+    image?: string;
   };
   createdAt: Date;
   updatedAt: Date;
 };
 
-export type UserInput = Omit<User, '_id' | 'createdAt' | 'updatedAt'>;
+export type UserInput = Omit<User, "_id" | "createdAt" | "updatedAt" | "role">;

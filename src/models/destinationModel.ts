@@ -19,9 +19,9 @@ const destinationModel: DestinationModel = {
     return destinations;
   },
   findById: async (id: string) => {
-    const destination = (await db
-      .collection('destinations')
-      .findOne({ _id: ObjectId.createFromHexString(id) })) as Destination | null;
+    const destination = (await db.collection('destinations').findOne({
+      _id: ObjectId.createFromHexString(id),
+    })) as Destination | null;
 
     return destination;
   },
@@ -38,9 +38,7 @@ const destinationModel: DestinationModel = {
     return result;
   },
   delete: async (id: string) => {
-    const result = await db
-      .collection('destinations')
-      .deleteOne({ _id: ObjectId.createFromHexString(id) });
+    const result = await db.collection('destinations').deleteOne({ _id: ObjectId.createFromHexString(id) });
 
     return result;
   },

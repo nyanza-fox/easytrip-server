@@ -9,6 +9,7 @@ type UserModel = {
 const userModel: UserModel = {
   findAll: async () => {
     const users = (await db.collection('users').find().toArray()) as User[];
+
     return users;
   },
 };

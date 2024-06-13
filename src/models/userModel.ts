@@ -1,9 +1,9 @@
-import { InsertOneResult } from 'mongodb';
+import { InsertOneResult, UpdateResult } from 'mongodb';
 
-import { db } from '../lib/mongodb';
+import { db } from "../lib/mongodb";
 
-import type { User, UserInput } from '../types/user';
 import type { BaseResponse } from '../types/response';
+import type { ProfileInput, User, UserInput } from "../types/user";
 
 type UserModel = {
   findAll: () => Promise<User[]>;
@@ -14,6 +14,10 @@ type UserModel = {
   ) => Promise<Pick<BaseResponse<User[]>, 'data' | 'pagination'>>;
   register: (payload: UserInput) => Promise<InsertOneResult>;
   getUserByEmail: (email: string) => Promise<User>;
+  updateProfile: (
+    payload: ProfileInput,
+    email: string
+  ) => Promise<UpdateResult>;
 };
 
 const userModel: UserModel = {
@@ -73,6 +77,20 @@ const userModel: UserModel = {
     const user = (await db.collection('users').findOne({ email: email })) as User;
 
     return user;
+  },
+  updateProfile: async (payload: ProfileInput, email: string) => {
+    const existingUser = await db.collection("users").findOne({ email: email });
+
+    if (!existingUser) {
+      throw new Error("User not found");
+    }
+
+    const updatedProfile = { ...existingUser.profile, ...payload };
+
+    const updatedUser = await db
+      .collection("users")
+      .updateOne({ email: email }, { $set: { profile: updatedProfile } });
+    return updatedUser;
   },
 };
 

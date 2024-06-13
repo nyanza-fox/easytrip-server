@@ -17,3 +17,5 @@ export type User = {
 };
 
 export type UserInput = Omit<User, "_id" | "createdAt" | "updatedAt" | "role">;
+
+export type ProfileInput = Pick<User, "profile">;

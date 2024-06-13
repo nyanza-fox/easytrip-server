@@ -13,7 +13,7 @@ export type Accommodation = {
     city: string;
     state: string;
     country: string;
-    zipCode: string;
+    zipCode?: string;
   };
   contact: {
     email?: string;

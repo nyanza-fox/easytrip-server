@@ -21,16 +21,29 @@ const errorMiddleware = (
     error = "Conflict";
     message = "email already exists";
   }
+
   if (err.name == "LoginError") {
     error = "InvalidLogin";
     message = "Please input email or password";
     statusCode = 400;
   }
 
+  if (err.name == "Unauthorized") {
+    error = "Unauthorized";
+    message = "Please login first";
+    statusCode = 401;
+  }
+
   if (err.name === "JsonWebTokenError") {
     statusCode = 401;
     error = "Unauthorized";
     message = "Invalid token";
+  }
+
+  if (err.name == "Forbidden") {
+    error = "Forbidden";
+    message = "You dont have any access";
+    statusCode = 403;
   }
 
   res.status(statusCode).json({ statusCode, error, message });

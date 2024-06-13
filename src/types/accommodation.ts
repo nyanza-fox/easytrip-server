@@ -1,4 +1,4 @@
-import { ObjectId } from 'mongodb';
+import { ObjectId } from "mongodb";
 
 export type Accommodation = {
   _id: ObjectId;
@@ -16,11 +16,14 @@ export type Accommodation = {
     zipCode: string;
   };
   contact: {
-    email: string;
+    email?: string;
     phoneNumber: string;
   };
   createdAt: Date;
   updatedAt: Date;
 };
 
-export type AccommodationInput = Omit<Accommodation, '_id' | 'createdAt' | 'updatedAt'>;
+export type AccommodationInput = Omit<
+  Accommodation,
+  "_id" | "createdAt" | "updatedAt"
+>;

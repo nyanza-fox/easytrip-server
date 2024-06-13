@@ -4,14 +4,21 @@ import type { NextFunction, Request } from 'express';
 import type { CustomResponse } from '../types/response';
 
 const orderController = {
-  getAllOrders: async (_req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllOrders: async (req: Request, res: CustomResponse, next: NextFunction) => {
     try {
-      const orders = await orderModel.findAll();
+      const { search, page, limit } = req.query;
+
+      const { data, pagination } = await orderModel.findAllWithPagination(
+        search?.toString() || '',
+        Number(page || 1),
+        Number(limit || 10)
+      );
 
       res.status(200).json({
         statusCode: 200,
         message: 'Orders retrieved successfully',
-        data: orders,
+        data,
+        pagination,
       });
     } catch (error) {
       next(error);

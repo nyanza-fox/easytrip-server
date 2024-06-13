@@ -1,18 +1,25 @@
 import guideModel from '../models/guideModel';
 
 import type { NextFunction, Request } from 'express';
-import type { CustomResponse } from '../types/response';
 import type { GuideInput } from '../types/guide';
+import type { CustomResponse } from '../types/response';
 
 const guideController = {
-  getAllGuides: async (_req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllGuides: async (req: Request, res: CustomResponse, next: NextFunction) => {
     try {
-      const guides = await guideModel.findAll();
+      const { search, page, limit } = req.query;
+
+      const { data, pagination } = await guideModel.findAllWithPagination(
+        search?.toString() || '',
+        Number(page || 1),
+        Number(limit || 10)
+      );
 
       res.status(200).json({
         statusCode: 200,
         message: 'Guides retrieved successfully',
-        data: guides,
+        data,
+        pagination,
       });
     } catch (error) {
       next(error);

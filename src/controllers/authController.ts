@@ -1,20 +1,22 @@
-import type { NextFunction, Request } from "express";
-import type { CustomResponse } from "../types/response";
-import userModel from "../models/userModel";
-import type { User, UserInput } from "../types/user";
-import { compareStr, hashStr } from "../lib/bcrypt";
-import { generateToken } from "../lib/jwt";
-import { OAuth2Client, TokenPayload } from "google-auth-library";
+import { OAuth2Client, TokenPayload } from 'google-auth-library';
+
+import { compareStr, hashStr } from '../lib/bcrypt';
+import { generateToken } from '../lib/jwt';
+import userModel from '../models/userModel';
+
+import type { NextFunction, Request } from 'express';
+import type { UserInput } from '../types/user';
+import type { CustomResponse } from '../types/response';
 
 const authController = {
   register: async (req: Request, res: CustomResponse, next: NextFunction) => {
     try {
       const payload: UserInput = req.body;
-      const hasPassword = await hashStr(payload.password);
+      const hashPassword = await hashStr(payload.password);
       const data = {
         email: payload.email,
-        password: hasPassword,
-        role: "user",
+        password: hashPassword,
+        role: 'user',
         profile: {
           firstName: payload.profile.firstName,
           lastName: payload.profile.lastName,
@@ -27,13 +29,13 @@ const authController = {
       const existsEmail = users.some((el) => data.email === el.email);
 
       if (existsEmail) {
-        throw { name: "Duplicate" };
+        throw { name: 'Duplicate' };
       }
 
       await userModel.register(data);
       res.status(201).json({
         statusCode: 201,
-        message: "Success",
+        message: 'Success',
       });
     } catch (err) {
       next(err);
@@ -44,12 +46,12 @@ const authController = {
       const payload: UserInput = req.body;
       const isUser = await userModel.getUserByEmail(payload.email);
       if (!isUser) {
-        throw { name: "LoginError" };
+        throw { name: 'LoginError' };
       }
       const compare = await compareStr(payload.password, isUser.password);
 
       if (!compare) {
-        throw { name: "LoginError" };
+        throw { name: 'LoginError' };
       }
 
       const result = {
@@ -61,7 +63,7 @@ const authController = {
       const access_token = generateToken(result);
       res.status(201).json({
         statusCode: 201,
-        message: "Success",
+        message: 'Success',
         data: access_token,
       });
     } catch (err) {
@@ -85,10 +87,10 @@ const authController = {
 
       if (!isUser) {
         const data = {
-          email: payload.email || "",
+          email: payload.email || '',
           password: Math.random().toString(36).substring(7),
           profile: {
-            firstName: payload.name || "",
+            firstName: payload.name || '',
           },
         };
         const addUser = await userModel.register(data);
@@ -101,7 +103,7 @@ const authController = {
           });
           res.status(201).json({
             statusCode: 201,
-            message: "Success",
+            message: 'Success',
             data: access_token,
           });
         }
@@ -114,7 +116,7 @@ const authController = {
       });
       res.status(201).json({
         statusCode: 201,
-        message: "Success",
+        message: 'Success',
         data: access_token,
       });
     } catch (err) {

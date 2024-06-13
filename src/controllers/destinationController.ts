@@ -1,18 +1,25 @@
 import destinationModel from '../models/destinationModel';
 
 import type { NextFunction, Request } from 'express';
-import type { CustomResponse } from '../types/response';
 import type { DestinationInput } from '../types/destination';
+import type { CustomResponse } from '../types/response';
 
 const destinationController = {
-  getAllDestinations: async (_req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllDestinations: async (req: Request, res: CustomResponse, next: NextFunction) => {
     try {
-      const destinations = await destinationModel.findAll();
+      const { search, page, limit } = req.query;
+
+      const { data, pagination } = await destinationModel.findAllWithPagination(
+        search?.toString() || '',
+        Number(page || 1),
+        Number(limit || 10)
+      );
 
       res.status(200).json({
         statusCode: 200,
         message: 'Destinations retrieved successfully',
-        data: destinations,
+        data,
+        pagination,
       });
     } catch (error) {
       next(error);

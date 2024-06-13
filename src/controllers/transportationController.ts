@@ -1,18 +1,25 @@
 import transportationModel from '../models/transportationModel';
 
 import type { NextFunction, Request } from 'express';
-import type { CustomResponse } from '../types/response';
 import type { TransportationInput } from '../types/transportation';
+import type { CustomResponse } from '../types/response';
 
 const transportationController = {
-  getAllTransportations: async (_req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllTransportations: async (req: Request, res: CustomResponse, next: NextFunction) => {
     try {
-      const transportations = await transportationModel.findAll();
+      const { search, page, limit } = req.query;
+
+      const { data, pagination } = await transportationModel.findAllWithPagination(
+        search?.toString() || '',
+        Number(page || 1),
+        Number(limit || 10)
+      );
 
       res.status(200).json({
         statusCode: 200,
         message: 'Transportations retrieved successfully',
-        data: transportations,
+        data,
+        pagination,
       });
     } catch (error) {
       next(error);

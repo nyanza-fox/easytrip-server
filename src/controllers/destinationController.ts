@@ -64,7 +64,7 @@ const destinationController = {
       const payload: DestinationInput = req.body;
       const result = await destinationModel.update(id, payload);
 
-      if (result.modifiedCount === 0) {
+      if (result.matchedCount === 0) {
         return next({
           statusCode: 404,
           name: 'Not Found',

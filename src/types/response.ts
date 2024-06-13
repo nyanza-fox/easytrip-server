@@ -14,6 +14,8 @@ export type BaseResponse<T> = {
   error?: string;
 };
 
+export type Pagination = Pick<BaseResponse<unknown>, 'pagination'>;
+
 export interface CustomResponse<T = unknown> extends Response {
   json(body: BaseResponse<T>): this;
 }

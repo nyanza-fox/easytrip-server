@@ -42,10 +42,12 @@ const authController = {
   login: async (req: Request, res: CustomResponse, next: NextFunction) => {
     try {
       const payload: UserInput = req.body;
+      console.log(payload);
       const isUser = await userModel.getUserByEmail(payload.email);
       if (!isUser) {
         throw { name: "LoginError" };
       }
+      console.log(isUser);
       const compare = await compareStr(payload.password, isUser.password);
 
       if (!compare) {

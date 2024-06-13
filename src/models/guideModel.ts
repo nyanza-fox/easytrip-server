@@ -3,9 +3,15 @@ import { DeleteResult, InsertOneResult, ObjectId, UpdateResult } from 'mongodb';
 import { db } from '../lib/mongodb';
 
 import type { Guide, GuideInput } from '../types/guide';
+import type { BaseResponse } from '../types/response';
 
 type GuideModel = {
   findAll: () => Promise<Guide[]>;
+  findAllWithPagination: (
+    search?: string,
+    page?: number,
+    limit?: number
+  ) => Promise<Pick<BaseResponse<Guide[]>, 'data' | 'pagination'>>;
   findById: (id: string) => Promise<Guide | null>;
   create: (payload: GuideInput) => Promise<InsertOneResult>;
   update: (id: string, payload: GuideInput) => Promise<UpdateResult>;
@@ -17,6 +23,42 @@ const guideModel: GuideModel = {
     const guides = (await db.collection('guides').find().toArray()) as Guide[];
 
     return guides;
+  },
+  findAllWithPagination: async (search: string = '', page: number = 1, limit: number = 10) => {
+    const guides = (await db
+      .collection('guides')
+      .aggregate([
+        {
+          $match: {
+            name: { $regex: search, $options: 'i' },
+          },
+        },
+        {
+          $sort: { createdAt: -1 },
+        },
+        {
+          $skip: page > 0 ? (page - 1) * limit : 0,
+        },
+        {
+          $limit: limit,
+        },
+      ])
+      .toArray()) as Guide[];
+
+    const count = await db.collection('guides').countDocuments({
+      name: { $regex: search, $options: 'i' },
+    });
+
+    return {
+      data: guides,
+      pagination: {
+        totalData: count,
+        currentPage: page,
+        totalPage: Math.ceil(count / limit),
+        nextPage: page < Math.ceil(count / limit) ? page + 1 : null,
+        prevPage: page > 1 ? page - 1 : null,
+      },
+    };
   },
   findById: async (id: string) => {
     const guide = (await db

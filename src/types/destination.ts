@@ -6,7 +6,6 @@ export type Destination = {
   description: string;
   images: string[];
   attractions: string[];
-  bestSeason: string;
   price: number;
   location: {
     city: string;

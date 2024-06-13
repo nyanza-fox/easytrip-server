@@ -4,6 +4,7 @@ export type Accommodation = {
   _id: ObjectId;
   name: string;
   type: string;
+  rating: number;
   images: string[];
   facilities: string[];
   maxGuests: number;

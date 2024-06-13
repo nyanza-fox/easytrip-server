@@ -1,18 +1,25 @@
 import accommodationModel from '../models/accommodationModel';
 
 import type { NextFunction, Request } from 'express';
-import type { CustomResponse } from '../types/response';
 import type { AccommodationInput } from '../types/accommodation';
+import type { CustomResponse } from '../types/response';
 
 const accommodationController = {
-  getAllAccommodations: async (_req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllAccommodations: async (req: Request, res: CustomResponse, next: NextFunction) => {
     try {
-      const accommodations = await accommodationModel.findAll();
+      const { search, page, limit } = req.query;
+
+      const { data, pagination } = await accommodationModel.findAllWithPagination(
+        search?.toString() || '',
+        Number(page || 1),
+        Number(limit || 10)
+      );
 
       res.status(200).json({
         statusCode: 200,
         message: 'Accommodations retrieved successfully',
-        data: accommodations,
+        data,
+        pagination,
       });
     } catch (error) {
       next(error);

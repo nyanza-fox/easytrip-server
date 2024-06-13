@@ -3,9 +3,15 @@ import { DeleteResult, InsertOneResult, ObjectId, UpdateResult } from 'mongodb';
 import { db } from '../lib/mongodb';
 
 import type { Transportation, TransportationInput } from '../types/transportation';
+import type { BaseResponse } from '../types/response';
 
 type TransportationModel = {
   findAll: () => Promise<Transportation[]>;
+  findAllWithPagination: (
+    search?: string,
+    page?: number,
+    limit?: number
+  ) => Promise<Pick<BaseResponse<Transportation[]>, 'data' | 'pagination'>>;
   findById: (id: string) => Promise<Transportation | null>;
   create: (payload: TransportationInput) => Promise<InsertOneResult>;
   update: (id: string, payload: TransportationInput) => Promise<UpdateResult>;
@@ -20,6 +26,48 @@ const transportationModel: TransportationModel = {
       .toArray()) as Transportation[];
 
     return transportations;
+  },
+  findAllWithPagination: async (search: string = '', page: number = 1, limit: number = 10) => {
+    const transportations = (await db
+      .collection('transportations')
+      .aggregate([
+        {
+          $match: {
+            $or: [
+              { type: { $regex: search, $options: 'i' } },
+              { company: { $regex: search, $options: 'i' } },
+            ],
+          },
+        },
+        {
+          $sort: { createdAt: -1 },
+        },
+        {
+          $skip: page > 0 ? (page - 1) * limit : 0,
+        },
+        {
+          $limit: limit,
+        },
+      ])
+      .toArray()) as Transportation[];
+
+    const count = await db.collection('transportations').countDocuments({
+      $or: [
+        { type: { $regex: search, $options: 'i' } },
+        { company: { $regex: search, $options: 'i' } },
+      ],
+    });
+
+    return {
+      data: transportations,
+      pagination: {
+        totalData: count,
+        currentPage: page,
+        totalPage: Math.ceil(count / limit),
+        nextPage: page < Math.ceil(count / limit) ? page + 1 : null,
+        prevPage: page > 1 ? page - 1 : null,
+      },
+    };
   },
   findById: async (id: string) => {
     const transportation = (await db

@@ -1,11 +1,11 @@
+import { NextFunction } from 'express';
+
 import accommodationModel from '../models/accommodationModel';
 
-import type { NextFunction, Request } from 'express';
-import type { AccommodationInput } from '../types/accommodation';
-import type { CustomResponse } from '../types/response';
+import type { CustomRequest, CustomResponse } from '../types/express';
 
 const accommodationController = {
-  getAllAccommodations: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllAccommodations: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { search, page, limit } = req.query;
 
@@ -25,7 +25,7 @@ const accommodationController = {
       next(error);
     }
   },
-  getAccommodationById: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getAccommodationById: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
@@ -48,11 +48,9 @@ const accommodationController = {
       next(error);
     }
   },
-  createAccommodation: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  createAccommodation: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
-      const payload: AccommodationInput = req.body;
-      const result = await accommodationModel.create(payload);
-
+      const result = await accommodationModel.create(req.body);
       const accommodation = await accommodationModel.findById(result.insertedId.toHexString());
 
       res.status(201).json({
@@ -64,14 +62,13 @@ const accommodationController = {
       next(error);
     }
   },
-  updateAccommodation: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  updateAccommodation: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
-      const payload: AccommodationInput = req.body;
-      const result = await accommodationModel.update(id, payload);
+      const result = await accommodationModel.update(id, req.body);
 
-      if (result.modifiedCount === 0) {
+      if (!result.modifiedCount) {
         return next({
           statusCode: 404,
           name: 'Not Found',
@@ -90,13 +87,13 @@ const accommodationController = {
       next(error);
     }
   },
-  deleteAccommodation: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  deleteAccommodation: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
       const result = await accommodationModel.delete(id);
 
-      if (result.deletedCount === 0) {
+      if (!result.deletedCount) {
         return next({
           statusCode: 404,
           name: 'Not Found',

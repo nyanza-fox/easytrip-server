@@ -1,9 +1,9 @@
-import { InsertOneResult, UpdateResult } from 'mongodb';
+import { InsertOneResult, ObjectId, UpdateResult } from 'mongodb';
 
-import { db } from "../lib/mongodb";
+import { db } from '../lib/mongodb';
 
 import type { BaseResponse } from '../types/response';
-import type { ProfileInput, User, UserInput } from "../types/user";
+import type { Profile, User, UserInput } from '../types/user';
 
 type UserModel = {
   findAll: () => Promise<User[]>;
@@ -12,12 +12,10 @@ type UserModel = {
     page?: number,
     limit?: number
   ) => Promise<Pick<BaseResponse<User[]>, 'data' | 'pagination'>>;
-  register: (payload: UserInput) => Promise<InsertOneResult>;
-  getUserByEmail: (email: string) => Promise<User>;
-  updateProfile: (
-    payload: ProfileInput,
-    email: string
-  ) => Promise<UpdateResult>;
+  findById: (id: string) => Promise<User | null>;
+  findByEmail: (email: string) => Promise<User | null>;
+  create: (payload: UserInput) => Promise<InsertOneResult>;
+  updateProfile: (id: string, profile: Profile) => Promise<UpdateResult>;
 };
 
 const userModel: UserModel = {
@@ -68,29 +66,35 @@ const userModel: UserModel = {
       },
     };
   },
-  register: async (payload: UserInput) => {
-    const users = await db.collection('users').insertOne(payload);
 
-    return users;
+  findById: async (id: string) => {
+    const user = (await db
+      .collection('users')
+      .findOne({ _id: ObjectId.createFromHexString(id) })) as User;
+
+    return user;
   },
-  getUserByEmail: async (email: string) => {
+  findByEmail: async (email: string) => {
     const user = (await db.collection('users').findOne({ email: email })) as User;
 
     return user;
   },
-  updateProfile: async (payload: ProfileInput, email: string) => {
-    const existingUser = await db.collection("users").findOne({ email: email });
+  create: async (payload: UserInput) => {
+    const result = await db.collection('users').insertOne({
+      ...payload,
+      role: 'user',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    });
 
-    if (!existingUser) {
-      throw new Error("User not found");
-    }
+    return result;
+  },
+  updateProfile: async (id: string, profile: Profile) => {
+    const result = await db
+      .collection('users')
+      .updateOne({ _id: ObjectId.createFromHexString(id) }, { $set: { profile } });
 
-    const updatedProfile = { ...existingUser.profile, ...payload };
-
-    const updatedUser = await db
-      .collection("users")
-      .updateOne({ email: email }, { $set: { profile: updatedProfile } });
-    return updatedUser;
+    return result;
   },
 };
 

@@ -1,8 +1,8 @@
-import { ObjectId } from 'mongodb';
+import { InsertOneResult, ObjectId, UpdateResult } from 'mongodb';
 
 import { db } from '../lib/mongodb';
 
-import type { Order } from '../types/order';
+import type { Order, OrderInput } from '../types/order';
 import type { BaseResponse } from '../types/response';
 
 type OrderModel = {
@@ -13,6 +13,8 @@ type OrderModel = {
     limit?: number
   ) => Promise<Pick<BaseResponse<Order[]>, 'data' | 'pagination'>>;
   findById: (id: string) => Promise<Order | null>;
+  create: (payload: OrderInput) => Promise<InsertOneResult>;
+  updateStatus: (id: string, status: string) => Promise<UpdateResult>;
 };
 
 const orderModel: OrderModel = {
@@ -56,6 +58,23 @@ const orderModel: OrderModel = {
       .findOne({ _id: ObjectId.createFromHexString(id) })) as Order | null;
 
     return order;
+  },
+  create: async (payload: OrderInput) => {
+    const result = await db.collection('orders').insertOne({
+      ...payload,
+      status: 'pending',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    });
+
+    return result;
+  },
+  updateStatus: async (id: string, status: string) => {
+    const result = await db
+      .collection('orders')
+      .updateOne({ _id: ObjectId.createFromHexString(id) }, { $set: { status } });
+
+    return result;
   },
 };
 

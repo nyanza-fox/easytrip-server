@@ -1,21 +1,11 @@
-import { ObjectId } from 'mongodb';
+import { NextFunction } from 'express';
 
 import userModel from '../models/userModel';
 
-import type { NextFunction, Request } from 'express';
-import type { CustomResponse } from '../types/response';
-import type { ProfileInput } from '../types/user';
-
-interface CustomRequest extends Request {
-  loginInfo?: {
-    userId: ObjectId;
-    email: string;
-    role: string;
-  };
-}
+import type { CustomRequest, CustomResponse } from '../types/express';
 
 const userController = {
-  getAllUsers: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllUsers: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { search, page, limit } = req.query;
 
@@ -35,30 +25,41 @@ const userController = {
       next(error);
     }
   },
-  getProfile: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
+  getMe: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
-      const email = req.loginInfo?.email as string;
-      const users = await userModel.getUserByEmail(email);
+      const userId = req.user?.id || '';
+
+      const user = await userModel.findById(userId);
 
       res.status(200).json({
         statusCode: 200,
-        message: 'Users retrieved successfully',
-        data: users,
+        message: 'User retrieved successfully',
+        data: user,
       });
     } catch (error) {
       next(error);
     }
   },
-  updateProfile: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
+  updateMyProfile: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
-      const email = req.loginInfo?.email as string;
-      const body: ProfileInput = req.body;
-      const users = await userModel.updateProfile(body, email);
+      const userId = req.user?.id || '';
+
+      const result = await userModel.updateProfile(userId, req.body);
+
+      if (!result.matchedCount) {
+        return next({
+          statusCode: 404,
+          name: 'Not Found',
+          message: 'User not found',
+        });
+      }
+
+      const user = await userModel.findById(userId);
 
       res.status(200).json({
         statusCode: 200,
-        message: 'Users retrieved successfully',
-        data: users,
+        message: 'User profile updated successfully',
+        data: user,
       });
     } catch (error) {
       next(error);

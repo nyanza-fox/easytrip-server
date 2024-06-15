@@ -68,7 +68,11 @@ const destinationModel: DestinationModel = {
     return destination;
   },
   create: async (payload: DestinationInput) => {
-    const result = await db.collection('destinations').insertOne(payload);
+    const result = await db.collection('destinations').insertOne({
+      ...payload,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    });
 
     return result;
   },

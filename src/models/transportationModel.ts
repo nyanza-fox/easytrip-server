@@ -77,7 +77,11 @@ const transportationModel: TransportationModel = {
     return transportation;
   },
   create: async (payload: TransportationInput) => {
-    const result = await db.collection('transportations').insertOne(payload);
+    const result = await db.collection('transportations').insertOne({
+      ...payload,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    });
 
     return result;
   },

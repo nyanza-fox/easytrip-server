@@ -1,11 +1,11 @@
+import { NextFunction } from 'express';
+
 import guideModel from '../models/guideModel';
 
-import type { NextFunction, Request } from 'express';
-import type { GuideInput } from '../types/guide';
-import type { CustomResponse } from '../types/response';
+import type { CustomRequest, CustomResponse } from '../types/express';
 
 const guideController = {
-  getAllGuides: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllGuides: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { search, page, limit } = req.query;
 
@@ -25,7 +25,7 @@ const guideController = {
       next(error);
     }
   },
-  getGuideById: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getGuideById: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
@@ -48,10 +48,9 @@ const guideController = {
       next(error);
     }
   },
-  createGuide: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  createGuide: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
-      const payload: GuideInput = req.body;
-      const result = await guideModel.create(payload);
+      const result = await guideModel.create(req.body);
 
       const guide = await guideModel.findById(result.insertedId.toHexString());
 
@@ -64,14 +63,13 @@ const guideController = {
       next(error);
     }
   },
-  updateGuide: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  updateGuide: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
-      const payload: GuideInput = req.body;
-      const result = await guideModel.update(id, payload);
+      const result = await guideModel.update(id, req.body);
 
-      if (result.modifiedCount === 0) {
+      if (!result.modifiedCount) {
         return next({
           statusCode: 404,
           name: 'Not Found',
@@ -90,13 +88,13 @@ const guideController = {
       next(error);
     }
   },
-  deleteGuide: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  deleteGuide: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
       const result = await guideModel.delete(id);
 
-      if (result.deletedCount === 0) {
+      if (!result.deletedCount) {
         return next({
           statusCode: 404,
           name: 'Not Found',

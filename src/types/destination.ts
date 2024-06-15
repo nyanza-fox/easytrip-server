@@ -1,5 +1,7 @@
 import { ObjectId } from 'mongodb';
 
+import type { Location } from './globals';
+
 export type Destination = {
   _id: ObjectId;
   name: string;
@@ -7,11 +9,7 @@ export type Destination = {
   images: string[];
   attractions: string[];
   price: number;
-  location: {
-    city: string;
-    country: string;
-    coordinates: number[];
-  };
+  location: Location;
   createdAt: Date;
   updatedAt: Date;
 };

@@ -1,21 +1,21 @@
-import { ObjectId } from "mongodb";
+import { ObjectId } from 'mongodb';
 
 export type User = {
   _id: ObjectId;
-  role: "admin" | "user";
+  role: 'admin' | 'user';
   email: string;
   password: string;
-  profile: {
-    firstName?: string;
-    lastName?: string;
-    phoneNumber?: string;
-    dateOfBirth?: Date;
-    image?: string;
-  };
+  profile: Profile;
   createdAt: Date;
   updatedAt: Date;
 };
 
-export type UserInput = Omit<User, "_id" | "createdAt" | "updatedAt" | "role">;
+export type Profile = {
+  firstName: string;
+  lastName?: string;
+  image?: string;
+  dateOfBirth?: Date;
+  phoneNumber?: string;
+};
 
-export type ProfileInput = Pick<User, "profile">;
+export type UserInput = Omit<User, '_id' | 'role' | 'createdAt' | 'updatedAt'>;

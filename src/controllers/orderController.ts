@@ -1,10 +1,11 @@
+import { NextFunction } from 'express';
+
 import orderModel from '../models/orderModel';
 
-import type { NextFunction, Request } from 'express';
-import type { CustomResponse } from '../types/response';
+import type { CustomRequest, CustomResponse } from '../types/express';
 
 const orderController = {
-  getAllOrders: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllOrders: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { search, page, limit } = req.query;
 
@@ -24,7 +25,7 @@ const orderController = {
       next(error);
     }
   },
-  getOrderById: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getOrderById: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 

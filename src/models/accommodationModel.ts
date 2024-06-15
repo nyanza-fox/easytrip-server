@@ -71,7 +71,11 @@ const accommodationModel: AccommodationModel = {
     return accommodation;
   },
   create: async (payload: AccommodationInput) => {
-    const result = await db.collection('accommodations').insertOne(payload);
+    const result = await db.collection('accommodations').insertOne({
+      ...payload,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    });
 
     return result;
   },

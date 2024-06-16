@@ -1,9 +1,9 @@
-import { InsertOneResult, ObjectId, UpdateResult } from 'mongodb';
+import { InsertOneResult, ObjectId, UpdateResult } from "mongodb";
 
-import { db } from '../lib/mongodb';
+import { db } from "../lib/mongodb";
 
-import type { Order, OrderInput } from '../types/order';
-import type { BaseResponse } from '../types/response';
+import type { Order, OrderInput } from "../types/order";
+import type { BaseResponse } from "../types/response";
 
 type OrderModel = {
   findAll: () => Promise<Order[]>;
@@ -11,7 +11,7 @@ type OrderModel = {
     search?: string,
     page?: number,
     limit?: number
-  ) => Promise<Pick<BaseResponse<Order[]>, 'data' | 'pagination'>>;
+  ) => Promise<Pick<BaseResponse<Order[]>, "data" | "pagination">>;
   findById: (id: string) => Promise<Order | null>;
   create: (payload: OrderInput) => Promise<InsertOneResult>;
   updateStatus: (id: string, status: string) => Promise<UpdateResult>;
@@ -19,13 +19,17 @@ type OrderModel = {
 
 const orderModel: OrderModel = {
   findAll: async () => {
-    const orders = (await db.collection('orders').find().toArray()) as Order[];
+    const orders = (await db.collection("orders").find().toArray()) as Order[];
 
     return orders;
   },
-  findAllWithPagination: async (_search: string = '', page: number = 1, limit: number = 10) => {
+  findAllWithPagination: async (
+    _search: string = "",
+    page: number = 1,
+    limit: number = 10
+  ) => {
     const orders = (await db
-      .collection('orders')
+      .collection("orders")
       .aggregate([
         {
           $sort: { createdAt: -1 },
@@ -39,7 +43,7 @@ const orderModel: OrderModel = {
       ])
       .toArray()) as Order[];
 
-    const count = await db.collection('orders').countDocuments();
+    const count = await db.collection("orders").countDocuments();
 
     return {
       data: orders,
@@ -54,15 +58,15 @@ const orderModel: OrderModel = {
   },
   findById: async (id: string) => {
     const order = (await db
-      .collection('orders')
+      .collection("orders")
       .findOne({ _id: ObjectId.createFromHexString(id) })) as Order | null;
 
     return order;
   },
   create: async (payload: OrderInput) => {
-    const result = await db.collection('orders').insertOne({
+    const result = await db.collection("orders").insertOne({
       ...payload,
-      status: 'pending',
+      status: "pending",
       createdAt: new Date(),
       updatedAt: new Date(),
     });
@@ -71,8 +75,11 @@ const orderModel: OrderModel = {
   },
   updateStatus: async (id: string, status: string) => {
     const result = await db
-      .collection('orders')
-      .updateOne({ _id: ObjectId.createFromHexString(id) }, { $set: { status } });
+      .collection("orders")
+      .updateOne(
+        { _id: ObjectId.createFromHexString(id) },
+        { $set: { status } }
+      );
 
     return result;
   },

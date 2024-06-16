@@ -1,13 +1,21 @@
 import express from "express";
 
 import orderController from "../controllers/orderController";
-import isLogin from "../middlewares/authntication";
-import authorizationAdmin from "../middlewares/authorization";
+import authMiddleware from "../middlewares/authMiddleware";
 const router = express.Router();
 
-router.get("/", isLogin, authorizationAdmin, orderController.getAllOrders);
-router.get("/:id", isLogin, orderController.getOrderById);
-router.get("/me", isLogin, orderController.getOrderByUserId);
-router.post("/checkout", isLogin, orderController.createOrderAndPayment);
+router.get(
+  "/",
+  authMiddleware.authN,
+  authMiddleware.authZ,
+  orderController.getAllOrders
+);
+router.get("/:id", authMiddleware.authN, orderController.getOrderById);
+router.get("/me", authMiddleware.authN, orderController.getOrderByUserId);
+router.post(
+  "/checkout",
+  authMiddleware.authN,
+  orderController.createOrderAndPayment
+);
 
 export default router;

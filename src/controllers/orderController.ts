@@ -1,11 +1,17 @@
-import { NextFunction } from 'express';
+import { NextFunction } from "express";
 
-import orderModel from '../models/orderModel';
+import orderModel from "../models/orderModel";
 
-import type { CustomRequest, CustomResponse } from '../types/express';
+import type { CustomRequest, CustomResponse } from "../types/express";
+import { ObjectId } from "mongodb";
+import { OrderInput } from "../types/order";
 
 const orderController = {
-  getAllOrders: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
+  getAllOrders: async (
+    req: CustomRequest,
+    res: CustomResponse,
+    next: NextFunction
+  ) => {
     try {
       const { search, page, limit } = req.query;
 
@@ -25,7 +31,11 @@ const orderController = {
       next(error);
     }
   },
-  getOrderById: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
+  getOrderById: async (
+    req: CustomRequest,
+    res: CustomResponse,
+    next: NextFunction
+  ) => {
     try {
       const { id } = req.params;
 
@@ -70,22 +80,13 @@ const orderController = {
   ) => {
     try {
       const data: OrderInput = req.body;
-      const id = req.loginInfo?.userId as ObjectId;
-      const payload = {
-        userId: new ObjectId(id),
-        destinationId: data.destinationId,
-        totalPrice: data.totalPrice,
-        status: data.status,
-        itinerary: data.itinerary,
-        transportations: data.transportations,
-        accommodations: data.accommodations,
-        guides: data.guides,
-      };
-      const order = await orderModel.createOrder(payload);
+      const id = req.user?.id;
+      data.userId = new ObjectId(id);
+      const order = await orderModel.create(data);
       res.status(200).json({
         statusCode: 200,
         message: "Order retrieved successfully",
-        // data: order,
+        data: order,
       });
     } catch (error) {
       next(error);

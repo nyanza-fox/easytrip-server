@@ -7,7 +7,6 @@ import guideModel from '../models/guideModel';
 import transportationModel from '../models/transportationModel';
 
 import type { CustomRequest, CustomResponse } from '../types/express';
-import type { Destination } from '../types/destination';
 import type { Itinerary, Package } from '../types/order';
 
 const destinationController = {
@@ -138,7 +137,7 @@ const destinationController = {
       }));
 
       // Generate destinations based on the user's prompt.
-      const completion: { destinations: Pick<Destination, '_id'>[] } = await chatCompletion([
+      const completion: { destinations: { _id: string }[] } = await chatCompletion([
         {
           role: 'system',
           content: `You are a travel agent that helps users find 1-6 destinations from database based on their preferences. This is the list of destinations in the database: ${JSON.stringify(
@@ -163,7 +162,7 @@ const destinationController = {
       // Get the destinations based on the generated IDs.
       const data = await Promise.all(
         completion.destinations.map(
-          async (dest) => await destinationModel.findById(dest._id.toHexString()).catch(() => null)
+          async (dest) => await destinationModel.findById(dest._id).catch(() => null)
         )
       );
 
@@ -183,7 +182,7 @@ const destinationController = {
   ) => {
     try {
       const { id } = req.params;
-      const { departureState } = req.body;
+      const { departureState, totalGuests, startDate, endDate } = req.body;
 
       // Get the destination by ID.
       const destination = await destinationModel.findById(id);
@@ -238,10 +237,17 @@ const destinationController = {
       }));
 
       // Generate travel packages based on the selected destination.
-      const completion: { packages: Package[] } = await chatCompletion([
+      const completion: {
+        packages: (Pick<Package, 'type'> & {
+          destinationId: string;
+          accommodationId: string;
+          guideId: string;
+          transportationsId: string[];
+        })[];
+      } = await chatCompletion([
         {
           role: 'system',
-          content: `You are a travel agent that helps users generate travel packages (budget, standard, and luxury) from the selected destination based on the rating or price of transportations, accommodations, and guides available in the database. Transportation must depart from the selected state and arrive in the same state as the destination, and vice versa for return. Accommodation and guide must be in the same city or state as the destination. Choose transportations, accommodation, and guide that have the lowest rating or price for budget package, medium rating or price for standard package, and highest rating or price for luxury package. This is the list of transportations in the database: ${JSON.stringify(
+          content: `You are a travel agent that helps users generate travel packages (budget, standard, and luxury) from the selected destination based on the rating or price of transportations, accommodations, and guides available in the database. Transportation must depart from the selected state and arrive in the same state as the destination, and vice versa for return. Accommodation and guide must be in the same city or state as the destination. Max guests of accommodation must be more than or equal to total guests. Choose transportations, accommodation, and guide that have the lowest rating or price for budget package, medium rating or price for standard package, and highest rating or price for luxury package. This is the list of transportations in the database: ${JSON.stringify(
             transportations
           )}. This is the list of accommodations in the database: ${JSON.stringify(
             accommodations
@@ -252,7 +258,7 @@ const destinationController = {
         {
           role: 'user',
           content:
-            'Generate 3 travel packages (budget, standard, and luxury), depart from Jakarta to this destination: { "_id": "6669ccfb0350123b1e81f4d3", "location": { "city": "Kabupaten Klungkung", "state": "Bali", "country": "Indonesia" } }',
+            'Generate 3 travel packages (budget, standard, and luxury), depart from Jakarta with a total of 2 guest(s) to this destination: { "_id": "6669ccfb0350123b1e81f4d3", "location": { "city": "Kabupaten Klungkung", "state": "Bali", "country": "Indonesia" } }',
         },
         {
           role: 'assistant',
@@ -261,7 +267,7 @@ const destinationController = {
         },
         {
           role: 'user',
-          content: `Generate 3 travel packages (budget, standard, and luxury), depart from ${departureState} to this destination: ${JSON.stringify(
+          content: `Generate 3 travel packages (budget, standard, and luxury), depart from ${departureState} with a total of ${totalGuests} guest(s) to this destination: ${JSON.stringify(
             {
               _id: destination._id,
               location: {
@@ -275,19 +281,33 @@ const destinationController = {
       ]);
 
       // Get the accommodations, guides, and transportations based on the generated IDs.
-      const data = await Promise.all(
+      const packages = await Promise.all(
         completion.packages.map(async (pack) => ({
           type: pack.type,
           destination,
           accommodation: await accommodationModel.findById(pack.accommodationId).catch(() => null),
           guide: await guideModel.findById(pack.guideId).catch(() => null),
           transportations: await Promise.all(
-            pack.transportationsId.map(
-              async (id) => await transportationModel.findById(id).catch(() => null)
-            )
+            pack.transportationsId
+              .map(async (id) => await transportationModel.findById(id).catch(() => null))
+              .filter((transportation) => transportation)
           ),
         }))
       );
+
+      // Calculate the total days of the trip based on the start date and end date.
+      const totalDays = new Date(endDate).getDate() - new Date(startDate).getDate();
+
+      // Add the total guests, totalDays, and total price to each package.
+      const data = packages.map((pack) => ({
+        ...pack,
+        totalGuests: +totalGuests,
+        totalDays,
+        totalPrice:
+          (pack.accommodation?.pricePerNight || 0) * totalDays +
+          (pack.guide?.pricePerDay || 0) * totalDays +
+          pack.transportations.reduce((acc, curr) => acc + (curr?.price || 0) * totalGuests, 0),
+      }));
 
       res.status(200).json({
         statusCode: 200,

@@ -1,22 +1,35 @@
-import orderModel from '../models/orderModel';
+import orderModel from "../models/orderModel";
+import type { NextFunction, Request } from "express";
+import type { CustomResponse } from "../types/response";
+import { OrderInput } from "../types/order";
+import { ObjectId } from "mongodb";
+import stripe from "../lib/stripe";
 
-import type { NextFunction, Request } from 'express';
-import type { CustomResponse } from '../types/response';
-
+interface CustomRequest extends Request {
+  loginInfo?: {
+    userId: ObjectId;
+    email: string;
+    role: string;
+  };
+}
 const orderController = {
-  getAllOrders: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllOrders: async (
+    req: CustomRequest,
+    res: CustomResponse,
+    next: NextFunction
+  ) => {
     try {
       const { search, page, limit } = req.query;
 
       const { data, pagination } = await orderModel.findAllWithPagination(
-        search?.toString() || '',
+        search?.toString() || "",
         Number(page || 1),
         Number(limit || 10)
       );
 
       res.status(200).json({
         statusCode: 200,
-        message: 'Orders retrieved successfully',
+        message: "Orders retrieved successfully",
         data,
         pagination,
       });
@@ -24,7 +37,11 @@ const orderController = {
       next(error);
     }
   },
-  getOrderById: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getOrderById: async (
+    req: CustomRequest,
+    res: CustomResponse,
+    next: NextFunction
+  ) => {
     try {
       const { id } = req.params;
 
@@ -33,15 +50,58 @@ const orderController = {
       if (!order) {
         return next({
           statusCode: 404,
-          name: 'Not Found',
-          message: 'Order not found',
+          name: "Not Found",
+          message: "Order not found",
         });
       }
 
       res.status(200).json({
         statusCode: 200,
-        message: 'Order retrieved successfully',
+        message: "Order retrieved successfully",
         data: order,
+      });
+    } catch (error) {
+      next(error);
+    }
+  },
+  getOrderByUserId: async (
+    req: CustomRequest,
+    res: CustomResponse,
+    next: NextFunction
+  ) => {
+    try {
+      res.status(200).json({
+        statusCode: 200,
+        message: "Order retrieved successfully",
+        // data: order,
+      });
+    } catch (error) {
+      next(error);
+    }
+  },
+  createOrderAndPayment: async (
+    req: CustomRequest,
+    res: CustomResponse,
+    next: NextFunction
+  ) => {
+    try {
+      const data: OrderInput = req.body;
+      const id = req.loginInfo?.userId as ObjectId;
+      const payload = {
+        userId: new ObjectId(id),
+        destinationId: data.destinationId,
+        totalPrice: data.totalPrice,
+        status: data.status,
+        itinerary: data.itinerary,
+        transportations: data.transportations,
+        accommodations: data.accommodations,
+        guides: data.guides,
+      };
+      const order = await orderModel.createOrder(payload);
+      res.status(200).json({
+        statusCode: 200,
+        message: "Order retrieved successfully",
+        // data: order,
       });
     } catch (error) {
       next(error);

@@ -1,11 +1,11 @@
+import { NextFunction } from 'express';
+
 import transportationModel from '../models/transportationModel';
 
-import type { NextFunction, Request } from 'express';
-import type { TransportationInput } from '../types/transportation';
-import type { CustomResponse } from '../types/response';
+import type { CustomRequest, CustomResponse } from '../types/express';
 
 const transportationController = {
-  getAllTransportations: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getAllTransportations: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { search, page, limit } = req.query;
 
@@ -25,7 +25,7 @@ const transportationController = {
       next(error);
     }
   },
-  getTransportationById: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  getTransportationById: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
@@ -48,10 +48,9 @@ const transportationController = {
       next(error);
     }
   },
-  createTransportation: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  createTransportation: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
-      const payload: TransportationInput = req.body;
-      const result = await transportationModel.create(payload);
+      const result = await transportationModel.create(req.body);
 
       const transportation = await transportationModel.findById(result.insertedId.toHexString());
 
@@ -64,14 +63,13 @@ const transportationController = {
       next(error);
     }
   },
-  updateTransportation: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  updateTransportation: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
-      const payload: TransportationInput = req.body;
-      const result = await transportationModel.update(id, payload);
+      const result = await transportationModel.update(id, req.body);
 
-      if (result.modifiedCount === 0) {
+      if (!result.modifiedCount) {
         return next({
           statusCode: 404,
           name: 'Not Found',
@@ -90,13 +88,13 @@ const transportationController = {
       next(error);
     }
   },
-  deleteTransportation: async (req: Request, res: CustomResponse, next: NextFunction) => {
+  deleteTransportation: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
       const result = await transportationModel.delete(id);
 
-      if (result.deletedCount === 0) {
+      if (!result.deletedCount) {
         return next({
           statusCode: 404,
           name: 'Not Found',

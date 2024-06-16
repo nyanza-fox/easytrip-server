@@ -1,33 +1,37 @@
 import { ObjectId } from 'mongodb';
 
+import type { Accommodation } from './accommodation';
+import type { Destination } from './destination';
+import type { Guide } from './guide';
+import type { Transportation } from './transportation';
+
 export type Order = {
   _id: ObjectId;
   userId: ObjectId;
-  destinationId: ObjectId;
-  totalPrice: number;
   status: 'pending' | 'completed' | 'cancelled';
-  itinerary: {
-    date: Date;
-    activities: string[];
-  }[];
-  transportations: {
-    transportationId: ObjectId;
-    quantity: number;
-    price: number;
-  }[];
-  accommodations: {
-    accommodationId: ObjectId;
-    checkIn: Date;
-    checkOut: Date;
-    price: number;
-  }[];
-  guides: {
-    guideId: ObjectId;
-    date: Date;
-    price: number;
-  }[];
+  itinerary: Itinerary[];
+  package: Package;
   createdAt: Date;
   updatedAt: Date;
 };
 
-export type OrderInput = Omit<Order, '_id' | 'createdAt' | 'updatedAt'>;
+export type Itinerary = {
+  date: Date;
+  activities: {
+    time: string;
+    name: string;
+  }[];
+};
+
+export type Package = {
+  type: 'affordable' | 'standard' | 'luxury';
+  transportations: Transportation[];
+  destination: Destination | null;
+  accommodation: Accommodation | null;
+  guide: Guide | null;
+  totalDays: number;
+  totalGuests: number;
+  totalPrice: number;
+};
+
+export type OrderInput = Omit<Order, '_id' | 'status' | 'createdAt' | 'updatedAt'>;

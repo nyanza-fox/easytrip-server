@@ -1,4 +1,4 @@
-import { InsertOneResult, ObjectId } from "mongodb";
+import { InsertOneResult, ObjectId, UpdateResult } from "mongodb";
 
 import { db } from "../lib/mongodb";
 
@@ -13,7 +13,8 @@ type OrderModel = {
     limit?: number
   ) => Promise<Pick<BaseResponse<Order[]>, "data" | "pagination">>;
   findById: (id: string) => Promise<Order | null>;
-  createOrder: (payload: OrderInput) => Promise<InsertOneResult>;
+  create: (payload: OrderInput) => Promise<InsertOneResult>;
+  updateStatus: (id: string, status: string) => Promise<UpdateResult>;
 };
 
 const orderModel: OrderModel = {
@@ -62,22 +63,25 @@ const orderModel: OrderModel = {
 
     return order;
   },
-  createOrder: async (payload) => {
-    const data = {
-      userId: payload.userId,
-      destinationId: payload.destinationId,
-      totalPrice: payload.totalPrice,
-      status: payload.status,
-      itinerary: payload.itinerary,
-      transportations: payload.transportations,
-      accommodations: payload.accommodations,
-      guides: payload.guides,
+  create: async (payload: OrderInput) => {
+    const result = await db.collection("orders").insertOne({
+      ...payload,
+      status: "pending",
       createdAt: new Date(),
       updatedAt: new Date(),
-    };
-    const order = await db.collection("orders").insertOne(data);
+    });
 
-    return order;
+    return result;
+  },
+  updateStatus: async (id: string, status: string) => {
+    const result = await db
+      .collection("orders")
+      .updateOne(
+        { _id: ObjectId.createFromHexString(id) },
+        { $set: { status } }
+      );
+
+    return result;
   },
 };
 

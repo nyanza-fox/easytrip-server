@@ -1,49 +1,21 @@
-import type { NextFunction, Request } from "express";
-import type { CustomResponse } from "../types/response";
+import { NextFunction } from 'express';
 
-type CustomError = {
-  statusCode?: number;
-  name?: string;
-  message?: string;
-};
+import type { CustomError, CustomRequest, CustomResponse } from '../types/express';
 
 const errorMiddleware = (
   err: CustomError,
-  _req: Request,
+  _req: CustomRequest,
   res: CustomResponse,
   _next: NextFunction
 ) => {
   let statusCode = err.statusCode || 500;
-  let error = err.name || "Internal Server Error";
-  let message = err.message || "Something went wrong";
-  if (err.name === "Duplicate") {
-    statusCode = 409;
-    error = "Conflict";
-    message = "email already exists";
-  }
+  let error = err.name || 'Internal Server Error';
+  let message = err.message || 'Something went wrong';
 
-  if (err.name == "LoginError") {
-    error = "InvalidLogin";
-    message = "Please input email or password";
-    statusCode = 400;
-  }
-
-  if (err.name == "Unauthorized") {
-    error = "Unauthorized";
-    message = "Please login first";
+  if (err.name === 'JsonWebTokenError') {
     statusCode = 401;
-  }
-
-  if (err.name === "JsonWebTokenError") {
-    statusCode = 401;
-    error = "Unauthorized";
-    message = "Invalid token";
-  }
-
-  if (err.name == "Forbidden") {
-    error = "Forbidden";
-    message = "You dont have any access";
-    statusCode = 403;
+    error = 'Unauthorized';
+    message = 'Invalid token';
   }
 
   res.status(statusCode).json({ statusCode, error, message });

@@ -1,23 +1,11 @@
-import orderModel from "../models/orderModel";
-import type { NextFunction, Request } from "express";
-import type { CustomResponse } from "../types/response";
-import { OrderInput } from "../types/order";
-import { ObjectId } from "mongodb";
-import stripe from "../lib/stripe";
+import { NextFunction } from 'express';
 
-interface CustomRequest extends Request {
-  loginInfo?: {
-    userId: ObjectId;
-    email: string;
-    role: string;
-  };
-}
+import orderModel from '../models/orderModel';
+
+import type { CustomRequest, CustomResponse } from '../types/express';
+
 const orderController = {
-  getAllOrders: async (
-    req: CustomRequest,
-    res: CustomResponse,
-    next: NextFunction
-  ) => {
+  getAllOrders: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { search, page, limit } = req.query;
 
@@ -37,11 +25,7 @@ const orderController = {
       next(error);
     }
   },
-  getOrderById: async (
-    req: CustomRequest,
-    res: CustomResponse,
-    next: NextFunction
-  ) => {
+  getOrderById: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 

@@ -68,7 +68,11 @@ const guideModel: GuideModel = {
     return guide;
   },
   create: async (payload: GuideInput) => {
-    const result = await db.collection('guides').insertOne(payload);
+    const result = await db.collection('guides').insertOne({
+      ...payload,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    });
 
     return result;
   },

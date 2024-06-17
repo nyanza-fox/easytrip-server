@@ -1,0 +1,992 @@
+[
+  {
+    "name": "simson",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://asset.kompas.com/crops/XHBfVx-6HpHo4ROjiv4q2kKnqEI=/207x0:1050x562/1200x800/data/photo/2022/10/31/635fe5c45f092.jpeg",
+    "pricePerDay": 250000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "simson@gmail.com",
+      "phoneNumber": "081299867777"
+    }
+  },
+
+  {
+    "name": "badzlin",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT00LtJx_cJAwUlX49LsfjKjCrudENe3NtdTQ&s",
+    "pricePerDay": 325000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "badzlin@gmail.com",
+      "phoneNumber": "081299866548"
+    }
+  },
+
+  {
+    "name": "agus",
+    "languages": ["Indonesia", "English"],
+    "rating": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa5xwFHtHAIUIkkwfCVpYQDFG8HoC1kmGEqwb26P7-0HBrQpFDz0KAwBVw1LfkPv5Zod8&usqp=CAU",
+    "pricePerDay": 178000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "agus@gmail.com",
+      "phoneNumber": "081309008788"
+    }
+  },
+
+  {
+    "name": "ery",
+    "languages": ["Indonesia", "English"],
+    "rating": 5,
+    "image": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/04/07/1239340314.jpg",
+    "pricePerDay": 415000,
+    "location": {
+      "city": "Lombok",
+      "state": "Nusa Tenggara Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "ery@gmail.com",
+      "phoneNumber": "089589001233"
+    }
+  },
+
+  {
+    "name": "balqis",
+    "languages": ["Indonesia", "English"],
+    "rating": 4,
+    "image": "https://cdn0-production-images-kly.akamaized.net/up8HfOpxL6Hu5UnJ91o_80atEKo=/750x0/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4415867/original/006224600_1683249719-676401-gojek-cantik.jpg",
+    "pricePerDay": 300000,
+    "location": {
+      "city": "Lombok",
+      "state": "Nusa Tenggara Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "balqis@gmail.com",
+      "phoneNumber": "089912113333"
+    }
+  },
+
+  {
+    "name": "akmal",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://statik.tempo.co/data/2020/06/02/id_942385/942385_720.jpg",
+    "pricePerDay": 265000,
+    "location": {
+      "city": "Lombok",
+      "state": "Nusa Tenggara Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "akmal@gmail.com",
+      "phoneNumber": "087812778966"
+    }
+  },
+
+  {
+    "name": "david",
+    "languages": ["Indonesia"],
+    "rating": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHJuv-6IniT3Fig7NIgauZIRky47IFh_xrfg&s",
+    "pricePerDay": 125900,
+    "location": {
+      "city": "Manggarai Barat",
+      "state": "Nusa Tenggara Timur",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "david@gmail.com",
+      "phoneNumber": "089100994532"
+    }
+  },
+
+  {
+    "name": "jafar",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/02/25/IMG_20230225_122741-3432246311.jpg",
+    "pricePerDay": 189000,
+    "location": {
+      "city": "Manggarai Barat",
+      "state": "Nusa Tenggara Timur",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "jafar@gmail.com",
+      "phoneNumber": "081790876632"
+    }
+  },
+
+  {
+    "name": "alex",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 5,
+    "image": "https://cdn.idntimes.com/content-images/post/20240425/maxim-indo-420148319-768126392010298-2537153127849221479-n-bc76ff5fb67311a72b17adf9ad7d7801.jpg",
+    "pricePerDay": 417500,
+    "location": {
+      "city": "Manggarai Barat",
+      "state": "Nusa Tenggara Timur",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "alex@gmail.com",
+      "phoneNumber": "081290992131"
+    }
+  },
+
+  {
+    "name": "arif",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 2,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMOpNPk8GklT8SaHy_JvteS7qHNWF5RlMmbw&s",
+    "pricePerDay": 115000,
+    "location": {
+      "city": "Wonosobo",
+      "state": "Jawa Tengah",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "arif@gmail.com",
+      "phoneNumber": "081409897621"
+    }
+  },
+
+  {
+    "name": "yobel",
+    "languages": ["Indonesia", "English"],
+    "rating": 4,
+    "image": "https://media.licdn.com/dms/image/C4D03AQF4z-zTBTFlAQ/profile-displayphoto-shrink_800_800/0/1518419118973?e=2147483647&v=beta&t=PIwy_YwT9NGHdka73kMttJtQrkXOmMM171orxAnbC-I",
+    "pricePerDay": 275000,
+    "location": {
+      "city": "Wonosobo",
+      "state": "Jawa Tengah",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "yobel@gmail.com",
+      "phoneNumber": "089387571236"
+    }
+  },
+
+  {
+    "name": "miku",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 5,
+    "image": "https://radarkuningan.disway.id/upload/6d04ec57a124a93ef8e7dc3d221420ac.jpg",
+    "pricePerDay": 325000,
+    "location": {
+      "city": "Wonosobo",
+      "state": "Jawa Tengah",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "miku@gmail.com",
+      "phoneNumber": "081209876532"
+    }
+  },
+
+  {
+    "name": "resy",
+    "languages": ["Indonesia", "English"],
+    "rating": 5,
+    "image": "https://awsimages.detik.net.id/community/media/visual/2022/04/21/driver-shopeefood-1_169.jpeg?w=1200",
+    "pricePerDay": 525000,
+    "location": {
+      "city": "Raja Ampat",
+      "state": "Papua Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "resy@gmail.com",
+      "phoneNumber": "081390988788"
+    }
+  },
+
+  {
+    "name": "samson",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 4,
+    "image": "https://asset-a.grid.id/crop/0x0:0x0/945x630/photo/2022/05/06/driver-profiling-irlan-jakmani-20220506041435.jpg",
+    "pricePerDay": 425000,
+    "location": {
+      "city": "Raja Ampat",
+      "state": "Papua Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "samson@gmail.com",
+      "phoneNumber": "081609897677"
+    }
+  },
+
+  {
+    "name": "son58",
+    "languages": ["Indonesia", "English"],
+    "rating": 2,
+    "image": "https://cdn.antaranews.com/cache/1200x800/2021/05/22/000_9AG4ZZ.jpg",
+    "pricePerDay": 275000,
+    "location": {
+      "city": "Raja Ampat",
+      "state": "Papua Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "son58@gmail.com",
+      "phoneNumber": "091298763222"
+    }
+  },
+
+  {
+    "name": "afif",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/124/2023/10/27/Lala-mom-2466791608.jpg",
+    "pricePerDay": 225000,
+    "location": {
+      "city": "Jepara",
+      "state": "Jawa Tengah",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "afif@gmail.com",
+      "phoneNumber": "089087379190"
+    }
+  },
+
+  {
+    "name": "michael",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 5,
+    "image": "https://www.lalamove.com/hubfs/ride_image_driver_USPmain-2.jpg",
+    "pricePerDay": 375000,
+    "location": {
+      "city": "Jepara",
+      "state": "Jawa Tengah",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "michael@gmail.com",
+      "phoneNumber": "081097871285"
+    }
+  },
+
+  {
+    "name": "temi",
+    "languages": ["Indonesia", "English"],
+    "rating": 1,
+    "image": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1661753020/attached_image/inilah-cara-merawat-anak-kucing-yang-tepat.jpg",
+    "pricePerDay": 150000,
+    "location": {
+      "city": "Jepara",
+      "state": "Jawa Tengah",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "temi@gmail.com",
+      "phoneNumber": "089209881111"
+    }
+  },
+
+  {
+    "name": "bryan",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 4,
+    "image": "https://statik.tempo.co/data/2018/07/15/id_719039/719039_720.jpg",
+    "pricePerDay": 275000,
+    "location": {
+      "city": "Pesawaran",
+      "state": "Lampung",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "bryan@gmail.com",
+      "phoneNumber": "089767806632"
+    }
+  },
+
+  {
+    "name": "nada",
+    "languages": ["Indonesia"],
+    "rating": 2,
+    "image": "https://asset-a.grid.id/crop/0x0:0x0/750x500/photo/grid/original/118456_cewek-cantik-ini-dibilang-mirirp-isyana.JPG",
+    "pricePerDay": 195000,
+    "location": {
+      "city": "Pesawaran",
+      "state": "Lampung",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "nada@gmail.com",
+      "phoneNumber": "081567551907"
+    }
+  },
+
+  {
+    "name": "sapi",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 5,
+    "image": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1661753020/attached_image/inilah-cara-merawat-anak-kucing-yang-tepat.jpg",
+    "pricePerDay": 350000,
+    "location": {
+      "city": "Pesawaran",
+      "state": "Lampung",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "sapi@gmail.com",
+      "phoneNumber": "089012345467"
+    }
+  },
+
+  {
+    "name": "dimitri",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 5,
+    "image": "https://dialeksis.com/images/web/2022/06/asrul-gojek.jpeg",
+    "pricePerDay": 350000,
+    "location": {
+      "city": "Manado",
+      "state": "Sulawesi Utara",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "dimitri@gmail.com",
+      "phoneNumber": "089087541211"
+    }
+  },
+
+  {
+    "name": "ciko",
+    "languages": ["Indonesia", "English", "Thailand", "Mandarin"],
+    "rating": 4,
+    "image": "https://cdn.idntimes.com/content-images/community/2019/12/bronson3-c7c4da26729116838c5f586376ab2a7a.jpg",
+    "pricePerDay": 315000,
+    "location": {
+      "city": "Manado",
+      "state": "Sulawesi Utara",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "ciko@gmail.com",
+      "phoneNumber": "081809007655"
+    }
+  },
+
+  {
+    "name": "ali",
+    "languages": ["Indonesia", "English"],
+    "rating": 2,
+    "image": "https://cdns.klimg.com/mav-prod-resized/480x/ori/feedImage/2023/8/22/1692684563116-m95kl.jpeg",
+    "pricePerDay": 250000,
+    "location": {
+      "city": "Manado",
+      "state": "Sulawesi Utara",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "ali@gmail.com",
+      "phoneNumber": "080812345678"
+    }
+  },
+
+  {
+    "name": "johnny",
+    "languages": ["Indonesia"],
+    "rating": 1,
+    "image": "",
+    "pricePerDay": 100000,
+    "location": {
+      "city": "Natuna",
+      "state": "Kepulauan Riau",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "johnny@gmail.com",
+      "phoneNumber": "081290667541"
+    }
+  },
+
+  {
+    "name": "carolus",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCU2xo5d5ZOqpr7NfHyHJ1JAOLrIBLJWhX3Q&s",
+    "pricePerDay": 225000,
+    "location": {
+      "city": "Natuna",
+      "state": "Kepulauan Riau",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "carolus@gmail.com",
+      "phoneNumber": "087890661244"
+    }
+  },
+
+  {
+    "name": "tono",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 5,
+    "image": "https://static.republika.co.id/uploads/images/inpicture_slide/kucing-bernama_230808173625-261.jpeg",
+    "pricePerDay": 275000,
+    "location": {
+      "city": "Natuna",
+      "state": "Kepulauan Riau",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "tono@gmail.com",
+      "phoneNumber": "087890661244"
+    }
+  },
+
+  {
+    "name": "prabu",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://static.tildacdn.com/tild3034-3031-4738-b434-353332373630/Simak_di_artikel_ini.jpg",
+    "pricePerDay": 150000,
+    "location": {
+      "city": "Gorontalo",
+      "state": "Gorontalo",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "prabu@gmail.com",
+      "phoneNumber": "089012345678"
+    }
+  },
+
+  {
+    "name": "wildan",
+    "languages": ["Indonesia", "English", "Thailand", "Mandarin"],
+    "rating": 5,
+    "image": "https://akcdn.detik.net.id/visual/2015/12/18/270f1892-c789-4775-97ec-10cb8a325649_169.jpg?w=650",
+    "pricePerDay": 225000,
+    "location": {
+      "city": "Gorontalo",
+      "state": "Gorontalo",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "wildan@gmail.com",
+      "phoneNumber": "081409876543"
+    }
+  },
+
+  {
+    "name": "sutejo",
+    "languages": ["Indonesia"],
+    "rating": 1,
+    "image": "https://img2.beritasatu.com/cache/beritasatu/480x310-3/2023/06/1687941605-1080x782.webp",
+    "pricePerDay": 100000,
+    "location": {
+      "city": "Gorontalo",
+      "state": "Gorontalo",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "sutejo@gmail.com",
+      "phoneNumber": "080912113488"
+    }
+  },
+
+  {
+    "name": "alif",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://asset.kompas.com/crops/XHBfVx-6HpHo4ROjiv4q2kKnqEI=/207x0:1050x562/1200x800/data/photo/2022/10/31/635fe5c45f092.jpeg",
+    "pricePerDay": 250000,
+    "location": {
+      "city": "Probolinggo",
+      "state": "Jawa Timur",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "alif@gmail.com",
+      "phoneNumber": "081299867777"
+    }
+  },
+  {
+    "name": "ilyas",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT00LtJx_cJAwUlX49LsfjKjCrudENe3NtdTQ&s",
+    "pricePerDay": 325000,
+    "location": {
+      "city": "Probolinggo",
+      "state": "Jawa Timur",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "ilyas@gmail.com",
+      "phoneNumber": "081299866548"
+    }
+  },
+  {
+    "name": "danil",
+    "languages": ["Indonesia", "English"],
+    "rating": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa5xwFHtHAIUIkkwfCVpYQDFG8HoC1kmGEqwb26P7-0HBrQpFDz0KAwBVw1LfkPv5Zod8&usqp=CAU",
+    "pricePerDay": 178000,
+    "location": {
+      "city": "Probolinggo",
+      "state": "Jawa Timur",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "danil@gmail.com",
+      "phoneNumber": "081309008788"
+    }
+  },
+  {
+    "name": "jarot",
+    "languages": ["Indonesia", "English"],
+    "rating": 5,
+    "image": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/04/07/1239340314.jpg",
+    "pricePerDay": 415000,
+    "location": {
+      "city": "Sleman",
+      "state": "Daerah Istimewa Yogyakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "jarot@gmail.com",
+      "phoneNumber": "089589001233"
+    }
+  },
+  {
+    "name": "rara",
+    "languages": ["Indonesia", "English"],
+    "rating": 4,
+    "image": "https://cdn0-production-images-kly.akamaized.net/up8HfOpxL6Hu5UnJ91o_80atEKo=/750x0/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4415867/original/006224600_1683249719-676401-gojek-cantik.jpg",
+    "pricePerDay": 300000,
+    "location": {
+      "city": "Sleman",
+      "state": "Daerah Istimewa Yogyakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "rara@gmail.com",
+      "phoneNumber": "089912113333"
+    }
+  },
+  {
+    "name": "surya",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://statik.tempo.co/data/2020/06/02/id_942385/942385_720.jpg",
+    "pricePerDay": 265000,
+    "location": {
+      "city": "Sleman",
+      "state": "Daerah Istimewa Yogyakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "surya@gmail.com",
+      "phoneNumber": "087812778966"
+    }
+  },
+  {
+    "name": "uais",
+    "languages": ["Indonesia"],
+    "rating": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHJuv-6IniT3Fig7NIgauZIRky47IFh_xrfg&s",
+    "pricePerDay": 125900,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "uais@gmail.com",
+      "phoneNumber": "089100994532"
+    }
+  },
+  {
+    "name": "nao",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/02/25/IMG_20230225_122741-3432246311.jpg",
+    "pricePerDay": 189000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "nao@gmail.com",
+      "phoneNumber": "081790876632"
+    }
+  },
+  {
+    "name": "yudi",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 5,
+    "image": "https://cdn.idntimes.com/content-images/post/20240425/maxim-indo-420148319-768126392010298-2537153127849221479-n-bc76ff5fb67311a72b17adf9ad7d7801.jpg",
+    "pricePerDay": 417500,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "yudi@gmail.com",
+      "phoneNumber": "081290992131"
+    }
+  },
+  {
+    "name": "yuda",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 2,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMOpNPk8GklT8SaHy_JvteS7qHNWF5RlMmbw&s",
+    "pricePerDay": 115000,
+    "location": {
+      "city": "Banyuasin",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "yuda@gmail.com",
+      "phoneNumber": "081409897621"
+    }
+  },
+  {
+    "name": "asep",
+    "languages": ["Indonesia", "English"],
+    "rating": 4,
+    "image": "https://media.licdn.com/dms/image/C4D03AQF4z-zTBTFlAQ/profile-displayphoto-shrink_800_800/0/1518419118973?e=2147483647&v=beta&t=PIwy_YwT9NGHdka73kMttJtQrkXOmMM171orxAnbC-I",
+    "pricePerDay": 275000,
+    "location": {
+      "city": "Banyuasin",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "asep@gmail.com",
+      "phoneNumber": "089387571236"
+    }
+  },
+  {
+    "name": "jamal",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 5,
+    "image": "https://radarkuningan.disway.id/upload/6d04ec57a124a93ef8e7dc3d221420ac.jpg",
+    "pricePerDay": 325000,
+    "location": {
+      "city": "Banyuasin",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "jamal@gmail.com",
+      "phoneNumber": "081209876532"
+    }
+  },
+  {
+    "name": "mega",
+    "languages": ["Indonesia", "English"],
+    "rating": 5,
+    "image": "https://awsimages.detik.net.id/community/media/visual/2022/04/21/driver-shopeefood-1_169.jpeg?w=1200",
+    "pricePerDay": 525000,
+    "location": {
+      "city": "Pangandaran",
+      "state": "Jawa Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "mega@gmail.com",
+      "phoneNumber": "081390988788"
+    }
+  },
+  {
+    "name": "son69",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 4,
+    "image": "https://asset-a.grid.id/crop/0x0:0x0/945x630/photo/2022/05/06/driver-profiling-irlan-jakmani-20220506041435.jpg",
+    "pricePerDay": 425000,
+    "location": {
+      "city": "Pangandaran",
+      "state": "Jawa Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "son69@gmail.com",
+      "phoneNumber": "081609897677"
+    }
+  },
+  {
+    "name": "son88",
+    "languages": ["Indonesia", "English"],
+    "rating": 2,
+    "image": "https://cdn.antaranews.com/cache/1200x800/2021/05/22/000_9AG4ZZ.jpg",
+    "pricePerDay": 275000,
+    "location": {
+      "city": "Pangandaran",
+      "state": "Jawa Barat",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "son88@gmail.com",
+      "phoneNumber": "091298763222"
+    }
+  },
+  {
+    "name": "rian",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/124/2023/10/27/Lala-mom-2466791608.jpg",
+    "pricePerDay": 225000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "rian@gmail.com",
+      "phoneNumber": "089087379190"
+    }
+  },
+  {
+    "name": "ocay",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 5,
+    "image": "https://www.lalamove.com/hubfs/ride_image_driver_USPmain-2.jpg",
+    "pricePerDay": 375000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "ocay@gmail.com",
+      "phoneNumber": "081097871285"
+    }
+  },
+  {
+    "name": "ajer",
+    "languages": ["Indonesia", "English"],
+    "rating": 1,
+    "image": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1661753020/attached_image/inilah-cara-merawat-anak-kucing-yang-tepat.jpg",
+    "pricePerDay": 150000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "ajer@gmail.com",
+      "phoneNumber": "089209881111"
+    }
+  },
+  {
+    "name": "eca",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 4,
+    "image": "https://statik.tempo.co/data/2018/07/15/id_719039/719039_720.jpg",
+    "pricePerDay": 275000,
+    "location": {
+      "city": "Buleleng",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "eca@gmail.com",
+      "phoneNumber": "089767806632"
+    }
+  },
+  {
+    "name": "rinka",
+    "languages": ["Indonesia"],
+    "rating": 2,
+    "image": "https://asset-a.grid.id/crop/0x0:0x0/750x500/photo/grid/original/118456_cewek-cantik-ini-dibilang-mirirp-isyana.JPG",
+    "pricePerDay": 195000,
+    "location": {
+      "city": "Buleleng",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "rinka@gmail.com",
+      "phoneNumber": "081567551907"
+    }
+  },
+  {
+    "name": "berti",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 5,
+    "image": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1661753020/attached_image/inilah-cara-merawat-anak-kucing-yang-tepat.jpg",
+    "pricePerDay": 350000,
+    "location": {
+      "city": "Buleleng",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "berti@gmail.com",
+      "phoneNumber": "089012345467"
+    }
+  },
+  {
+    "name": "ohang",
+    "languages": ["Indonesia", "English", "Mandarin"],
+    "rating": 5,
+    "image": "https://dialeksis.com/images/web/2022/06/asrul-gojek.jpeg",
+    "pricePerDay": 350000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "ohang@gmail.com",
+      "phoneNumber": "089087541211"
+    }
+  },
+  {
+    "name": "ramandha",
+    "languages": ["Indonesia", "English", "Thailand", "Mandarin"],
+    "rating": 4,
+    "image": "https://cdn.idntimes.com/content-images/community/2019/12/bronson3-c7c4da26729116838c5f586376ab2a7a.jpg",
+    "pricePerDay": 315000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "ramandha@gmail.com",
+      "phoneNumber": "081809007655"
+    }
+  },
+  {
+    "name": "randy",
+    "languages": ["Indonesia", "English"],
+    "rating": 2,
+    "image": "https://cdns.klimg.com/mav-prod-resized/480x/ori/feedImage/2023/8/22/1692684563116-m95kl.jpeg",
+    "pricePerDay": 250000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "randy@gmail.com",
+      "phoneNumber": "080812345678"
+    }
+  },
+  {
+    "name": "rambo",
+    "languages": ["Indonesia"],
+    "rating": 1,
+    "image": "",
+    "pricePerDay": 100000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "rambo@gmail.com",
+      "phoneNumber": "081290667541"
+    }
+  },
+  {
+    "name": "rama",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCU2xo5d5ZOqpr7NfHyHJ1JAOLrIBLJWhX3Q&s",
+    "pricePerDay": 225000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "rama@gmail.com",
+      "phoneNumber": "087890661244"
+    }
+  },
+  {
+    "name": "jamet",
+    "languages": ["Indonesia", "English", "Thailand"],
+    "rating": 5,
+    "image": "https://static.republika.co.id/uploads/images/inpicture_slide/kucing-bernama_230808173625-261.jpeg",
+    "pricePerDay": 275000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "jamet@gmail.com",
+      "phoneNumber": "087890661244"
+    }
+  },
+  {
+    "name": "puteri",
+    "languages": ["Indonesia", "English"],
+    "rating": 3,
+    "image": "https://static.tildacdn.com/tild3034-3031-4738-b434-353332373630/Simak_di_artikel_ini.jpg",
+    "pricePerDay": 150000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "puteri@gmail.com",
+      "phoneNumber": "089012345678"
+    }
+  },
+  {
+    "name": "aldi",
+    "languages": ["Indonesia", "English", "Thailand", "Mandarin"],
+    "rating": 5,
+    "image": "https://akcdn.detik.net.id/visual/2015/12/18/270f1892-c789-4775-97ec-10cb8a325649_169.jpg?w=650",
+    "pricePerDay": 225000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "aldi@gmail.com",
+      "phoneNumber": "081409876543"
+    }
+  },
+  {
+    "name": "garland",
+    "languages": ["Indonesia"],
+    "rating": 1,
+    "image": "https://img2.beritasatu.com/cache/beritasatu/480x310-3/2023/06/1687941605-1080x782.webp",
+    "pricePerDay": 100000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "email": "garland@gmail.com",
+      "phoneNumber": "080912113488"
+    }
+  }
+]

@@ -1,0 +1,462 @@
+[
+  {
+    "name": "Nusa Penida",
+    "description": "Nusa Penida, an island located southeast of Bali in Indonesia, is renowned for its stunning natural beauty, unique landscapes, and vibrant marine life.",
+    "images": [
+      "https://digitaltravelcouple.com/wp-content/uploads/2022/06/nusa-penida-things-to-do-.jpg",
+      "https://www.demountain-adventure.com/wp-content/uploads/2024/01/artikel-pilar-4.-Nusa-Penida-Privat-Tour.jpg",
+      "https://www.demountain-adventure.com/wp-content/uploads/2024/01/artikel-pilar-4.-Nusa-Penida-Privat-Tour.jpg"
+    ],
+    "attractions": [
+      "Kelingking Beach",
+      "Angel's Billabong",
+      "Goa Giri Putri Temple",
+      "Tembeling Beach and Forest",
+      "Crystal Bay"
+    ],
+    "price": 500000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "coordinates": [-8.727807, 115.544426]
+    }
+  },
+  {
+    "name": "Gili Trawangan",
+    "description": "Gili Trawangan, the largest of the Gili Islands in Indonesia, is a popular tourist destination known for its vibrant nightlife, beautiful beaches, and clear waters.",
+    "images": [
+      "https://asset.kompas.com/crops/tRCozE9VZEYZboYrepA3AMoLPbs=/0x0:990x660/750x500/data/photo/2022/03/18/623436cab9f4e.jpg",
+      "https://cdn1-production-images-kly.akamaized.net/nDyn0nwgsqpXLg1qkTy5gE8abE8=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1624893/original/043856800_1497514185-Gili.jpg",
+      "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/ea/a8/85.jpg"
+    ],
+    "attractions": [
+      "Snorkeling and Diving at Turtle Point, Shark Point, Wreck Dive",
+      "Nightlife",
+      "Glass-Bottom Boat Tours",
+      "Sea Turtle Hatchery",
+      "Kayaking and Paddleboarding"
+    ],
+    "price": 300000,
+    "location": {
+      "city": "Lombok Utara",
+      "state": "Nusa Tenggara Barat",
+      "country": "Indonesia",
+      "coordinates": [-8.350785, 116.038628]
+    }
+  },
+  {
+    "name": "Labuan Bajo",
+    "description": "Labuan Bajo, located on the western tip of Flores Island in Indonesia, is the gateway to the stunning Komodo National Park and other beautiful natural attractions.",
+    "images": [
+      "https://disk.mediaindonesia.com/files/news/2023/09/7bcf4d026c7dfa86da283fc73eedae20.jpg",
+      "https://ik.imagekit.io/tvlk/blog/2023/02/pulau-kelor_shutterstock_1149571388-Copy-2.jpg?tr=dpr-2.625,h-320,q-25,w-320",
+      "https://asset-2.tstatic.net/kupang/foto/bank/images/Agen-Mobil-Rental-Labuan-Bajo.jpg"
+    ],
+    "attractions": [
+      "Komodo National Park",
+      "Pink Beach",
+      "Cunca Wulang Canyon",
+      "Bukit Sylvia",
+      "Waecicu Beach"
+    ],
+    "price": 600000,
+    "location": {
+      "city": "Manggarai Barat",
+      "state": "Nusa Tenggara Timur",
+      "country": "Indonesia",
+      "coordinates": [-8.4964, 119.8877]
+    }
+  },
+  {
+    "name": "Dieng Plateau",
+    "description": "Dieng Plateau, located in Central Java, Indonesia, is a highland region known for its cool climate, ancient temples, unique geothermal features, and stunning natural scenery.",
+    "images": [
+      "https://asset.kompas.com/crops/_c-NhAebk_G0_y40134fG_TvEm8=/0x0:780x520/750x500/data/photo/2019/08/21/5d5ccedb6f21e.jpg",
+      "https://image.popbela.com/content-images/post/20200727/24fbfb96383848dd1a61782960992267.png?width=1600&format=webp&w=1600",
+      "https://osccdn.medcom.id/images/content/2023/07/07/565afab252e26ecf04eb1338967d58f7.jpg"
+    ],
+    "attractions": [
+      "Sikidang Crater",
+      "Telaga Warna (Color Lake)",
+      "Prau Mountain",
+      "Arjuna Temple Complex",
+      "Sikunir Hill"
+    ],
+    "price": 200000,
+    "location": {
+      "city": "Wonosobo",
+      "state": "Jawa Tengah",
+      "country": "Indonesia",
+      "coordinates": [-7.2094, 109.9234]
+    }
+  },
+  {
+    "name": "Raja Ampat",
+    "description": "Raja Ampat, located in West Papua, Indonesia, is renowned for its stunning natural beauty and rich marine biodiversity.",
+    "images": [
+      "https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/destination-update-may-2019/RA_Pianemoisland_indtravel.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Raja_Ampat%2C_Mutiara_Indah_di_Timur_Indonesia.jpg/1200px-Raja_Ampat%2C_Mutiara_Indah_di_Timur_Indonesia.jpg",
+      "https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2022/01/fakta-raja-ampat-1.jpg"
+    ],
+    "attractions": [
+      "Misool Island",
+      "Piaynemo Viewpoint",
+      "Kalibiru",
+      "Manta Sandy",
+      "Arborek Village"
+    ],
+    "price": 1000000,
+    "location": {
+      "city": "Raja Ampat",
+      "state": "Papua barat",
+      "country": "Indonesia",
+      "coordinates": [-1.86521, 130.06648]
+    }
+  },
+  {
+    "name": "Karimun Jawa",
+    "description": "Karimunjawa, a group of islands located in the Java Sea off the coast of Central Java, Indonesia, offers a blend of natural beauty, marine biodiversity, and cultural experiences.",
+    "images": [
+      "https://suarapantau.com/wp-content/uploads/2023/02/Pulau-Karimunjawa.jpg",
+      "https://images.solopos.com/2021/08/karimun2.jpg",
+      "https://awsimages.detik.net.id/community/media/visual/2023/05/08/menikmati-wisata-snorkeling-di-bawah-laut-karimunjawa-jepara-senin-852023_169.jpeg?w=1200"
+    ],
+    "attractions": [
+      "Menjangan Besar Island",
+      "Karimunjawa National Park",
+      "Mangrove Forest Tour",
+      "Karimunjawa Traditional Market",
+      "Cemara Kecil Island"
+    ],
+    "price": 700000,
+    "location": {
+      "city": "Jepara",
+      "state": "Jawa Tengah",
+      "country": "Indonesia",
+      "coordinates": [-5.7879, 110.477]
+    }
+  },
+  {
+    "name": "Pulau Pahawang",
+    "description": "Pulau Pahawang, located off the coast of Lampung, Indonesia, is renowned for its pristine beaches, clear waters, and vibrant marine life.",
+    "images": [
+      "https://akcdn.detik.net.id/visual/2023/09/11/pulau-pahawang-1_169.jpeg?w=650",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/c0/f2/ab/nampak-pulau-klagian.jpg?w=1200&h=-1&s=1",
+      "https://salsawisata.com/wp-content/uploads/2022/11/pulau-pahawang-trip.jpg"
+    ],
+    "attractions": [
+      "Pasir Timbul",
+      "Coral Reefs",
+      "Island Hopping Tours",
+      "Fishing Trips",
+      "Sea Kayaking and Snorkeling"
+    ],
+    "price": 650000,
+    "location": {
+      "city": "Pesawaran",
+      "state": "Lampung",
+      "country": "Indonesia",
+      "coordinates": [-5.6744, 105.24227]
+    }
+  },
+  {
+    "name": "Bunaken",
+    "description": "Bunaken, located in North Sulawesi, Indonesia, is famous for its stunning underwater biodiversity and vibrant marine life.",
+    "images": [
+      "https://cdn.rri.co.id/berita/17/images/1698042003476-B/cm2nl1117wqpsvu.jpeg",
+      "https://torch.id/cdn/shop/articles/Artikel_172_-_Preview.webp?v=1713774282&width=1100",
+      "https://perahubunaken.com/wp-content/uploads/2020/03/Scuba-Diving-Bunaken.jpg"
+    ],
+    "attractions": [
+      "Bunaken National Marine Park",
+      "Mangrove Forests",
+      "Sachiko's Point",
+      "Lekuangan I and II",
+      "Siladen Island"
+    ],
+    "price": 800000,
+    "location": {
+      "city": "Manado",
+      "state": "Sulawesi Utara",
+      "country": "Indonesia",
+      "coordinates": [1.611133, 124.776841]
+    }
+  },
+  {
+    "name": "Pulau Natuna",
+    "description": "Pulau Natuna, located in the Riau Islands of Indonesia, is a hidden gem known for its natural beauty, unique landscapes, and rich marine life.",
+    "images": [
+      "https://dinaspariwisata.natunakab.go.id/wp-content/uploads/2022/08/beach-sea-coast-water-sand-ocean-1200073-pxhere.com_.webp",
+      "https://asset-2.tstatic.net/kupang/foto/bank/images/Keindahan-salah-satu-sudut-Pulau-Natuna.jpg",
+      "https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/10/23/natunajpg-20211023082129.jpg"
+    ],
+    "attractions": [
+      "Museum Natuna",
+      "Teluk Selahang Beach",
+      "Batu Kasah Beach",
+      "Snorkeling and Diving",
+      "Mangrove Forests"
+    ],
+    "price": 550000,
+    "location": {
+      "city": "Natuna",
+      "state": "Kepulauan Riau",
+      "country": "Indonesia",
+      "coordinates": [4.71417, 107.97639]
+    }
+  },
+  {
+    "name": "Pulo Cinta",
+    "description": "Pulau Cinta, also known as the Island of Love, is a romantic destination located off the coast of Gorontalo Province in Indonesia.",
+    "images": [
+      "https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revisi-2020/revamp-image/new/pulocinta.jpg",
+      "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/kilat/ebc3b6fb75f5adfb687d4a2378e95873.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3zFAgW_-3dONVLpJZOlLJgEB3dPNnH4Ecw&s"
+    ],
+    "attractions": [
+      "Scenic Views",
+      "Cultural Experiences",
+      "Nature Walks",
+      "Snorkeling and Diving",
+      "Island Hopping"
+    ],
+    "price": 875000,
+    "location": {
+      "city": "Gorontalo",
+      "state": "Gorontalo",
+      "country": "Indonesia",
+      "coordinates": [4.71417, 107.97639]
+    }
+  },
+  {
+    "name": "Gunung Bromo",
+    "description": "Gunung Bromo, located in East Java, Indonesia, is a popular tourist destination renowned for its stunning natural beauty and unique landscapes.",
+    "images": [
+      "https://static.republika.co.id/uploads/images/xlarge/068297800-1654167976-1280-856.jpg",
+      "https://cdn.medcom.id/dynamic/content/2023/08/28/1607253/EWnBdc3ezD.JPG?w=700",
+      "https://www.indonesia.travel/content/dam/indtravelrevamp/id-id/ide-liburan/6-aktivitas-seru-yang-wajib-dicoba-saat-ke-taman-nasional-bromo-tengger-semeru/thumbnail.jpg"
+    ],
+    "attractions": [
+      "Bromo Tengger Semeru National Park",
+      "Mount Bromo Crater",
+      "Sea of Sand (Pasir Berbisik)",
+      "Savannah (Teletubbies Hill)",
+      "Madakaripura Waterfall"
+    ],
+    "price": 200000,
+    "location": {
+      "city": "Probolinggo",
+      "state": "Jawa Timur",
+      "country": "Indonesia",
+      "coordinates": [-7.942965, 112.953186]
+    }
+  },
+  {
+    "name": "Gunung Merapi",
+    "description": "Gunung Merapi, an active volcano located on the border between Central Java and Yogyakarta in Indonesia, is known for its stunning natural beauty and cultural significance.",
+    "images": [
+      "https://gemilangfm.id/wp-content/uploads/2024/03/Gunung-Merapi-di-Sleman-DI-Yogyakarta-TwitterBPPTKG.jpg",
+      "https://ruangbogor.com/assets/berita/original/48539099564-jeep-merapi-adventure.jpg",
+      "https://geoparkjogja.jogjaprov.go.id/uploads/site/1684824092_9d479f871747d3edf1ba.jpg"
+    ],
+    "attractions": [
+      "Merapi Lava Tour",
+      "Merapi Volcano Museum",
+      "Tlogo Putri",
+      "Gardens and Agro-Tourism",
+      "Plunyon Kalikuning"
+    ],
+    "price": 200000,
+    "location": {
+      "city": "Sleman",
+      "state": "Daerah Istimewa Yogyakarta",
+      "country": "Indonesia",
+      "coordinates": [-7.540718, 110.445724]
+    }
+  },
+  {
+    "name": "Pulau Pari",
+    "description": "Pulau Pari, part of the Thousand Islands (Kepulauan Seribu) in Indonesia, is a small yet captivating island known for its beautiful beaches, clear waters, and relaxed atmosphere.",
+    "images": [
+      "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/events/2020/12/23/427b9167-b687-4722-8088-f83c16270901-1608719103733-001279551f07d8604666357d0ae946c8.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7LybmT74wJi6R6a8SduwQVhCktgC7cTWUGA&s",
+      "https://res.klook.com/image/upload/c_fill,w_750,h_560/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/rn5plfofvriwvw1dst1l.jpg"
+    ],
+    "attractions": [
+      "Pasir Perawan Beach (Virgin Sand Beach)",
+      "Mangrove Conservation Area",
+      "Snorkeling and Diving",
+      "Bicycle Tours",
+      "Boat Tours"
+    ],
+    "price": 250000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "coordinates": [-6.176063, 106.74326]
+    }
+  },
+  {
+    "name": "Pulau Harapan",
+    "description": "Pulau Harapan, one of the islands in the Thousand Islands (Kepulauan Seribu) chain near Jakarta, Indonesia, is a delightful destination known for its clear waters, coral reefs, and relaxed island atmosphere.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxZImAAFQ7Aa37monwJ-rQqme32Qa8C6N-Jg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSWFJU_qJ05KYEshbTWh8XFICCMvVq_Tin3w&s",
+      "https://cdn.idntimes.com/content-images/post/20190228/l7769-ce6587e53c651c76029d7887caec14cf_600x400.jpg"
+    ],
+    "attractions": [
+      "Snorkeling and Diving",
+      "Island Hopping",
+      "Mangrove Forest Exploration",
+      "Camping",
+      "Seafood Dining"
+    ],
+    "price": 200000,
+    "location": {
+      "city": "Banyuasin",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "coordinates": [-5.653289199680915, 106.5784277]
+    }
+  },
+  {
+    "name": "Pantai Pangandaran",
+    "description": "Pantai Pangandaran, located on the southern coast of West Java, Indonesia, is a popular beach destination known for its natural beauty, water activities, and vibrant local culture.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iq4y8CEZ1He4ieHNbvz6OnYY7zytINf3Mg&s",
+      "https://www.rukita.co/stories/wp-content/uploads/2022/05/pantai-pangandaran-tempat-untuk-liburan-dan-belajar.jpg",
+      "https://asset.kompas.com/crops/jGIL7uNqglJUu4mhlZw2eN-FxQU=/27x0:1106x719/750x500/data/photo/2023/04/25/6447846b3dd27.png"
+    ],
+    "attractions": [
+      "Pangandaran Nature Reserve (Cagar Alam Pangandaran)",
+      "Green Canyon (Cukang Taneuh)",
+      "Paragliding",
+      "Cycling and Motorbike Tours",
+      "Cultural Performances"
+    ],
+    "price": 350000,
+    "location": {
+      "city": "Pangandaran",
+      "state": "Jawa Barat",
+      "country": "Indonesia",
+      "coordinates": [-7.639322, 108.653191]
+    }
+  },
+  {
+    "name": "Nusa Lembongan",
+    "description": "Nusa Lembongan, a small island off the southeast coast of Bali, Indonesia, is known for its stunning beaches, clear waters, and laid-back atmosphere.",
+    "images": [
+      "https://ik.imagekit.io/tvlk/blog/2023/09/Mushroom-Bay-Nusa-Lembongan-Traveloka-Xperience.jpg?tr=dpr-2,w-675",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiX_2lMJ50nBwBcA4mfj0AZhH3WzrHPY74g&s",
+      "https://ik.imagekit.io/tvlk/blog/2023/09/Jembatan-Kuning-Nusa-Lembongan-Traveloka-Xperience.jpg?tr=dpr-2,w-675"
+    ],
+    "attractions": [
+      "Dream Beach",
+      "Mushroom Bay",
+      "Devil's Tear",
+      "Mangrove Forest",
+      "Snorkeling and Diving"
+    ],
+    "price": 500000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "coordinates": [-8.678583, 115.455589]
+    }
+  },
+  {
+    "name": "Pulau Menjangan",
+    "description": "Pulau Menjangan, located off the northwest coast of Bali, Indonesia, is part of the Bali Barat National Park and is renowned for its stunning underwater beauty and rich biodiversity.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiN31mCKKeXb9f37Ph5xIoFmmb_Yy1JhNYjg&s",
+      "https://img2.beritasatu.com/cache/investor/480x310-3/1561832660.jpg",
+      "https://ongistravel.com/wp-content/uploads/2021/11/menjangan-island.jpeg"
+    ],
+    "attractions": [
+      "Diving and Snorkeling",
+      "Coral Reefs",
+      "Menjangan Cave",
+      "Bali Barat National Park",
+      "Kayaking and Paddleboarding"
+    ],
+    "price": 500000,
+    "location": {
+      "city": "Buleleng",
+      "state": "Bali",
+      "country": "Indonesia",
+      "coordinates": [-8.0955744849961, 114.51662644708699]
+    }
+  },
+  {
+    "name": "Nusa Ceningan",
+    "description": "Nusa Ceningan, a smaller island located between Nusa Lembongan and Nusa Penida in Indonesia, offers a variety of attractions and activities that make it a charming destination.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWVvj1sVe43NCOcgax0-jH2BEMYRW7FnB55g&s",
+      "https://www.journeyera.com/wp-content/uploads/2017/03/nusa-ceningan-things-to-do-03624.jpg",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/222487082.jpg?k=1e6f19c19071ed9a2fd34f4fd1324e2e5a36af4673844977a1ea4c8542661593&o=&hp=1"
+    ],
+    "attractions": [
+      "Blue Lagoon",
+      "Yellow Bridge",
+      "Ceningan Cliffs",
+      "Secret Beach Waterfall",
+      "Scuba Diving and Snorkeling"
+    ],
+    "price": 500000,
+    "location": {
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "coordinates": [-8.700130017148329, 115.45103323041758]
+    }
+  },
+  {
+    "name": "Pulau Tidung",
+    "description": "Pulau Tidung, part of the Thousand Islands (Kepulauan Seribu) off the coast of Jakarta, Indonesia, is a popular destination known for its beautiful beaches, clear waters, and relaxed island atmosphere.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTXiUWjnMtJF09yWvCGVhHUUq3U8hy5oAugw&s",
+      "https://www.pulautidung.co.id/wp-content/uploads/aktivitas-di-pulau-seribu-jakarta.jpg",
+      "https://www.hotelmurah.com/ceritawisata/wp-content/uploads/2019/09/penginapan-di-pulau-tidung-kecil-758x409.jpg"
+    ],
+    "attractions": [
+      "Jembatan Cinta (Love Bridge)",
+      "Snorkeling and Diving",
+      "Mangrove Conservation Area",
+      "Sunset and Sunrise Viewing",
+      "Camping"
+    ],
+    "price": 200000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "coordinates": [-5.797183215763395, 106.49410813245903]
+    }
+  },
+  {
+    "name": "Pulau Pramuka",
+    "description": "Pulau Pramuka, one of the Thousand Islands (Kepulauan Seribu) off the coast of Jakarta, Indonesia, is known for its marine conservation efforts, clear waters, and laid-back island vibe.",
+    "images": [
+      "https://pulauseribu-resorts.com/wp-content/uploads/Semak-daun-Pulau-Pramuka.jpg",
+      "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/03/01/f9d1e4d0-270d-4b21-a581-b0409a9d2b28-1614576684215-0e26f85508bae85875ead0d074269d7c.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8MJzkv62iic1GHh2euEy5YA9pddDvedaZRw&s"
+    ],
+    "attractions": [
+      "Marine National Park",
+      "Snorkeling and Diving",
+      "Sea Turtle Conservation Center",
+      "Mangrove Forest",
+      "Kayaking and Canoeing"
+    ],
+    "price": 200000,
+    "location": {
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "coordinates": [-5.746018, 106.613857]
+    }
+  }
+]

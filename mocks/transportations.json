@@ -1,0 +1,1842 @@
+[
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 1200000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 900000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 950000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 800000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 1400000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Internasional Lombok",
+      "location": {
+        "city": "Lombok Tengah",
+        "state": "Nusa Tenggara Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1000000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Internasional Lombok",
+      "location": {
+        "city": "Lombok Tengah",
+        "state": "Nusa Tenggara Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1100000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Internasional Lombok",
+      "location": {
+        "city": "Lombok Tengah",
+        "state": "Nusa Tenggara Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 850000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Internasional Lombok",
+      "location": {
+        "city": "Lombok Tengah",
+        "state": "Nusa Tenggara Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 2000000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandara Internasional Komodo",
+      "location": {
+        "city": "Manggarai Barat",
+        "state": "Nusa Tenggara Timur",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1200000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandara Internasional Komodo",
+      "location": {
+        "city": "Manggarai Barat",
+        "state": "Nusa Tenggara Timur",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1500000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandara Internasional Komodo",
+      "location": {
+        "city": "Manggarai Barat",
+        "state": "Nusa Tenggara Timur",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 1300000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandara Internasional Komodo",
+      "location": {
+        "city": "Manggarai Barat",
+        "state": "Nusa Tenggara Timur",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "PO Haryanto",
+    "price": 400000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Kalideres",
+      "location": {
+        "city": "Jakarta Barat",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "14:00",
+      "place": "Terminal Purwokerto",
+      "location": {
+        "city": "Banyumas",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "Rosalia Indah",
+    "price": 275000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Larangan",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "12:00",
+      "place": "Terminal Purwokerto",
+      "location": {
+        "city": "Banyumas",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "PO Haryanto",
+    "price": 150000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Terboyo",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:00",
+      "place": "Terminal Purwokerto",
+      "location": {
+        "city": "Banyumas",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "Primajasa",
+    "price": 350000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Leuwipanjang",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "13:00",
+      "place": "Terminal Purwokerto",
+      "location": {
+        "city": "Banyumas",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 3500000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "13:00",
+      "place": "Bandar Udara Marinda",
+      "location": {
+        "city": "Raja Ampat",
+        "state": "Papua Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 3000000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "12:00",
+      "place": "Bandar Udara Marinda",
+      "location": {
+        "city": "Raja Ampat",
+        "state": "Papua Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 2700000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "14:00",
+      "place": "Bandar Udara Marinda",
+      "location": {
+        "city": "Raja Ampat",
+        "state": "Papua Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 2200000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "12:00",
+      "place": "Bandar Udara Marinda",
+      "location": {
+        "city": "Raja Ampat",
+        "state": "Papua Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 1900000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:30",
+      "place": "Bandar Udara Dewadaru",
+      "location": {
+        "city": "Jepara",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1500000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Dewadaru",
+      "location": {
+        "city": "Jepara",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1000000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:30",
+      "place": "Bandar Udara Dewadaru",
+      "location": {
+        "city": "Jepara",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 1400000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Dewadaru",
+      "location": {
+        "city": "Jepara",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 1500000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Bandar Udara Radin Inten",
+      "location": {
+        "city": "Lampung Selatan",
+        "state": "Lampung",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1150000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:00",
+      "place": "Bandar Udara Radin Inten",
+      "location": {
+        "city": "Lampung Selatan",
+        "state": "Lampung",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1200000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:00",
+      "place": "Bandar Udara Radin Inten",
+      "location": {
+        "city": "Lampung Selatan",
+        "state": "Lampung",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 1000000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:00",
+      "place": "Bandar Udara Radin Inten",
+      "location": {
+        "city": "Lampung Selatan",
+        "state": "Lampung",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 2500000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "11:30",
+      "place": "Bandar Udara Internasional Sam Ratulangi",
+      "location": {
+        "city": "Manado",
+        "state": "Sulawesi Utara",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1850000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:30",
+      "place": "Bandar Udara Internasional Sam Ratulangi",
+      "location": {
+        "city": "Manado",
+        "state": "Sulawesi Utara",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1500000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "12:30",
+      "place": "Bandar Udara Internasional Sam Ratulangi",
+      "location": {
+        "city": "Manado",
+        "state": "Sulawesi Utara",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 1750000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:30",
+      "place": "Bandar Udara Internasional Sam Ratulangi",
+      "location": {
+        "city": "Manado",
+        "state": "Sulawesi Utara",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 1500000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "11:00",
+      "place": "Bandar Udara Raden Sadjad Airport",
+      "location": {
+        "city": "Natuna",
+        "state": "Kepulauan Riau",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1200000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:00",
+      "place": "Bandar Udara Raden Sadjad Airport",
+      "location": {
+        "city": "Natuna",
+        "state": "Kepulauan Riau",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1300000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "12:00",
+      "place": "Bandar Udara Raden Sadjad Airport",
+      "location": {
+        "city": "Natuna",
+        "state": "Kepulauan Riau",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 990000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:00",
+      "place": "Bandar Udara Raden Sadjad Airport",
+      "location": {
+        "city": "Natuna",
+        "state": "Kepulauan Riau",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 3000000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "11:00",
+      "place": "Bandar Udara Djalaluddin",
+      "location": {
+        "city": "Gorontalo",
+        "state": "Gorontalo",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 2000000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:00",
+      "place": "Bandar Udara Djalaluddin",
+      "location": {
+        "city": "Gorontalo",
+        "state": "Gorontalo",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1500000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "12:00",
+      "place": "Bandar Udara Djalaluddin",
+      "location": {
+        "city": "Gorontalo",
+        "state": "Gorontalo",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 1500000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:00",
+      "place": "Bandar Udara Djalaluddin",
+      "location": {
+        "city": "Gorontalo",
+        "state": "Gorontalo",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 1200000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Abdul Rachman Saleh",
+      "location": {
+        "city": "Malang",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "Arimbi",
+    "price": 100000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Sidoarjo",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:00",
+      "place": "Terminal Malang",
+      "location": {
+        "city": "Malang",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 300000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:30",
+      "place": "Bandar Udara Abdul Rachman Saleh",
+      "location": {
+        "city": "Malang",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 800000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Abdul Rachman Saleh",
+      "location": {
+        "city": "Malang",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 1400000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Adisutjipto",
+      "location": {
+        "city": "Sleman",
+        "state": "Daerah Istimewa Yogyakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1000000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Adisutjipto",
+      "location": {
+        "city": "Sleman",
+        "state": "Daerah Istimewa Yogyakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "Rosalia Indah",
+    "price": 100000,
+    "departure": {
+      "time": "07:30",
+      "place": "Terminal Terboyo",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:30",
+      "place": "Terminal Sleman",
+      "location": {
+        "city": "Sleman",
+        "state": "Daerah Istimewa Yogyakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 850000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:30",
+      "place": "Bandar Udara Adisutjipto",
+      "location": {
+        "city": "Sleman",
+        "state": "Daerah Istimewa Yogyakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Boat",
+    "company": "Selayar Indonesia",
+    "price": 50000,
+    "departure": {
+      "time": "08:00",
+      "place": "Pelabuhan Muara Angke",
+      "location": {
+        "city": "Jakarta Utara",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Pelabuhan Pulau Seribu",
+      "location": {
+        "city": "Kepulauan Seribu",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1200000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:30",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1500000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:30",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "Primajasa",
+    "price": 100000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Leuwipanjang",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Terminal Kalideres",
+      "location": {
+        "city": "Jakarta Barat",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Boat",
+    "company": "Samudera Indonesia",
+    "price": 40000,
+    "departure": {
+      "time": "08:00",
+      "place": "Pelabuhan Muara Angke",
+      "location": {
+        "city": "Jakarta Utara",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Pelabuhan Pulau Harapan",
+      "location": {
+        "city": "Kepulauan Seribu",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1200000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:30",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Sriwijaya Air",
+    "price": 1500000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:30",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "Karunia Bakti",
+    "price": 100000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Leuwipanjang",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Terminal Kalideres",
+      "location": {
+        "city": "Jakarta Barat",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 1500000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Bandar Udara Nusawiru Cijulang",
+      "location": {
+        "city": "Pangandaran",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1100000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:30",
+      "place": "Bandar Udara Nusawiru Cijulang",
+      "location": {
+        "city": "Pangandaran",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1200000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "10:30",
+      "place": "Bandar Udara Nusawiru Cijulang",
+      "location": {
+        "city": "Pangandaran",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "AirAsia",
+    "price": 800000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "08:00",
+      "place": "Bandar Udara Nusawiru Cijulang",
+      "location": {
+        "city": "Pangandaran",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Super Air Jet",
+    "price": 1200000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Nam Air",
+    "price": 900000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Sriwijaya Air",
+    "price": 950000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Airfast",
+    "price": 800000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Emirates",
+    "price": 1200000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "MY Indo Airlines",
+    "price": 900000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "All Nippon Airways",
+    "price": 950000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Rimbun Air",
+    "price": 800000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Indigo Airlines",
+    "price": 1200000,
+    "departure": {
+      "time": "08:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "AirAsia",
+    "company": "MY Indo Airlines",
+    "price": 900000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Cathay Pacific",
+    "price": 950000,
+    "departure": {
+      "time": "07:30",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:30",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Garuda Indonesia",
+    "price": 800000,
+    "departure": {
+      "time": "07:00",
+      "place": "Bandar Udara Internasional Husein Sastranegara",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Ngurah Rai International Airport",
+      "location": {
+        "city": "Badung",
+        "state": "Bali",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Boat",
+    "company": "Pelni",
+    "price": 35000,
+    "departure": {
+      "time": "08:00",
+      "place": "Pelabuhan Merak",
+      "location": {
+        "city": "Jakarta Utara",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Pelabuhan Pulau Tidung",
+      "location": {
+        "city": "Kepulauan Seribu",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Lion Air",
+    "price": 1200000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Citilink",
+    "price": 1300000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "Setia Negara",
+    "price": 120000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Leuwipanjang",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Terminal Kalideres",
+      "location": {
+        "city": "Jakarta Barat",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Boat",
+    "company": "Pelayar Indonesia",
+    "price": 35000,
+    "departure": {
+      "time": "08:00",
+      "place": "Pelabuhan Merak",
+      "location": {
+        "city": "Jakarta Utara",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Pelabuhan Pulau Pramuka",
+      "location": {
+        "city": "Kepulauan Seribu",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Adam Air",
+    "price": 1200000,
+    "departure": {
+      "time": "07:00",
+      "place": "Juanda International Airport",
+      "location": {
+        "city": "Sidoarjo",
+        "state": "Jawa Timur",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Aircraft",
+    "company": "Nam Air",
+    "price": 1300000,
+    "departure": {
+      "time": "09:00",
+      "place": "Bandar Udara Jenderal Ahmad Yani",
+      "location": {
+        "city": "Semarang",
+        "state": "Jawa Tengah",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Soekarno-Hatta International Airport",
+      "location": {
+        "city": "Tangerang",
+        "state": "Banten",
+        "country": "Indonesia"
+      }
+    }
+  },
+  {
+    "type": "Bus",
+    "company": "PO Haryanti",
+    "price": 120000,
+    "departure": {
+      "time": "07:00",
+      "place": "Terminal Leuwipanjang",
+      "location": {
+        "city": "Bandung",
+        "state": "Jawa Barat",
+        "country": "Indonesia"
+      }
+    },
+    "arrival": {
+      "time": "09:00",
+      "place": "Terminal Kalideres",
+      "location": {
+        "city": "Jakarta Barat",
+        "state": "DKI Jakarta",
+        "country": "Indonesia"
+      }
+    }
+  }
+]

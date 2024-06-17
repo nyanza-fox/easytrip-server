@@ -8,7 +8,8 @@
   "main": "src/server.js",
   "scripts": {
     "start": "tsc && node dist/server.js",
-    "dev": "nodemon src/server.ts"
+    "dev": "nodemon src/server.ts",
+    "migrate": "ts-node mocks/migrate.ts --down && ts-node mocks/migrate.ts --up"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

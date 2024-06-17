@@ -1,6 +1,7 @@
 import { InsertOneResult, ObjectId, UpdateResult } from 'mongodb';
 
 import { db } from '../lib/mongodb';
+import redis from '../lib/redis';
 
 import type { Order, OrderInput } from '../types/order';
 import type { BaseResponse } from '../types/response';
@@ -19,14 +20,38 @@ type OrderModel = {
 
 const orderModel: OrderModel = {
   findAll: async () => {
+    const ordersCache = await redis.get('orders');
+
+    if (ordersCache) {
+      return JSON.parse(ordersCache) as Order[];
+    }
+
     const orders = (await db.collection('orders').find().toArray()) as Order[];
+
+    await redis.set('orders', JSON.stringify(orders));
 
     return orders;
   },
-  findAllWithPagination: async (_search: string = '', page: number = 1, limit: number = 10) => {
+  findAllWithPagination: async (search: string = '', page: number = 1, limit: number = 10) => {
+    if (!search) {
+      const ordersWithPaginationCache = await redis.get(`orders:${page}:${limit}`);
+
+      if (ordersWithPaginationCache) {
+        return JSON.parse(ordersWithPaginationCache) as Pick<
+          BaseResponse<Order[]>,
+          'data' | 'pagination'
+        >;
+      }
+    }
+
     const orders = (await db
       .collection('orders')
       .aggregate([
+        {
+          $match: {
+            userId: { $regex: search, $options: 'i' },
+          },
+        },
         {
           $sort: { createdAt: -1 },
         },
@@ -39,9 +64,11 @@ const orderModel: OrderModel = {
       ])
       .toArray()) as Order[];
 
-    const count = await db.collection('orders').countDocuments();
+    const count = await db.collection('orders').countDocuments({
+      userId: { $regex: search, $options: 'i' },
+    });
 
-    return {
+    const result = {
       data: orders,
       pagination: {
         totalData: count,
@@ -51,6 +78,12 @@ const orderModel: OrderModel = {
         prevPage: page > 1 ? page - 1 : null,
       },
     };
+
+    if (!search) {
+      await redis.set(`orders:${page}:${limit}`, JSON.stringify(result));
+    }
+
+    return result;
   },
   findById: async (id: string) => {
     const order = (await db
@@ -67,12 +100,24 @@ const orderModel: OrderModel = {
       updatedAt: new Date(),
     });
 
+    const caches = await redis.keys('orders*');
+
+    if (!!caches.length) {
+      await redis.del(caches);
+    }
+
     return result;
   },
   updateStatus: async (id: string, status: string) => {
     const result = await db
       .collection('orders')
       .updateOne({ _id: ObjectId.createFromHexString(id) }, { $set: { status } });
+
+    const caches = await redis.keys('orders*');
+
+    if (!!caches.length) {
+      await redis.del(caches);
+    }
 
     return result;
   },

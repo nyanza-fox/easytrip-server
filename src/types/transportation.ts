@@ -8,12 +8,12 @@ export type Transportation = {
   company: string;
   price: number;
   departure: {
-    time: Date;
+    time: string;
     place: string;
     location: Location;
   };
   arrival: {
-    time: Date;
+    time: string;
     place: string;
     location: Location;
   };

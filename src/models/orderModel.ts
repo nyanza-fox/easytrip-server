@@ -74,6 +74,7 @@ const orderModel: OrderModel = {
     return result;
   },
   updateStatus: async (id: string, status: string) => {
+    console.log(id, status, "77");
     const result = await db
       .collection("orders")
       .updateOne(

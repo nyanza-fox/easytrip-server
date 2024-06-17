@@ -12,10 +12,7 @@ router.get(
 );
 router.get("/:id", authMiddleware.authN, orderController.getOrderById);
 router.get("/me", authMiddleware.authN, orderController.getOrderByUserId);
-router.post(
-  "/checkout",
-  authMiddleware.authN,
-  orderController.createOrderAndPayment
-);
+router.post("/checkout", orderController.createOrderAndPayment);
+router.post("/updateStatus", orderController.updateStatus);
 
 export default router;

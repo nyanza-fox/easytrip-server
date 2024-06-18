@@ -24,7 +24,7 @@ export type Itinerary = {
 };
 
 export type Package = {
-  type: 'affordable' | 'standard' | 'luxury';
+  type: 'budget' | 'standard' | 'luxury';
   transportations: Transportation[];
   destination: Destination | null;
   accommodation: Accommodation | null;
@@ -34,4 +34,4 @@ export type Package = {
   totalPrice: number;
 };
 
-export type OrderInput = Omit<Order, '_id' | 'status' | 'createdAt' | 'updatedAt'>;
+export type OrderInput = Pick<Order, 'userId' | 'itinerary' | 'package'>;

@@ -1587,7 +1587,7 @@
     }
   },
   {
-    "type": "AirAsia",
+    "type": "Aircraft",
     "company": "MY Indo Airlines",
     "price": 900000,
     "departure": {
@@ -1807,7 +1807,7 @@
       }
     },
     "arrival": {
-      "time": "09:00",
+      "time": "10:00",
       "place": "Soekarno-Hatta International Airport",
       "location": {
         "city": "Tangerang",

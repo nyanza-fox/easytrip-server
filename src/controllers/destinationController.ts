@@ -151,7 +151,7 @@ const destinationController = {
         },
         {
           role: 'assistant',
-          content: '{ "destinations": [{ "_id": "6669ccfb0350123b1e81f4d3"}] }',
+          content: '{ "destinations": [{ "_id": "6670c19aeb224ec4d2a38537"}] }',
         },
         {
           role: 'user',
@@ -258,12 +258,12 @@ const destinationController = {
         {
           role: 'user',
           content:
-            'Generate 3 travel packages (budget, standard, and luxury), depart from Jakarta with a total of 2 guest(s) to this destination: { "_id": "6669ccfb0350123b1e81f4d3", "location": { "city": "Kabupaten Klungkung", "state": "Bali", "country": "Indonesia" } }',
+            'Generate 3 travel packages (budget, standard, and luxury), depart from Jakarta with a total of 2 guest(s) to this destination: { "_id": "6670c19aeb224ec4d2a38537", "location": { "city": "Klungkung", "state": "Bali", "country": "Indonesia" } }',
         },
         {
           role: 'assistant',
           content:
-            '{ "packages": [{ "type": "budget", "destinationId": "6669ccfb0350123b1e81f4d3", "accommodationId": "666aa09d0e06b003d6116341", "guideId": "666ab4b30e06b003d611636c", "transportationsId": ["666b0b3b0e06b003d61163a1", "666b0b3b0e06b003d61163a2"] }, { "type": "standard", "destinationId": "6669ccfb0350123b1e81f4d3", "accommodationId": "666aa09d0e06b003d6116340", "guideId": "666ab4b30e06b003d611636a", "transportationsId": ["666b0b3b0e06b003d61163a1", "666b0b3b0e06b003d61163a2"] }, { "type": "luxury", "destinationId": "6669ccfb0350123b1e81f4d3", "accommodationId": "666aa09d0e06b003d6116342", "guideId": "666ab4b30e06b003d611636b", "transportationsId": ["666b0b3b0e06b003d61163a1", "666b0b3b0e06b003d61163a2"] }] }',
+            '{ "packages": [{ "type": "budget", "destinationId": "6670c19aeb224ec4d2a38537", "accommodationId": "6670c19aeb224ec4d2a3852a", "guideId": "6670c19beb224ec4d2a3857a", "transportationsId": ["6670c19beb224ec4d2a38587", "6670c19beb224ec4d2a385d7"] }, { "type": "standard", "destinationId": "6670c19aeb224ec4d2a38529", "accommodationId": "666fc3161e52ad3c2a397a60", "guideId": "6670c19beb224ec4d2a3854b", "transportationsId": ["6670c19beb224ec4d2a38587", "6670c19beb224ec4d2a385d7"] }, { "type": "luxury", "destinationId": "6670c19aeb224ec4d2a38537", "accommodationId": "6670c19aeb224ec4d2a3852e", "guideId": "6670c19beb224ec4d2a38579", "transportationsId": ["6670c19beb224ec4d2a38587", "6670c19beb224ec4d2a385d7"] }] }',
         },
         {
           role: 'user',
@@ -296,7 +296,7 @@ const destinationController = {
       );
 
       // Calculate the total days of the trip based on the start date and end date.
-      const totalDays = new Date(endDate).getDate() - new Date(startDate).getDate();
+      const totalDays = new Date(endDate).getDate() - new Date(startDate).getDate() + 1 || 1;
 
       // Add the total guests, totalDays, and total price to each package.
       const data = packages.map((pack) => ({
@@ -348,7 +348,7 @@ const destinationController = {
         {
           role: 'user',
           content:
-            'Make the itinerary for a trip from "2023-12-01" to "2023-12-03" at this destination: { "_id": "6669ccfb0350123b1e81f4d3", "name": "Nusa Penida", "description": "Nusa Penida, an island located southeast of Bali in Indonesia, is renowned for its stunning natural beauty, unique landscapes, and vibrant marine life.", "attractions": ["Kelingking Beach", "Goa Giri Putri Temple", "Angel\'s Billabong", "Tembeling Beach and Forest", "Crystal Bay"], "location": { "city": "Kabupaten Klungkung", "state": "Bali", "country": "Indonesia" } }',
+            'Make the itinerary for a trip from "2023-12-01" to "2023-12-03" at this destination: { "_id": "6670c19aeb224ec4d2a38537", "name": "Nusa Penida", "description": "Nusa Penida, an island located southeast of Bali in Indonesia, is renowned for its stunning natural beauty, unique landscapes, and vibrant marine life.", "attractions": ["Kelingking Beach", "Goa Giri Putri Temple", "Angel\'s Billabong", "Tembeling Beach and Forest", "Crystal Bay"], "location": { "city": "Kabupaten Klungkung", "state": "Bali", "country": "Indonesia" } }',
         },
         {
           role: 'assistant',
@@ -365,6 +365,7 @@ const destinationController = {
               attractions: destination.attractions,
               location: {
                 city: destination.location.city,
+                state: destination.location.state,
                 country: destination.location.country,
               },
             }

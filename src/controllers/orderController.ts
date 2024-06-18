@@ -1,28 +1,24 @@
-import { NextFunction } from "express";
-import orderModel from "../models/orderModel";
-import type { CustomRequest, CustomResponse } from "../types/express";
-import { ObjectId } from "mongodb";
-import { OrderInput } from "../types/order";
-import stripe from "../lib/stripe";
+import { NextFunction } from 'express';
+
+import orderModel from '../models/orderModel';
+import stripe from '../lib/stripe';
+
+import type { CustomRequest, CustomResponse } from '../types/express';
 
 const orderController = {
-  getAllOrders: async (
-    req: CustomRequest,
-    res: CustomResponse,
-    next: NextFunction
-  ) => {
+  getAllOrders: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { search, page, limit } = req.query;
 
       const { data, pagination } = await orderModel.findAllWithPagination(
-        search?.toString() || "",
+        search?.toString() || '',
         Number(page || 1),
         Number(limit || 10)
       );
 
       res.status(200).json({
         statusCode: 200,
-        message: "Orders retrieved successfully",
+        message: 'Orders retrieved successfully',
         data,
         pagination,
       });
@@ -30,11 +26,7 @@ const orderController = {
       next(error);
     }
   },
-  getOrderById: async (
-    req: CustomRequest,
-    res: CustomResponse,
-    next: NextFunction
-  ) => {
+  getOrderById: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
       const { id } = req.params;
 
@@ -43,88 +35,85 @@ const orderController = {
       if (!order) {
         return next({
           statusCode: 404,
-          name: "Not Found",
-          message: "Order not found",
+          name: 'Not Found',
+          message: 'Order not found',
         });
       }
 
       res.status(200).json({
         statusCode: 200,
-        message: "Order retrieved successfully",
+        message: 'Order retrieved successfully',
         data: order,
       });
     } catch (error) {
       next(error);
     }
   },
-  getOrderByUserId: async (
-    req: CustomRequest,
-    res: CustomResponse,
-    next: NextFunction
-  ) => {
+  createOrderAndPayment: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
-      res.status(200).json({
-        statusCode: 200,
-        message: "Order retrieved successfully",
-        // data: order,
-      });
-    } catch (error) {
-      next(error);
-    }
-  },
+      const userId = req.user?.id || '';
 
-  createOrderAndPayment: async (
-    req: CustomRequest,
-    res: CustomResponse,
-    next: NextFunction
-  ) => {
-    try {
-      const data: OrderInput = req.body;
-      data.userId = new ObjectId("6669d6aae384c5bf46d885cb");
-      const order = await orderModel.create(data);
+      const result = await orderModel.create({ ...req.body, userId });
+      const order = await orderModel.findById(result.insertedId.toHexString());
+
       if (!order) {
-        return;
+        return next({
+          statusCode: 404,
+          name: 'Not Found',
+          message: 'Order not found',
+        });
       }
-      const guide = await orderModel.findById(order.insertedId.toHexString());
-      const priceIDR: any = guide?.package.totalPrice;
+
       const session = await stripe.checkout.sessions.create({
-        payment_method_types: ["card"],
+        payment_method_types: ['card'],
         line_items: [
           {
             price_data: {
-              currency: "usd",
+              currency: 'IDR',
               product_data: {
-                name: "Paket Liburan",
+                name: `${
+                  order.package.type.charAt(0).toUpperCase() + order.package.type.slice(1)
+                } Package`,
+                images: [order.package.destination?.images[0] || ''],
               },
-              unit_amount: 3 * 100,
+              unit_amount: order.package.totalPrice * 100,
             },
             quantity: 1,
           },
         ],
-        mode: "payment",
-        success_url: `http://localhost:3000/complete?session_id=${order.insertedId}`,
-        cancel_url: `http://localhost:3000/cancel?session_id=${order.insertedId}`,
+        mode: 'payment',
+        success_url: `http://localhost:3000/complete?session_id=${order?._id.toHexString()}`,
+        cancel_url: `http://localhost:3000/cancel?session_id=${order?._id.toHexString()}`,
       });
+
       res.status(200).json({
         statusCode: 200,
-        message: "Order retrieved successfully",
+        message: 'Order created successfully',
         data: session.url,
       });
     } catch (error) {
       next(error);
     }
   },
-  updateStatus: async (
-    req: CustomRequest,
-    res: CustomResponse,
-    next: NextFunction
-  ) => {
+  updateOrderStatus: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
     try {
-      const data = req.body;
-      const order = await orderModel.updateStatus(data.id, data.status);
-      if (!order) {
-        return;
+      const { id } = req.params;
+      const { status } = req.body;
+
+      const result = await orderModel.updateStatus(id, status);
+
+      if (!result.modifiedCount) {
+        return next({
+          statusCode: 404,
+          name: 'Not Found',
+          message: 'Order not found',
+        });
       }
+
+      res.status(200).json({
+        statusCode: 200,
+        message: 'Order status updated successfully',
+      });
     } catch (error) {
       next(error);
     }

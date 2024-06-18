@@ -13,6 +13,7 @@ type OrderModel = {
     page?: number,
     limit?: number
   ) => Promise<Pick<BaseResponse<Order[]>, 'data' | 'pagination'>>;
+  findAllByUserId: (userId: string) => Promise<Order[]>;
   findById: (id: string) => Promise<Order | null>;
   create: (payload: OrderInput) => Promise<InsertOneResult>;
   updateStatus: (id: string, status: string) => Promise<UpdateResult>;
@@ -84,6 +85,11 @@ const orderModel: OrderModel = {
     }
 
     return result;
+  },
+  findAllByUserId: async (userId: string) => {
+    const orders = (await db.collection('orders').find({ userId }).toArray()) as Order[];
+
+    return orders;
   },
   findById: async (id: string) => {
     const order = (await db

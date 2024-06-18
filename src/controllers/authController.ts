@@ -57,8 +57,8 @@ const authController = {
         role: user.role,
       });
 
-      res.status(201).json({
-        statusCode: 201,
+      res.status(200).json({
+        statusCode: 200,
         message: 'Logged in successfully',
         data: {
           token,
@@ -123,7 +123,7 @@ const authController = {
         role: user?.role,
       });
 
-      res.status(201).json({
+      res.status(200).json({
         statusCode: 200,
         message: 'Logged in successfully',
         data: {

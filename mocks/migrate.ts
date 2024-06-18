@@ -7,11 +7,13 @@ import accommodationModel from '../src/models/accommodationModel';
 import destinationModel from '../src/models/destinationModel';
 import guideModel from '../src/models/guideModel';
 import transportationModel from '../src/models/transportationModel';
+// import userModel from '../src/models/userModel';
 
 import accommodations from './accommodations.json';
 import destinations from './destinations.json';
 import guides from './guides.json';
 import transportations from './transportations.json';
+// import users from './users.json'
 
 mongodb
   .connect()
@@ -28,6 +30,7 @@ const up = async () => {
     await destinationModel.createMany(destinations);
     await guideModel.createMany(guides);
     await transportationModel.createMany(transportations);
+    // await userModel.createMany(users);
 
     console.log('Data inserted successfully! 🚀');
   } catch (error) {

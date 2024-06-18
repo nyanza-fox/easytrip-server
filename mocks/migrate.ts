@@ -7,13 +7,13 @@ import accommodationModel from '../src/models/accommodationModel';
 import destinationModel from '../src/models/destinationModel';
 import guideModel from '../src/models/guideModel';
 import transportationModel from '../src/models/transportationModel';
-// import userModel from '../src/models/userModel';
+import userModel from '../src/models/userModel';
 
 import accommodations from './accommodations.json';
 import destinations from './destinations.json';
 import guides from './guides.json';
 import transportations from './transportations.json';
-// import users from './users.json'
+import users from './users.json';
 
 mongodb
   .connect()
@@ -30,7 +30,7 @@ const up = async () => {
     await destinationModel.createMany(destinations);
     await guideModel.createMany(guides);
     await transportationModel.createMany(transportations);
-    // await userModel.createMany(users);
+    await userModel.createMany(users);
 
     console.log('Data inserted successfully! 🚀');
   } catch (error) {
@@ -46,6 +46,7 @@ const down = async () => {
     await destinationModel.deleteMany();
     await guideModel.deleteMany();
     await transportationModel.deleteMany();
+    await userModel.deleteMany();
 
     console.log('Data deleted successfully! 🚀');
   } catch (error) {

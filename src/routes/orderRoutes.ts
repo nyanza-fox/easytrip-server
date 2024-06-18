@@ -11,7 +11,12 @@ router.get(
   authMiddleware.authZ(['admin']),
   orderController.getAllOrders
 );
-router.get('/:id', authMiddleware.authN, orderController.getOrderById);
+router.get(
+  '/:id',
+  authMiddleware.authN,
+  authMiddleware.authZ(['admin']),
+  orderController.getOrderById
+);
 router.post('/checkout', authMiddleware.authN, orderController.createOrderAndPayment);
 router.patch('/:id/status', authMiddleware.authN, orderController.updateOrderStatus);
 

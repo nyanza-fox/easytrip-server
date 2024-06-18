@@ -82,8 +82,12 @@ const orderController = {
           },
         ],
         mode: 'payment',
-        success_url: `${process.env.STRIPE_SUCCESS_URL}?session_id=${order?._id.toHexString()}`,
-        cancel_url: `${process.env.STRIPE_CANCEL_URL}?session_id=${order?._id.toHexString()}`,
+        success_url: `${
+          process.env.CLIENT_URL
+        }/callback/orders/success?sessionId=${order?._id.toHexString()}`,
+        cancel_url: `${
+          process.env.CLIENT_URL
+        }/callback/orders/cancel?sessionId=${order?._id.toHexString()}`,
       });
 
       res.status(200).json({

@@ -4,10 +4,12 @@ import type { Accommodation } from './accommodation';
 import type { Destination } from './destination';
 import type { Guide } from './guide';
 import type { Transportation } from './transportation';
+import type { User } from './user';
 
 export type Order = {
   _id: ObjectId;
   userId: ObjectId;
+  user: Omit<User, 'password'>;
   status: 'pending' | 'completed' | 'cancelled';
   itinerary: Itinerary[];
   package: Package;

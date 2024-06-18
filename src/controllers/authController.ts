@@ -1,7 +1,7 @@
 import { NextFunction } from 'express';
 import { OAuth2Client } from 'google-auth-library';
 
-import { compareStr, hashStr } from '../lib/bcrypt';
+import { compareStr } from '../lib/bcrypt';
 import { generateToken } from '../lib/jwt';
 import userModel from '../models/userModel';
 
@@ -22,8 +22,6 @@ const authController = {
           message: 'Email already exists',
         });
       }
-
-      payload.password = await hashStr(payload.password);
 
       const result = await userModel.create(payload);
       const user = await userModel.findById(result.insertedId.toHexString());
@@ -131,6 +129,63 @@ const authController = {
           role: user?.role,
         },
       });
+    } catch (err) {
+      next(err);
+    }
+  },
+  facebook: async (_req: CustomRequest, res: CustomResponse, next: NextFunction) => {
+    try {
+      const url = `https://www.facebook.com/v13.0/dialog/oauth?client_id=${process.env.FACEBOOK_APP_ID}&redirect_uri=${process.env.FACEBOOK_REDIRECT_URI}&scope=email`;
+      res.redirect(url);
+    } catch (err) {
+      next(err);
+    }
+  },
+  facebookCallback: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
+    try {
+      const { code } = req.query;
+
+      if (!code) {
+        return next({
+          statusCode: 400,
+          name: 'Bad Request',
+          message: 'Code is required',
+        });
+      }
+
+      const response = await fetch(
+        `https://graph.facebook.com/v13.0/oauth/access_token?client_id=${process.env.FACEBOOK_APP_ID}&redirect_uri=${process.env.FACEBOOK_REDIRECT_URI}&client_secret=${process.env.FACEBOOK_APP_SECRET}&code=${code}`
+      );
+      const data = await response.json();
+
+      const userResponse = await fetch(
+        `https://graph.facebook.com/me?fields=id,name,email,picture&access_token=${data.access_token}`
+      );
+      const user = await userResponse.json();
+
+      let userDoc = await userModel.findByEmail(user.email);
+
+      if (!userDoc) {
+        const result = await userModel.create({
+          email: user.email,
+          password: Math.random().toString(36).substring(7),
+          profile: {
+            firstName: user.name.split(' ')[0],
+            lastName: user.name.slice(user.name.indexOf(' ') + 1),
+            image: user.picture.data.url,
+          },
+        });
+
+        userDoc = await userModel.findById(result.insertedId.toHexString());
+      }
+
+      const token = generateToken({
+        id: userDoc?._id,
+        email: userDoc?.email,
+        role: userDoc?.role,
+      });
+
+      res.redirect(`${process.env.CLIENT_URL}/callback/auth?token=${token}&role=${userDoc?.role}`);
     } catch (err) {
       next(err);
     }

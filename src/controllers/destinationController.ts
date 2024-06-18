@@ -7,7 +7,7 @@ import guideModel from '../models/guideModel';
 import transportationModel from '../models/transportationModel';
 
 import type { CustomRequest, CustomResponse } from '../types/express';
-import type { Itinerary, Package } from '../types/order';
+import type { Itinerary } from '../types/order';
 
 const destinationController = {
   getAllDestinations: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
@@ -131,7 +131,7 @@ const destinationController = {
         attractions: destination.attractions,
         price: destination.price,
         location: {
-          city: destination.location.city,
+          city: destination.location.city || '',
           country: destination.location.country,
         },
       }));
@@ -297,7 +297,7 @@ const destinationController = {
       // Calculate the total days of the trip based on the start date and end date.
       const totalDays = new Date(endDate).getDate() - new Date(startDate).getDate() + 1 || 1;
 
-      // Add the total guests, totalDays, and total price to each package, then sort the packages by total price.
+      // Add the total guests, totalDays, and total price to each package.
       const data = packages
         .map((pack) => ({
           ...pack,
@@ -308,7 +308,9 @@ const destinationController = {
             (pack.guide?.pricePerDay || 0) * totalDays +
             pack.transportations.reduce((acc, curr) => acc + (curr?.price || 0) * totalGuests, 0),
         }))
+        // Sort the packages based on the total price.
         .sort((a, b) => a.totalPrice - b.totalPrice)
+        // Add the type to each package based on the index.
         .map((pack, index) => ({
           ...pack,
           type: index === 0 ? 'budget' : index === 1 ? 'standard' : 'luxury',

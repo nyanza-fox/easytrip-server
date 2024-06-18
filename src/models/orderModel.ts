@@ -27,7 +27,27 @@ const orderModel: OrderModel = {
       return JSON.parse(ordersCache) as Order[];
     }
 
-    const orders = (await db.collection('orders').find().toArray()) as Order[];
+    const orders = (await db
+      .collection('orders')
+      .aggregate([
+        {
+          $lookup: {
+            from: 'users',
+            localField: 'userId',
+            foreignField: '_id',
+            as: 'user',
+          },
+        },
+        {
+          $unwind: '$user',
+        },
+        {
+          $project: {
+            'user.password': 0,
+          },
+        },
+      ])
+      .toArray()) as Order[];
 
     await redis.set('orders', JSON.stringify(orders));
 
@@ -62,6 +82,22 @@ const orderModel: OrderModel = {
         {
           $limit: limit,
         },
+        {
+          $lookup: {
+            from: 'users',
+            localField: 'userId',
+            foreignField: '_id',
+            as: 'user',
+          },
+        },
+        {
+          $unwind: '$user',
+        },
+        {
+          $project: {
+            'user.password': 0,
+          },
+        },
       ])
       .toArray()) as Order[];
 
@@ -87,14 +123,62 @@ const orderModel: OrderModel = {
     return result;
   },
   findAllByUserId: async (userId: string) => {
-    const orders = (await db.collection('orders').find({ userId }).toArray()) as Order[];
+    const orders = (await db
+      .collection('orders')
+      .aggregate([
+        {
+          $match: {
+            userId: ObjectId.createFromHexString(userId),
+          },
+        },
+        {
+          $lookup: {
+            from: 'users',
+            localField: 'userId',
+            foreignField: '_id',
+            as: 'user',
+          },
+        },
+        {
+          $unwind: '$user',
+        },
+        {
+          $project: {
+            'user.password': 0,
+          },
+        },
+      ])
+      .toArray()) as Order[];
 
     return orders;
   },
   findById: async (id: string) => {
     const order = (await db
       .collection('orders')
-      .findOne({ _id: ObjectId.createFromHexString(id) })) as Order | null;
+      .aggregate([
+        {
+          $match: {
+            _id: ObjectId.createFromHexString(id),
+          },
+        },
+        {
+          $lookup: {
+            from: 'users',
+            localField: 'userId',
+            foreignField: '_id',
+            as: 'user',
+          },
+        },
+        {
+          $unwind: '$user',
+        },
+        {
+          $project: {
+            'user.password': 0,
+          },
+        },
+      ])
+      .next()) as Order | null;
 
     return order;
   },

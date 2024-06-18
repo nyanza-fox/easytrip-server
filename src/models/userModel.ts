@@ -1,10 +1,11 @@
-import { InsertOneResult, ObjectId, UpdateResult } from 'mongodb';
+import { InsertManyResult, InsertOneResult, ObjectId, UpdateResult } from 'mongodb';
 
 import { db } from '../lib/mongodb';
 import redis from '../lib/redis';
 
 import type { BaseResponse } from '../types/response';
 import type { Profile, User, UserInput } from '../types/user';
+import { hashStr } from '../lib/bcrypt';
 
 type UserModel = {
   findAll: () => Promise<User[]>;
@@ -16,6 +17,7 @@ type UserModel = {
   findById: (id: string) => Promise<User | null>;
   findByEmail: (email: string) => Promise<User | null>;
   create: (payload: UserInput) => Promise<InsertOneResult>;
+  createMany: (payload: UserInput[]) => Promise<InsertManyResult>;
   updateProfile: (id: string, profile: Profile) => Promise<UpdateResult>;
 };
 
@@ -112,6 +114,27 @@ const userModel: UserModel = {
       createdAt: new Date(),
       updatedAt: new Date(),
     });
+
+    const caches = await redis.keys('users*');
+
+    if (!!caches.length) {
+      await redis.del(caches);
+    }
+
+    return result;
+  },
+  createMany: async (payload: UserInput[]) => {
+    const result = await db.collection('users').insertMany(
+      await Promise.all(
+        payload.map(async (user) => ({
+          ...user,
+          // role: 'user',
+          password: await hashStr(user.password),
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        }))
+      )
+    );
 
     const caches = await redis.keys('users*');
 

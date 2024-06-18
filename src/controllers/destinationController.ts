@@ -238,36 +238,36 @@ const destinationController = {
 
       // Generate travel packages based on the selected destination.
       const completion: {
-        packages: (Pick<Package, 'type'> & {
+        packages: {
           destinationId: string;
           accommodationId: string;
           guideId: string;
           transportationsId: string[];
-        })[];
+        }[];
       } = await chatCompletion([
         {
           role: 'system',
-          content: `You are a travel agent that helps users generate travel packages (budget, standard, and luxury) from the selected destination based on the rating or price of transportations, accommodations, and guides available in the database. First transportation must depart from the selected state and arrive in the destination's state. Second transportation must depart from the destination's state and arrive in the selected state. Accommodation and guide must be in the same city or state as the destination. Max guests of accommodation must be more than or equal to total guests. Choose transportations, accommodation, and guide that have the lowest rating or price for budget package, medium rating or price for standard package, and highest rating or price for luxury package. This is the list of transportations in the database: ${JSON.stringify(
+          content: `You are a travel agent that helps users generate 3 travel packages from the selected destination based on the rating or price of transportations, accommodations, and guides available in the database. First transportation must depart from the selected state and arrive in the destination's state. Second transportation must depart from the destination's state and arrive in the selected state. Accommodation and guide must be in the same city or state as the destination. Max guests of accommodation must be more than or equal to total guests. Choose transportations, accommodation, and guide that have the lowest rating or price for first package, medium rating or price for second package, and highest rating or price for third package. This is the list of transportations in the database: ${JSON.stringify(
             transportations
           )}. This is the list of accommodations in the database: ${JSON.stringify(
             accommodations
           )}. This is the list of guides in the database: ${JSON.stringify(
             guides
-          )}. Provide your answer in JSON structure like this: { "packages": [{ "type": "budget", "destinationId": "1", "accommodationId": "1", "guideId": "1", "transportationsId": ["1", "2"] }, { "type": "standard", "destinationId": "1", "accommodationId": "1", "guideId": "1", "transportationsId": ["1", "2"] }, { "type": "luxury", "destinationId": "1", "accommodationId": "1", "guideId": "1", "transportationsId": ["1", "2"] }] }`,
+          )}. Provide your answer in JSON structure like this: { "packages": [{ "destinationId": "1", "accommodationId": "1", "guideId": "1", "transportationsId": ["1", "2"] }, { "destinationId": "1", "accommodationId": "1", "guideId": "1", "transportationsId": ["1", "2"] }, { "destinationId": "1", "accommodationId": "1", "guideId": "1", "transportationsId": ["1", "2"] }] }`,
         },
         {
           role: 'user',
           content:
-            'Generate 3 travel packages (budget, standard, and luxury), depart from Jakarta with a total of 2 guest(s) to this destination: { "_id": "6671136255a13f10abee2517", "location": { "city": "Klungkung", "state": "Bali", "country": "Indonesia" } }',
+            'Generate 3 travel packages, depart from Jakarta with a total of 2 guest(s) to this destination: { "_id": "6671136255a13f10abee2517", "location": { "city": "Klungkung", "state": "Bali", "country": "Indonesia" } }',
         },
         {
           role: 'assistant',
           content:
-            '{ "packages": [{ "type": "budget", "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee250a", "guideId": "6671136355a13f10abee255a", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }, { "type": "standard", "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee2509", "guideId": "6671136355a13f10abee252b", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }, { "type": "luxury", "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee250e", "guideId": "6671136355a13f10abee2559", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }] }',
+            '{ "packages": [{ "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee250a", "guideId": "6671136355a13f10abee255a", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }, { "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee2509", "guideId": "6671136355a13f10abee252b", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }, { "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee250e", "guideId": "6671136355a13f10abee2559", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }] }',
         },
         {
           role: 'user',
-          content: `Generate 3 travel packages (budget, standard, and luxury), depart from ${departureState} with a total of ${totalGuests} guest(s) to this destination: ${JSON.stringify(
+          content: `Generate 3 travel packages, depart from ${departureState} with a total of ${totalGuests} guest(s) to this destination: ${JSON.stringify(
             {
               _id: destination._id,
               location: {
@@ -283,7 +283,6 @@ const destinationController = {
       // Get the accommodations, guides, and transportations based on the generated IDs.
       const packages = await Promise.all(
         completion.packages.map(async (pack) => ({
-          type: pack.type,
           destination,
           accommodation: await accommodationModel.findById(pack.accommodationId).catch(() => null),
           guide: await guideModel.findById(pack.guideId).catch(() => null),
@@ -298,16 +297,22 @@ const destinationController = {
       // Calculate the total days of the trip based on the start date and end date.
       const totalDays = new Date(endDate).getDate() - new Date(startDate).getDate() + 1 || 1;
 
-      // Add the total guests, totalDays, and total price to each package.
-      const data = packages.map((pack) => ({
-        ...pack,
-        totalGuests: +totalGuests,
-        totalDays,
-        totalPrice:
-          (pack.accommodation?.pricePerNight || 0) * totalDays +
-          (pack.guide?.pricePerDay || 0) * totalDays +
-          pack.transportations.reduce((acc, curr) => acc + (curr?.price || 0) * totalGuests, 0),
-      }));
+      // Add the total guests, totalDays, and total price to each package, then sort the packages by total price.
+      const data = packages
+        .map((pack) => ({
+          ...pack,
+          totalGuests: +totalGuests,
+          totalDays,
+          totalPrice:
+            (pack.accommodation?.pricePerNight || 0) * totalDays +
+            (pack.guide?.pricePerDay || 0) * totalDays +
+            pack.transportations.reduce((acc, curr) => acc + (curr?.price || 0) * totalGuests, 0),
+        }))
+        .sort((a, b) => a.totalPrice - b.totalPrice)
+        .map((pack, index) => ({
+          ...pack,
+          type: index === 0 ? 'budget' : index === 1 ? 'standard' : 'luxury',
+        }));
 
       res.status(200).json({
         statusCode: 200,

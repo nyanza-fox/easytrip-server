@@ -82,8 +82,8 @@ const orderController = {
           },
         ],
         mode: 'payment',
-        success_url: `http://localhost:3000/complete?session_id=${order?._id.toHexString()}`,
-        cancel_url: `http://localhost:3000/cancel?session_id=${order?._id.toHexString()}`,
+        success_url: `${process.env.STRIPE_SUCCESS_URL}?session_id=${order?._id.toHexString()}`,
+        cancel_url: `${process.env.STRIPE_CANCEL_URL}?session_id=${order?._id.toHexString()}`,
       });
 
       res.status(200).json({
@@ -110,9 +110,12 @@ const orderController = {
         });
       }
 
+      const order = await orderModel.findById(id);
+
       res.status(200).json({
         statusCode: 200,
         message: 'Order status updated successfully',
+        data: order,
       });
     } catch (error) {
       next(error);

@@ -146,12 +146,12 @@ const destinationController = {
         },
         {
           role: 'user',
-          content:
-            'Provide 1-6 destinations related to "suitable for family vacation and have a beach view".',
+          content: 'Provide 1-6 destinations related to "beach view".',
         },
         {
           role: 'assistant',
-          content: '{ "destinations": [{ "_id": "6670c19aeb224ec4d2a38537"}] }',
+          content:
+            '{ "destinations": [{ "_id": "6671136255a13f10abee2517"}, {"_id": "6671136255a13f10abee2519"}] }',
         },
         {
           role: 'user',
@@ -247,7 +247,7 @@ const destinationController = {
       } = await chatCompletion([
         {
           role: 'system',
-          content: `You are a travel agent that helps users generate travel packages (budget, standard, and luxury) from the selected destination based on the rating or price of transportations, accommodations, and guides available in the database. Transportation must depart from the selected state and arrive in the same state as the destination, and vice versa for return. Accommodation and guide must be in the same city or state as the destination. Max guests of accommodation must be more than or equal to total guests. Choose transportations, accommodation, and guide that have the lowest rating or price for budget package, medium rating or price for standard package, and highest rating or price for luxury package. This is the list of transportations in the database: ${JSON.stringify(
+          content: `You are a travel agent that helps users generate travel packages (budget, standard, and luxury) from the selected destination based on the rating or price of transportations, accommodations, and guides available in the database. First transportation must depart from the selected state and arrive in the destination's state. Second transportation must depart from the destination's state and arrive in the selected state. Accommodation and guide must be in the same city or state as the destination. Max guests of accommodation must be more than or equal to total guests. Choose transportations, accommodation, and guide that have the lowest rating or price for budget package, medium rating or price for standard package, and highest rating or price for luxury package. This is the list of transportations in the database: ${JSON.stringify(
             transportations
           )}. This is the list of accommodations in the database: ${JSON.stringify(
             accommodations
@@ -258,12 +258,12 @@ const destinationController = {
         {
           role: 'user',
           content:
-            'Generate 3 travel packages (budget, standard, and luxury), depart from Jakarta with a total of 2 guest(s) to this destination: { "_id": "6670c19aeb224ec4d2a38537", "location": { "city": "Klungkung", "state": "Bali", "country": "Indonesia" } }',
+            'Generate 3 travel packages (budget, standard, and luxury), depart from Jakarta with a total of 2 guest(s) to this destination: { "_id": "6671136255a13f10abee2517", "location": { "city": "Klungkung", "state": "Bali", "country": "Indonesia" } }',
         },
         {
           role: 'assistant',
           content:
-            '{ "packages": [{ "type": "budget", "destinationId": "6670c19aeb224ec4d2a38537", "accommodationId": "6670c19aeb224ec4d2a3852a", "guideId": "6670c19beb224ec4d2a3857a", "transportationsId": ["6670c19beb224ec4d2a38587", "6670c19beb224ec4d2a385d7"] }, { "type": "standard", "destinationId": "6670c19aeb224ec4d2a38529", "accommodationId": "666fc3161e52ad3c2a397a60", "guideId": "6670c19beb224ec4d2a3854b", "transportationsId": ["6670c19beb224ec4d2a38587", "6670c19beb224ec4d2a385d7"] }, { "type": "luxury", "destinationId": "6670c19aeb224ec4d2a38537", "accommodationId": "6670c19aeb224ec4d2a3852e", "guideId": "6670c19beb224ec4d2a38579", "transportationsId": ["6670c19beb224ec4d2a38587", "6670c19beb224ec4d2a385d7"] }] }',
+            '{ "packages": [{ "type": "budget", "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee250a", "guideId": "6671136355a13f10abee255a", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }, { "type": "standard", "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee2509", "guideId": "6671136355a13f10abee252b", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }, { "type": "luxury", "destinationId": "6671136255a13f10abee2517", "accommodationId": "6671136255a13f10abee250e", "guideId": "6671136355a13f10abee2559", "transportationsId": ["6671136355a13f10abee2567", "6671136355a13f10abee25af"] }] }',
         },
         {
           role: 'user',

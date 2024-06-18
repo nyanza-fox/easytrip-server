@@ -1,7 +1,7 @@
 [
   {
     "name": "Sundi Ocean Bungalow by ABM",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://cf.bstatic.com/xdata/images/hotel/max1024x768/235133690.jpg?k=44fbcc6080622a447ef145b6bb45054d13db46d92c08e1eb0bbf85a0bdcf175d&o=&hp=1",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20009170-bff21beaec4fdceefa5d8f5b6a5f1ba4.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Gayatri Bungalows Nusa Penida",
-    "type": "Guest House",
+    "type": "Guest Houses",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007534-db3fb2dced1b17a7e14d317864153eac.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007534-c965d4f5dcc94527eb1687184322aad3.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -65,7 +65,7 @@
   },
   {
     "name": "MAUA Nusa Penida Bali",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67822455-e064b52f61938a1c4eda7877d91a8f68.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67822455-0f21adef80906948e97414a3cc6d3035.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -103,8 +103,8 @@
     }
   },
   {
-    "name": "Cahaya Adrian Near Komodo Airport",
-    "type": "Hotel",
+    "name": "Cahaya Adrian Near Komodo Airport ",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10036197-768x1024-FIT_AND_TRIM-924ec04add58a6b13e33e9e9521ece4e.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10036197-780x1040-FIT_AND_TRIM-711329d0d26dda4149647253033e9397.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Sylvia Resort Komodo",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001940-9689a9645ad3cc7e34aa5c2fc0648be0.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001940-2722babf9b18261d733aa097fae98b43.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -171,8 +171,8 @@
     }
   },
   {
-    "name": "Meruorah Komodo Labuan Bajo",
-    "type": "Resort",
+    "name": "Meruorah Komodo Labuan Bajo ",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20028801-f368341db5bda83205105a5db20a9e6d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20028801-0af6bae6715a02abebd70620ad146175.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -213,7 +213,7 @@
   },
   {
     "name": "Rifalda Cottage",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10043010-d010a7090957d9ca0a73aa77caebc7c3.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10043010-51f9312c7d854edd1c42e5e84a4d43aa.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -237,7 +237,7 @@
   },
   {
     "name": "Meridian Adventure Marina Club & Resort Waisai",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-506ad32133a3a7890e74cacfc8fca8af.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-a5c80a89fc37ffc820a2fe673658103d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -280,7 +280,7 @@
   },
   {
     "name": "Raja Ampat Dive Lodge",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20016071-19abba669b2d60c79cc069325990867d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20016071-19abba669b2d60c79cc069325990867d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -317,7 +317,7 @@
   },
   {
     "name": "Pahawang Hill",
-    "type": "Villa",
+    "type": "Villas",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-5bd18d83ebc921f70c23f84bec4a8d43.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-10e29365780d7b52a01f9dea1e34b000.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -350,7 +350,7 @@
   },
   {
     "name": "La Nadiya Villa Pulau Pahawang",
-    "type": "Villa",
+    "type": "Villas",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-9d08dc538edfc84746f781625fbb0d2e.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-3ab6effda15ee0fe128b488e2045721b.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -391,7 +391,7 @@
   },
   {
     "name": "Andreas Resort Villa Air Pahawang",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipMX1PcuKT8dGCwMK_bVoxMY10XrvkQa5ArUrHkk=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/p/AF1QipM_dlrLrdLhvo9bOAy-XhNYjuIQFiLVBBXJo5k4=w287-h192-n-k-rw-no-v1",
@@ -428,7 +428,7 @@
   },
   {
     "name": "Natuna Dive Resort",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20057565-f1b38982d2455b7105ebe28a8d70ae2d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67799149-206a8792f968f59f6dc0812c0c4e2a44.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -466,7 +466,7 @@
   },
   {
     "name": "Adiwana Jelita Sejuba Natuna",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20057919-87eef5dbcb08c5b72307b576c0574b01.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67830945-3b08275a48242e04a24ad358862da585.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -501,7 +501,7 @@
   },
   {
     "name": "Hotel Natuna",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipNQ5M3d1TZRbHs85ZIzwCJ3FfSf0uYfhOGytYE=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/p/AF1QipMmg1renSk9hAxJ_xQ9ZvLKlYi5LkhM1iPmvpFv=w287-h192-n-k-rw-no-v1",
@@ -525,7 +525,7 @@
   },
   {
     "name": "Royal Ocean View Beach Resort Karimunjawa",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-47c29f87cf8a161ae74c5a45ccdaf679.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-76fc5dccf8c83ee87fbd6e7d39680303.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
@@ -570,7 +570,7 @@
   },
   {
     "name": "The Happinezz Hills Hotel",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-7caec428d5440bafc422eed5eb068159.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-f6b59f2d740f5a43aad77a62cc5087c9.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
@@ -611,7 +611,7 @@
   },
   {
     "name": "CasaVelion",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-2048x1152-FIT_AND_TRIM-d65f89fe7cc20652003fb6df66b24ac9.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-b09a6440f561f3941ebcc78ddc2f645a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
@@ -650,7 +650,7 @@
   },
   {
     "name": "Grand Luley Manado",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-c8d99e0994185820652dee652b2ff74c.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-02fdad1ca063cf824266e97852e2f2bd.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
@@ -697,7 +697,7 @@
   },
   {
     "name": "Bobocabin Bunaken Hills",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-412d4eb64735f13f99499336e5dbf086.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-366da9ba6b9d95a49d8eec9c7d599dd2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
@@ -733,7 +733,7 @@
   },
   {
     "name": "Ndc Resort",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/generic-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200i15000000xrfroA406_R_1080_808_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
       "https://ik.imagekit.io/tvlk/generic-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200q15000000xyeoc4328_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
@@ -769,7 +769,7 @@
   },
   {
     "name": "Pondok Santi Estate",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20023934-ab318c75a0b9adb5bc3f43c928c918aa.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20023934-02066f7f6a0eccc1c1c4908cb2298aa5.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
@@ -801,7 +801,7 @@
   },
   {
     "name": "Hotel Lumi Gili Trawangan",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20030542-be26b0e05895363efce35bede46f4762.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
       "https://ik.imagekit.io/tvlk/generic-asset/TzEv3ZUmG4-4Dz22hvmO9NUDzw1DGCIdWl4oPtKumOg=/lodging/42000000/41970000/41965500/41965414/4e94fcfd_z.jpg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
@@ -832,7 +832,7 @@
   },
   {
     "name": "Pesona Beach Resort & Spa",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020376-6bcd53feacf2216c27db8ca46168cb14.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
       "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67734188-3333x2222-FIT_AND_TRIM-83b59e431e85d2e9c3655303ef889a00.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
@@ -854,7 +854,7 @@
     }
   },
   {
-    "name": "Teras Seroja Villa",
+    "name": "Teras Seroja Villas",
     "type": "B&b",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680001766-fc9f1c109ed9f34a85a08983d356eea6.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
@@ -887,7 +887,7 @@
   },
   {
     "name": "Cozy Room at Umbrella Homestay",
-    "type": "Homestay",
+    "type": "Homestays",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20017812-a4b1e60de270ca0da7835257df34be81.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20017812-245bc258ca73f8fcc5b2446f5abb0d0a.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
@@ -919,7 +919,7 @@
   },
   {
     "name": "Bintang Homestay Sikunir",
-    "type": "Hostel",
+    "type": "Hostels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20064700-77adc1052a316d55d79a33dd565a8254.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20064700-0c17b8a18e275eb546fbb4a214e3a094.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
@@ -950,7 +950,7 @@
   },
   {
     "name": "Pulo Cinta 1 Bedroom Villa",
-    "type": "Villa",
+    "type": "Villas",
     "images": [
       "https://www.pulocinta.com/images/1BR-1.jpg",
       "https://www.pulocinta.com/images/1BR-2.jpg",
@@ -981,7 +981,7 @@
   },
   {
     "name": "Pulo Cinta 2 Bedroom Villa",
-    "type": "Villa",
+    "type": "Villas",
     "images": [
       "https://www.pulocinta.com/images/2BR-1.jpg",
       "https://www.pulocinta.com/images/2BR-2.jpg",
@@ -1010,10 +1010,9 @@
       "phoneNumber": "08119848818"
     }
   },
-
   {
     "name": "Pulo Cinta 3 Bedroom Villa",
-    "type": "Villa",
+    "type": "Villas",
     "images": [
       "https://www.pulocinta.com/images/3BR-1.jpg",
       "https://www.pulocinta.com/images/3BR-2.jpg",
@@ -1044,7 +1043,7 @@
   },
   {
     "name": "Cemara Indah Hotel Bromo",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000169-f5262cc0a52514341d5650aa7db2d6fb.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000169-2facc3b0d0838bc9910965ef3721a0ff.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1076,7 +1075,7 @@
   },
   {
     "name": "Saputra View Bromo",
-    "type": "Guest House",
+    "type": "Guest Houses",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67746637-2010x1375-FIT_AND_TRIM-cbc8009c38d129a6342b05cc75592407.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67746637-1828x1428-FIT_AND_TRIM-13a9fb1d871fa6f7e1cedbb634b1c485.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1108,7 +1107,7 @@
   },
   {
     "name": "Bromo Permai 1",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000207-e8b4e2be34a4394a4ee042c555a940ca.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000207-ce71d2e52bc82b41683cea0267deaa1f.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1147,7 +1146,7 @@
   },
   {
     "name": "Balecatur Inn",
-    "type": "Hostel",
+    "type": "Hostels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005143-1300x865-FIT_AND_TRIM-e445b3f6533c2074ce273b10dce617a2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005143-900x599-FIT_AND_TRIM-7ad671db5ca2e1343b9c0712354b2eee.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1178,8 +1177,8 @@
     }
   },
   {
-    "name": "Bueno Colombo Hotel",
-    "type": "Hotel",
+    "name": "Bueno Colombo Hotel ",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001089-fbaef745d435fd2a69dd6ad9b9b875eb.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10001089-3524x2350-FIT_AND_TRIM-06eabaddc81c861be1f2ba251f40b29c.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1215,7 +1214,7 @@
   },
   {
     "name": "Abhayagiri Sumberwatu Heritage Resort",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20019093-b6576703e3cd5cf53ce59cfa92008910.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20019093-9a473df23567c4c9d38e83d40f2d7deb.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1256,7 +1255,7 @@
   },
   {
     "name": "Guerilla Dive Homestay Penginapan Pulau Pari",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipPS3Gb_qTap3H2F_wV-RB2CSNEclNPHS11JtC88=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/p/AF1QipOZo0-ABRG0GIcO427rkaBKk_ub8K2KUWG4f8c5=w287-h192-n-k-rw-no-v1",
@@ -1280,7 +1279,7 @@
   },
   {
     "name": "Pari Solata Seaview",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipN-tTSZAeN763tczJsJibIcS1pj1hU9rHwAj3u5=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/p/AF1QipOktPayHIDWZaRCt5M3MQ2g7319c7v0M_s03_0I=w287-h192-n-k-rw-no-v1",
@@ -1318,7 +1317,7 @@
   },
   {
     "name": "Pari Island Guest House",
-    "type": "Guest House",
+    "type": "Guest Houses",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipOx8DUafyxpm6JgwpQCIj5SrMppXq-70X9mpGji=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/p/AF1QipPGCQmUoSyIC9tbb6D2HkKh6jYQe7gAO24ZPjMq=w287-h192-n-k-rw-no-v1",
@@ -1352,7 +1351,7 @@
   },
   {
     "name": "Mutiara Harapan Resort",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-5bd18d83ebc921f70c23f84bec4a8d43.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-10e29365780d7b52a01f9dea1e34b000.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -1385,7 +1384,7 @@
   },
   {
     "name": "La Nadiya Villa Pulau Harapan",
-    "type": "Villa",
+    "type": "Villas",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-9d08dc538edfc84746f781625fbb0d2e.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-3ab6effda15ee0fe128b488e2045721b.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
@@ -1426,7 +1425,7 @@
   },
   {
     "name": "Andreas Resort Villa Air Pulau Harapan",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipMX1PcuKT8dGCwMK_bVoxMY10XrvkQa5ArUrHkk=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/p/AF1QipM_dlrLrdLhvo9bOAy-XhNYjuIQFiLVBBXJo5k4=w287-h192-n-k-rw-no-v1",
@@ -1463,7 +1462,7 @@
   },
   {
     "name": "Blue Orchid Hotel Pangandaran",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007734-5a3a9b5cb693125d6a174260439046cf.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007734-2389d0a87c13a4f7a2943aed6209c98e.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1499,7 +1498,7 @@
   },
   {
     "name": "The Arnawa Hotel",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-c2bd59414bdcf82700a14beb55b45e49.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-6e7f2dca42a02f05d9783deef54282de.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1538,7 +1537,7 @@
   },
   {
     "name": "Bamboo House Pangandaran",
-    "type": "Guest House",
+    "type": "Guest Houses",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10038717-1024x655-FIT_AND_TRIM-c43481d7fdfe1dc23346877553ffa3bc.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10038717-d665d0b80e928c757c7d723d2737f081.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1562,7 +1561,7 @@
   },
   {
     "name": "Mahagiri Resort Nusa Lembongan",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-18d1935d4fa49e24dfdba34f3a1b2e3f.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-1920x1280-FIT_AND_TRIM-bdd6d02cde9783540c2e0c52f4070ec4.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1607,7 +1606,7 @@
   },
   {
     "name": "The Tanis Beach Resort",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10003613-f93538e0ee67a83e8b85ef5b934b52cf.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10003613-fb24514dc90b2cedcb5e4ce1baa32b29.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1648,7 +1647,7 @@
   },
   {
     "name": "Dream Beach Kubu & SPA by ABM",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20075772-7f2f655cbcdd3e39fc0c96dae6b1a657.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20075772-fdc1c045c23439bed7480257da005064.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1683,7 +1682,7 @@
   },
   {
     "name": "Plataran Menjangan Resort and Spa",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/generic-asset/2bHVGnnWooIqvSBA6ae4odylBix7UChbwSnyQroeq5E=/tdcoverseahoteldark/cbbcb6c287e1c59b7bd4b2e89a8213ea90530.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-460,pr-true,q-100,w-724",
       "https://ik.imagekit.io/tvlk/generic-asset/2bHVGnnWooIqvSBA6ae4odylBix7UChbwSnyQroeq5E=/tdcoverseahoteldark/49ada74cb5bbcf4e7c8d7ea70b0288f3100705.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-460,pr-true,q-100,w-724",
@@ -1729,7 +1728,7 @@
   },
   {
     "name": "Maha Nusa Menjangan",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67868625-ff9986c40dda1fcc68f7c1d7b60dfbb8.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67868625-7379816cc9df904c24602aa0be81436d.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1764,7 +1763,7 @@
   },
   {
     "name": "Mimpi Resort Menjangan",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-9ce4d0425d1b08746573992054f8018c.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-a16945103ee68f0e94e700f31a93e039.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1799,8 +1798,8 @@
     }
   },
   {
-    "name": "Blue Lagoon Avia Villa",
-    "type": "Resort",
+    "name": "Blue Lagoon Avia Villas",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-df7a55bc6a7736d64a773cdcfc1ca2e2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-d5f1c1a4cc1b37d76baff2b81e8ea98e.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1836,7 +1835,7 @@
   },
   {
     "name": "The Bridge Huts",
-    "type": "Hotel",
+    "type": "Hotels",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10033733-93feacf8ee4e065aebe8c892630bf083.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10033733-4a9ed630e2edf21cb4dda57d3a064162.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1867,7 +1866,7 @@
   },
   {
     "name": "Tatak Bunut Villa Nusa Ceningan",
-    "type": "Villa",
+    "type": "Villas",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67757289-4000x4000-FIT_AND_TRIM-9a2d8ea42ea42cec5a02155d26c37c88.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67757289-800x600-FIT_AND_TRIM-5dd60f3146c210463e976c2a4da886d5.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1890,7 +1889,7 @@
   },
   {
     "name": "Tidung Lagoon",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20022525-208c4d399598f77205f3a5879f817d59.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20022525-4e6eee5c0796da70c5e8273464997dd2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1922,7 +1921,7 @@
   },
   {
     "name": "Grand Lagoon",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20059196-1212c2dcfbda81aba5fb18fa5923e718.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20059196-1212c2dcfbda81aba5fb18fa5923e718.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1954,7 +1953,7 @@
   },
   {
     "name": "Cemara 38 Cottage",
-    "type": "Homestay",
+    "type": "Homestays",
     "images": [
       "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67727234-2000x2000-FIT_AND_TRIM-292ecf8c9a3d5d8de080a57f2c4e3937.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
       "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20013709-936cb0e3db0bd1ce16cd0706875fcd35.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
@@ -1985,7 +1984,7 @@
   },
   {
     "name": "Sahir Resort at Pulau Pramuka",
-    "type": "Resort",
+    "type": "Resorts",
     "images": [
       "https://lh3.googleusercontent.com/proxy/VOp4O8uECKbhqjMSOPGMGs8LRPk_Hw56Zc_eNe7gvSnAjwnzD9adLi2WZZ-_8gfr8MkcXSQH20oIAqQ_fp0Xd9ELM7ixdhIkaGjqsQ33ttX3nGRcGXm0kog1O9E4dKu_FbLecEFtbS5LWyDJ1gKIwMHd3m-JSg=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/proxy/lJzHYEh38cpDYmYh4_YzxVeA-kztLbAfWxeu57_YUDUsfhQqH2AlKctUetsdStzNfLpDyEwzH_yTETuYBfsb5BMMw6CJwiITp8DwAtVlZWhaZz7yHI2EVZalsk0c6tUF1Dy3rZz9DaiLqBA2LR1V56jWIF7vp7M=w287-h192-n-k-rw-no-v1",
@@ -2014,7 +2013,7 @@
   },
   {
     "name": "Pramuka Resort Island",
-    "type": "Villa",
+    "type": "Villas",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipM3qLwvkrUulnkdkXy1repCxbPpWmbUkXzAA--k=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/p/AF1QipON7ZJJqiA-G2JeJ9EsPg1aaYXQvXzHKeYyjYS6=w287-h192-n-k-rw-no-v1",
@@ -2041,10 +2040,9 @@
       "phoneNumber": "08119848818"
     }
   },
-
   {
     "name": "Mutiara Pramuka Resort",
-    "type": "Homestay",
+    "type": "Homestays",
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipMBhtkjC42RlysbjNoMYgVQSNQ5HIQiHYkJI-_y=w287-h192-n-k-rw-no-v1",
       "https://lh3.googleusercontent.com/p/AF1QipPgIJwQpk0Xw0vc36pFQ64-ixufLr4GlmOm_zdX=w287-h192-n-k-rw-no-v1"

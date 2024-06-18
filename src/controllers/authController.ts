@@ -60,7 +60,10 @@ const authController = {
       res.status(201).json({
         statusCode: 201,
         message: 'Logged in successfully',
-        data: token,
+        data: {
+          token,
+          role: user.role,
+        },
       });
     } catch (err) {
       next(err);
@@ -123,7 +126,10 @@ const authController = {
       res.status(201).json({
         statusCode: 200,
         message: 'Logged in successfully',
-        data: token,
+        data: {
+          token,
+          role: user?.role,
+        },
       });
     } catch (err) {
       next(err);

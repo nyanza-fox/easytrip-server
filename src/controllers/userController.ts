@@ -1,5 +1,6 @@
 import { NextFunction } from 'express';
 
+import orderModel from '../models/orderModel';
 import userModel from '../models/userModel';
 
 import type { CustomRequest, CustomResponse } from '../types/express';
@@ -35,6 +36,21 @@ const userController = {
         statusCode: 200,
         message: 'User retrieved successfully',
         data: user,
+      });
+    } catch (error) {
+      next(error);
+    }
+  },
+  getMyOrders: async (req: CustomRequest, res: CustomResponse, next: NextFunction) => {
+    try {
+      const userId = req.user?.id || '';
+
+      const orders = await orderModel.findAllByUserId(userId);
+
+      res.status(200).json({
+        statusCode: 200,
+        message: 'Orders retrieved successfully',
+        data: orders,
       });
     } catch (error) {
       next(error);

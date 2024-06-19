@@ -9,7 +9,7 @@ import type { User } from './user';
 export type Order = {
   _id: ObjectId;
   userId: ObjectId;
-  user: Omit<User, 'password'>;
+  user: User;
   status: 'pending' | 'completed' | 'cancelled';
   itinerary: Itinerary[];
   package: Package;
@@ -36,4 +36,4 @@ export type Package = {
   totalPrice: number;
 };
 
-export type OrderInput = Pick<Order, 'userId' | 'itinerary' | 'package'>;
+export type OrderInput = Pick<Order, 'itinerary' | 'package'> & { userId: string };

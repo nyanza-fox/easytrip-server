@@ -61,6 +61,7 @@ const authController = {
         data: {
           token,
           role: user.role,
+          image: user.profile.image,
         },
       });
     } catch (err) {
@@ -127,6 +128,7 @@ const authController = {
         data: {
           token,
           role: user?.role,
+          image: user?.profile.image,
         },
       });
     } catch (err) {
@@ -185,7 +187,9 @@ const authController = {
         role: userDoc?.role,
       });
 
-      res.redirect(`${process.env.CLIENT_URL}/callback/auth?token=${token}&role=${userDoc?.role}`);
+      res.redirect(
+        `${process.env.CLIENT_URL}/callback/auth?token=${token}&role=${userDoc?.role}&image=${userDoc?.profile.image}`
+      );
     } catch (err) {
       next(err);
     }

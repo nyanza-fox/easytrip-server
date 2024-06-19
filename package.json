@@ -5,7 +5,7 @@
   "description": "EasyTrip server application",
   "author": "Nyanza Fox",
   "license": "MIT",
-  "main": "src/server.js",
+  "main": "src/server.ts",
   "scripts": {
     "start": "tsc && node dist/server.js",
     "dev": "nodemon src/server.ts",

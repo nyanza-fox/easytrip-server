@@ -1,0 +1,2071 @@
+[
+  {
+    "name": "Sundi Ocean Bungalow by ABM",
+    "type": "Resorts",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/235133690.jpg?k=44fbcc6080622a447ef145b6bb45054d13db46d92c08e1eb0bbf85a0bdcf175d&o=&hp=1",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20009170-bff21beaec4fdceefa5d8f5b6a5f1ba4.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20009170-e28af1d594c0ef37c5af5036aeed2695.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Swimming Pool",
+      "Air Conditioner",
+      "Heater",
+      "24-hour Receptionist",
+      "Safety deposit box",
+      "Hairdryer",
+      "Garden"
+    ],
+    "maxGuests": 4,
+    "rating": 3,
+    "pricePerNight": 533546,
+    "location": {
+      "address": "8F7M+X68, Unnamed Road, Sakti, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",
+      "city": "Kabupaten Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "email": "sundioceanabm@gmail.com",
+      "phoneNumber": "081299867788"
+    }
+  },
+  {
+    "name": "Gayatri Bungalows Nusa Penida",
+    "type": "Guest Houses",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007534-db3fb2dced1b17a7e14d317864153eac.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007534-c965d4f5dcc94527eb1687184322aad3.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007534-56c541aeb13fd462d0b6390da01d6705.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Heater",
+      "Smoking & Non-smoking room",
+      "Wifi",
+      "Outdoor pool",
+      "Early check-in",
+      "Pool sun loungers"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 177307,
+    "location": {
+      "address": "Jl. Batumulapan, Nusa Penida, Kabupaten Klungkung, Bali 80771",
+      "city": "Kabupaten Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "email": "gayatribungalow@gmail.com",
+      "phoneNumber": "082339631478"
+    }
+  },
+  {
+    "name": "MAUA Nusa Penida Bali",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67822455-e064b52f61938a1c4eda7877d91a8f68.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67822455-0f21adef80906948e97414a3cc6d3035.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20055408-c59351d574956bfd1d90697e0bfc4db2.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20055408-a6d49fa7624bf01ca935793e4fdb9079.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20055408-86177c7cc955f533f359e8b3b03bd5bb.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Family room",
+      "Smoking & Non-smoking room",
+      "TV",
+      "Shower",
+      "Bathrobe",
+      "Airport transfer",
+      "Fitness center",
+      "Outdoor pool",
+      "Bar",
+      "Poolside bar",
+      "Laundry Service"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 4315507,
+    "location": {
+      "address": "Sakti, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771",
+      "city": "Kabupaten Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "email": "mauanusapenida@maua.com",
+      "phoneNumber": "03616208999"
+    }
+  },
+  {
+    "name": "Cahaya Adrian Near Komodo Airport ",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10036197-768x1024-FIT_AND_TRIM-924ec04add58a6b13e33e9e9521ece4e.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10036197-780x1040-FIT_AND_TRIM-711329d0d26dda4149647253033e9397.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10036197-768x1024-FIT_AND_TRIM-beb1f8b114b0f3d74ad248ef7f1d20e1.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "TV",
+      "Shower",
+      "Laundry Service",
+      "Airport transfer",
+      "Smoking & Non-smoking room",
+      "Wifi"
+    ],
+    "maxGuests": 2,
+    "rating": 2,
+    "pricePerNight": 278926,
+    "location": {
+      "address": "Cowang Dereng, RT. 007 / RW. 02, Batu Cermin, Labuan Bajo, Batu Cermin, Kec. Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Tim. 86554",
+      "city": "Kabupaten Manggarai Barat",
+      "state": "Nusa Tenggara Timur",
+      "country": "Indonesia",
+      "zipCode": "86554"
+    },
+    "contact": {
+      "email": "cahayaadrian@gmail.com",
+      "phoneNumber": "081337876334"
+    }
+  },
+  {
+    "name": "Sylvia Resort Komodo",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001940-9689a9645ad3cc7e34aa5c2fc0648be0.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001940-2722babf9b18261d733aa097fae98b43.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001940-fb0d2be4d38f116b008e65dc6fc3ba18.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001940-e548fb839060825a2fdf368d2460269d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001940-34b1c01a69ef78ca1c817085a1aa9e10.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Ballroom",
+      "Clothes dryer",
+      "Airport transfer",
+      "Swimming pool & Children pool",
+      "Projector",
+      "Wifi",
+      "Refrigerator",
+      "Bar"
+    ],
+    "maxGuests": 3,
+    "rating": 3,
+    "pricePerNight": 1005108,
+    "location": {
+      "address": "Jl. Pantai Waicicu, Labuan Bajo, Kecamatan Komodo, Labuan Bajo, Kec. Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Tim. 86554",
+      "city": "Kabupaten Manggarai Barat",
+      "state": "Nusa Tenggara Timur",
+      "country": "Indonesia",
+      "zipCode": "86554"
+    },
+    "contact": {
+      "email": "sylviaresort@sylvia.com",
+      "phoneNumber": "081238925568"
+    }
+  },
+  {
+    "name": "Meruorah Komodo Labuan Bajo ",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20028801-f368341db5bda83205105a5db20a9e6d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20028801-0af6bae6715a02abebd70620ad146175.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20028801-60eeee2cf7c7242ff4c38c167e0abebc.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20028801-ed2a4fef79ff5ed938d9ad92c5b0ab67.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20028801-6bdbda083b34617a63c010bca6e12029.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20028801-25df4c56f356e4acd503cccaf854cc70.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Bathtub",
+      "Air Conditioner",
+      "Heater",
+      "Hairdryer",
+      "Smoking & Non-smoking room",
+      "Rooftop terrace",
+      "Fireplace in lobby",
+      "Airport transfer",
+      "Fitness center",
+      "Swimming pool & Children pool",
+      "Wifi",
+      "Diving & Snorkeling",
+      "Laundry Service"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 2119835,
+    "location": {
+      "address": "Kawasan Marina, Jl. Soekarno Hatta, Labuan Bajo, Kec. Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Tim. 86711",
+      "city": "Kabupaten Manggarai Barat",
+      "state": "Nusa Tenggara Timur",
+      "country": "Indonesia",
+      "zipCode": "86711"
+    },
+    "contact": {
+      "email": "meruorahkomodobajo@meruorah.com",
+      "phoneNumber": "03852440234"
+    }
+  },
+  {
+    "name": "Rifalda Cottage",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10043010-d010a7090957d9ca0a73aa77caebc7c3.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10043010-51f9312c7d854edd1c42e5e84a4d43aa.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10043010-8eca3a9b978d5932b8d2629707a67478.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": ["Air Conditioner", "Family room", "Terrace", "Wifi", "Shuttle", "Snorkeling"],
+    "maxGuests": 3,
+    "rating": 1,
+    "pricePerNight": 494050,
+    "location": {
+      "address": "Waisai, Kec. Waigeo Sel., Kabupaten Raja Ampat, Papua Bar. 98482",
+      "city": "Raja Ampat",
+      "state": "Papua Barat",
+      "country": "Indonesia",
+      "zipCode": "98482"
+    },
+    "contact": {
+      "email": "rifaldacottage@gmail.com",
+      "phoneNumber": "081399553241"
+    }
+  },
+  {
+    "name": "Meridian Adventure Marina Club & Resort Waisai",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-506ad32133a3a7890e74cacfc8fca8af.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-a5c80a89fc37ffc820a2fe673658103d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-e800e7b59839966525715393771881e5.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-962296149108f444994f322811fa8d2a.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-1b7f82dda466894338d2b2c926e3760c.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-518d0b83ad2d6e8ed0727840bad3a09f.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-93ec6a4361ab881e14f3018214a34154.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20004368-f4729cf858cf8228af638f715e6613e7.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Swimming Pool",
+      "Airport transfer",
+      "Wifi",
+      "Terrace",
+      "Diving & Snorkeling",
+      "Table tennis",
+      "Bar",
+      "Barbecue",
+      "Laundry Service",
+      "Pool sun loungers",
+      "Ferry terminal shuttle",
+      "Shower"
+    ],
+    "maxGuests": 5,
+    "rating": 5,
+    "pricePerNight": 4208733,
+    "location": {
+      "address": "Waisai, Distrik Kota Waisai, Kabupaten Raja Ampat, Papua Bar. 98482",
+      "city": "Raja Ampat",
+      "state": "Papua Barat",
+      "country": "Indonesia",
+      "zipCode": "98482"
+    },
+    "contact": {
+      "email": "meridianadventure@meridian.com",
+      "phoneNumber": "082248540774"
+    }
+  },
+  {
+    "name": "Raja Ampat Dive Lodge",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20016071-19abba669b2d60c79cc069325990867d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20016071-19abba669b2d60c79cc069325990867d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67743892-1280x853-FIT_AND_TRIM-c50008baba8c908277f84b59f94fb1f0.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67743892-1280x853-FIT_AND_TRIM-c50008baba8c908277f84b59f94fb1f0.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67743892-1280x853-FIT_AND_TRIM-c50008baba8c908277f84b59f94fb1f0.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67743892-3456x2304-FIT_AND_TRIM-9629fd6033c24e28d7348146ff5739c7.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Terrace",
+      "Wifi",
+      "Concierge",
+      "Diving & Snorkeling",
+      "Express check-in & check-out",
+      "Laundry Service",
+      "Wedding service",
+      "Smoking Area & Non-smoking room"
+    ],
+    "maxGuests": 3,
+    "rating": 4,
+    "pricePerNight": 2429752,
+    "location": {
+      "address": "Pulau Mansuar, Desa Kurkapa, Pulau Mansuar, Meos Mansar, Kabupaten Raja Ampat, Papua Bar.",
+      "city": "Raja Ampat",
+      "state": "Papua Barat",
+      "country": "Indonesia",
+      "zipCode": "80034"
+    },
+    "contact": {
+      "email": "rajaampatdivelodge@gmail.com",
+      "phoneNumber": "081256557832"
+    }
+  },
+  {
+    "name": "Pahawang Hill",
+    "type": "Villas",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-5bd18d83ebc921f70c23f84bec4a8d43.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-10e29365780d7b52a01f9dea1e34b000.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-9cc35217f9588b6f9a15e3a9123426e7.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Snorkeling",
+      "Airport transfer",
+      "Wifi",
+      "Smoking Area & Non-smoking room",
+      "TV",
+      "Private beach nearby",
+      "Beach sun loungers"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 728926,
+    "location": {
+      "address": "Pulau Pahawang, Pardasuka, Kabupaten Pesawaran, Lampung",
+      "city": "Kabupaten Pesawaran",
+      "state": "Lampung",
+      "country": "Indonesia",
+      "zipCode": "35453"
+    },
+    "contact": {
+      "email": "pahawanghill@gmail.com",
+      "phoneNumber": "081285097822"
+    }
+  },
+  {
+    "name": "La Nadiya Villa Pulau Pahawang",
+    "type": "Villas",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-9d08dc538edfc84746f781625fbb0d2e.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-3ab6effda15ee0fe128b488e2045721b.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-b1e9ca6d005df7fa0891ca732486671b.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-54d4617967f7d3d5a48a62b3358b4893.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-6ef5f1f5b2f5ac3185483c6dd83ee52f.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-ce3e37b45474773d6ff8940d41d4340d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-ce3e37b45474773d6ff8940d41d4340d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Connecting rooms",
+      "Family room",
+      "Smoking & Non-smoking room",
+      "Rooftop terrace",
+      "Private beach nearby",
+      "Sun loungers",
+      "Barbecue",
+      "Karaoke",
+      "Airport transfer",
+      "Cruise shuttle",
+      "Wifi"
+    ],
+    "maxGuests": 3,
+    "rating": 2,
+    "pricePerNight": 1278860,
+    "location": {
+      "address": "Pahawang Island, Kec. Punduh Pidada, Kabupaten Pesawaran, Lampung",
+      "city": "Kabupaten Pesawaran",
+      "state": "Lampung",
+      "country": "Indonesia",
+      "zipCode": "35453"
+    },
+    "contact": {
+      "email": "lanadiyapahawang@gmail.com",
+      "phoneNumber": "0817858085"
+    }
+  },
+  {
+    "name": "Andreas Resort Villa Air Pahawang",
+    "type": "Resorts",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMX1PcuKT8dGCwMK_bVoxMY10XrvkQa5ArUrHkk=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipM_dlrLrdLhvo9bOAy-XhNYjuIQFiLVBBXJo5k4=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipMySXHk8iIzCcRav18Ds2GToWfZRPNFPmlpt5YE=w287-h192-n-k-rw-no-v1"
+    ],
+    "facilities": [
+      "Snorkeling",
+      "Air Conditioner",
+      "Wifi",
+      "Children pool",
+      "TV",
+      "Bathtub",
+      "Shower",
+      "Smoking Area & Non-smoking room",
+      "Bar",
+      "Barbecue",
+      "Karaoke",
+      "Rooftop terrace"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 3249799,
+    "location": {
+      "address": "Pulau Pahawang, Pardasuka, Kabupaten Pesawaran, Lampung 35453",
+      "city": "Kabupaten Pesawaran",
+      "state": "Lampung",
+      "country": "Indonesia",
+      "zipCode": "35453"
+    },
+    "contact": {
+      "email": "andreasresortpahawang@andreasresort.com",
+      "phoneNumber": "08118888513"
+    }
+  },
+  {
+    "name": "Natuna Dive Resort",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20057565-f1b38982d2455b7105ebe28a8d70ae2d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67799149-206a8792f968f59f6dc0812c0c4e2a44.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20057565-caefd4aeea0c88cbde063145102305e5.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67799149-49dc39b30630d3cb100494be0cda2e1e.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67799149-fb1d208e1588b85a9d49af41bac0d11b.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20057565-89e4461fb7fb7a237337039fa7dd85f7.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20057565-89e4461fb7fb7a237337039fa7dd85f7.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67799149-d820b439e2242b87e30967fefaa988c0.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Refrigerator",
+      "Smoking & Non-smoking room",
+      "Family room",
+      "Swimming Pool",
+      "Cable TV",
+      "Meeting facilities",
+      "Wifi"
+    ],
+    "maxGuests": 2,
+    "rating": 2,
+    "pricePerNight": 650826,
+    "location": {
+      "address": "Jl. Raya Sepempang, Sepempang, Bunguran Tim., Kabupaten Natuna, Kepulauan Riau , Bunguran Timur, Natuna, Kepulauan Riau, Indonesia, 29783",
+      "city": "Natuna",
+      "state": "Kepulauan Riau",
+      "country": "Indonesia",
+      "zipCode": "29783"
+    },
+    "contact": {
+      "email": "natunadive@gmail.com",
+      "phoneNumber": "081267880965"
+    }
+  },
+  {
+    "name": "Adiwana Jelita Sejuba Natuna",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20057919-87eef5dbcb08c5b72307b576c0574b01.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67830945-3b08275a48242e04a24ad358862da585.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67830945-7ef7beed9dccababe39845b8abd41558.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      ""
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Ballroom",
+      "Banquet",
+      "Swimming pool & Children pool",
+      "Hairdryer",
+      "Bathtub",
+      "Minibar",
+      "Kitchenette",
+      "Diving & Snorkeling"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 933967,
+    "location": {
+      "address": "Jl. Raya Sepempang, Bunguran Timur, Natuna, Kepulauan Riau, Indonesia, 29783",
+      "city": "Natuna",
+      "state": "Kepulauan Riau",
+      "country": "Indonesia",
+      "zipCode": "29783"
+    },
+    "contact": {
+      "email": "adiwanajelita@gmail.com",
+      "phoneNumber": "08117057999"
+    }
+  },
+  {
+    "name": "Hotel Natuna",
+    "type": "Hotels",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipNQ5M3d1TZRbHs85ZIzwCJ3FfSf0uYfhOGytYE=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipMmg1renSk9hAxJ_xQ9ZvLKlYi5LkhM1iPmvpFv=w287-h192-n-k-rw-no-v1",
+      "https://lh5.googleusercontent.com/p/AF1QipNU7zYUR92vx4Q2QBpohQrAk9mz-HPlkngUlfVq=w253-h142-k-no"
+    ],
+    "facilities": ["TV", "Air Conditioner", "Smoking & Non-smoking room", "Garden"],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 248766,
+    "location": {
+      "address": "Jalan HR Soebrantas, Ranai Kota, Bunguran Timur, Ranai Darat, Kec. Bunguran Tim., Kabupaten Natuna, Kepulauan Riau 29783",
+      "city": "Natuna",
+      "state": "Kepulauan Riau",
+      "country": "Indonesia",
+      "zipCode": "29783"
+    },
+    "contact": {
+      "email": "hotelnatunakepri@gmail.com",
+      "phoneNumber": "087865746677"
+    }
+  },
+  {
+    "name": "Royal Ocean View Beach Resort Karimunjawa",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-47c29f87cf8a161ae74c5a45ccdaf679.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-76fc5dccf8c83ee87fbd6e7d39680303.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-0b274a0eeb5aa6f7dc08bc5d8a484d2b.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-be8ee3216de0743a0af443a20eb589fd.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-bce401f019cd6ee9acff4721cddaf445.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-27f3fcfabd071132670ccf2825b34629.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-cbbbe92f99050f6a8f297c1f36b3bc4a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-9ace25b7dc6f8a2c573483ce28d53449.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-666b5865e07dd8e1bbac7feaf5acf5fc.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-9b3e6714e45117691c2562b8bf80f9b4.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020695-489c0a6ae5a3f3965dc1136fcd8ce9b5.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Heater",
+      "Hairdryer",
+      "Bathtub",
+      "Swimming pool & Children pool",
+      "Diving & Snorkeling",
+      "Airport transfer",
+      "Ferry terminal shuttle",
+      "Meeting facilities",
+      "Outdoor pool",
+      "Private beach nearby",
+      "Wifi"
+    ],
+    "maxGuests": 3,
+    "rating": 4,
+    "pricePerNight": 1178182,
+    "location": {
+      "address": "Barakuda Beach, Kemujan Village, Karimunjawa, Jepara, Karimunjawa, Jepara, Jawa Tengah, Indonesia, 59455",
+      "city": "Kabupaten Jepara",
+      "state": "Jawa Tengah",
+      "country": "Indonesia",
+      "zipCode": "59455"
+    },
+    "contact": {
+      "email": "royaloceanresort@gmail.com",
+      "phoneNumber": "081326713238"
+    }
+  },
+  {
+    "name": "The Happinezz Hills Hotel",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-7caec428d5440bafc422eed5eb068159.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-f6b59f2d740f5a43aad77a62cc5087c9.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-c1b1d67d90b19f500713fc635fc2676a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-e759a61930bfdbe3a36fbe757e09b43d.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-ea75107972e64c9d27b28921fee3c60b.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-c784da784e9936a2bae95a08a9dbe285.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-b533166e7dc70f84ad5cf8e14b801750.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20021054-73664cebfca73109ab4b2602b8b21331.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640"
+    ],
+    "facilities": [
+      "Massage",
+      "Wifi",
+      "Air Conditioner",
+      "Cable TV",
+      "Smoking & Non-smoking room",
+      "Swimming pool & Children pool",
+      "Diving & Snorkeling",
+      "Catamaran sailing",
+      "Poolside bar",
+      "Bar",
+      "Pool sun loungers"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 668182,
+    "location": {
+      "address": "Jalan I.J. Kasimo, Karimunjawa, Karimunjawa, Jepara, Jawa Tengah, Indonesia, 59455",
+      "city": "Kabupaten Jepara",
+      "state": "Jawa Tengah",
+      "country": "Indonesia",
+      "zipCode": "59455"
+    },
+    "contact": {
+      "email": "happinezzhillskarimunjawa@gmail.com",
+      "phoneNumber": "087737793332"
+    }
+  },
+  {
+    "name": "CasaVelion",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-2048x1152-FIT_AND_TRIM-d65f89fe7cc20652003fb6df66b24ac9.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-b09a6440f561f3941ebcc78ddc2f645a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-2500x1407-FIT_AND_TRIM-e3df5bfc51bf8a6f6d255853f951b00a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-2048x1152-FIT_AND_TRIM-45156ba702dd196593b4c53be857045e.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-55415abec7b9e9b7efe8d6bb31675cd3.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-3000x1688-FIT_AND_TRIM-41fd94000ccab52cdea974fe9a6deef2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-2667x2000-FIT_AND_TRIM-94b7cfca2be4347298535389ead59792.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10017533-3000x1688-FIT_AND_TRIM-a77eba65ed21b4bf682d4d27d03b78c9.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Wedding service",
+      "Diving & Snorkeling",
+      "Canoeing",
+      "Minibar",
+      "Smoking & Non-smoking room",
+      "Airport transfer",
+      "Ferry terminal shuttle",
+      "Barbecue"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 323967,
+    "location": {
+      "address": "Ds. Alang-Alang, Karimunjawa Island, Karimunjawa, Jepara, Jawa Tengah, Indonesia, 59455",
+      "city": "Kabupaten Jepara",
+      "state": "Jawa Tengah",
+      "country": "Indonesia",
+      "zipCode": "59455"
+    },
+    "contact": {
+      "email": "casavelion@gmail.com",
+      "phoneNumber": "0878-3191-5360"
+    }
+  },
+  {
+    "name": "Grand Luley Manado",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-c8d99e0994185820652dee652b2ff74c.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-02fdad1ca063cf824266e97852e2f2bd.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-3779x2519-FIT_AND_TRIM-a288b557d4047542c6eda5dec126c4f1.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-9e12938780e6ff59fe17abe7c90ff93d.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-2084fe0e10cdf05b24011f7286f05a14.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-3996x2664-FIT_AND_TRIM-b4e3f04c829f033ecc79ad4ff876035a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-ef18dccc65ef39f2a2a9a067056f213b.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008774-1024x680-FIT_AND_TRIM-e0c8ac535f28ab33418e12e1d7d45262.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640"
+    ],
+    "facilities": [
+      "Cable TV",
+      "Air Conditioner",
+      "Billiard",
+      "Diving & Snorkeling",
+      "Fitness center",
+      "Minibar",
+      "Outdoor pool",
+      "Laundry Service",
+      "Poolside bar",
+      "Safety deposit box",
+      "Family room",
+      "Airport transfer",
+      "Area shuttle",
+      "Wifi",
+      "Barbecue",
+      "Karaoke",
+      "Meeting facilities"
+    ],
+    "maxGuests": 6,
+    "rating": 5,
+    "pricePerNight": 1578699,
+    "location": {
+      "address": "Tongkaina, Kecamatan  Bunaken, Bunaken, Manado, Sulawesi Utara, Indonesia, 95244",
+      "city": "Manado",
+      "state": "Sulawesi Utara",
+      "country": "Indonesia",
+      "zipCode": "95244"
+    },
+    "contact": {
+      "email": "grandluleybunaken@gmail.com",
+      "phoneNumber": "04318858222"
+    }
+  },
+  {
+    "name": "Bobocabin Bunaken Hills",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-412d4eb64735f13f99499336e5dbf086.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-366da9ba6b9d95a49d8eec9c7d599dd2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-922aa31cdfd91f700119466a5e441ea5.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-76b0df5f0ea3d0e57f220d2d87cb7e50.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-50e639e4da0fa98596c8c74c8ff8ca5b.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-d5aef3d92ff7e605808b377a61c97acb.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-5552ea59ceda58339306f5ce35cfc908.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20074421-321391bedbf2ed55f083f765c69da6c8.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640"
+    ],
+    "facilities": [
+      "Wifi",
+      "Hairdryer",
+      "Shower",
+      "Disabled access friendly",
+      "Barbecue",
+      "Sharing refrigerator"
+    ],
+    "maxGuests": 2,
+    "rating": 2,
+    "pricePerNight": 529177,
+    "location": {
+      "address": "Molas, Bunaken, Manado City, North Sulawesi, Bunaken, Manado, Sulawesi Utara, Indonesia, 95242",
+      "city": "Manado",
+      "state": "Sulawesi Utara",
+      "country": "Indonesia",
+      "zipCode": "95242"
+    },
+    "contact": {
+      "email": "bobocabinbunaken@bobocabin.com",
+      "phoneNumber": "081120031470"
+    }
+  },
+  {
+    "name": "Ndc Resort",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/generic-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200i15000000xrfroA406_R_1080_808_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200q15000000xyeoc4328_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200g1d000001ef0lu9DFE_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//220n0z000000mrvly9A70_R_1080_808_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200k0w000000khiapC3CA_R_1080_808_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200p15000000xs4yo47AB_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200q0w000000k95rpFE0D_R_1080_808_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/oJLNzNs71wS3RVcWVniLgofXtaluprJ7ristt-jspoM=/images//200m0o000000ev8gc99CC_R_1080_808_R5_Mtrip.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-40,w-640"
+    ],
+    "facilities": [
+      "Hot tub",
+      "Smoking & Non-smoking room",
+      "Cable TV",
+      "Laundry Service",
+      "Wifi",
+      "Air Conditioner"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 636582,
+    "location": {
+      "address": "JL Raya Molas, Jl. Lingkungan 4, Molas, Kec. Bunaken, Kota, Bunaken, Manado, Sulawesi Utara, Indonesia, 95000",
+      "city": "Manado",
+      "state": "Sulawesi Utara",
+      "country": "Indonesia",
+      "zipCode": "95000"
+    },
+    "contact": {
+      "email": "ndcresort@gmail.com",
+      "phoneNumber": "081298786566"
+    }
+  },
+  {
+    "name": "Pondok Santi Estate",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20023934-ab318c75a0b9adb5bc3f43c928c918aa.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20023934-02066f7f6a0eccc1c1c4908cb2298aa5.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20023934-a093597c4a697d67e2c5c20f0abb2302.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20023934-0075a8e46247af754661ff79eb896574.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968"
+    ],
+    "facilities": [
+      "Swimming Pool",
+      "Air Conditioner",
+      "Restaurant",
+      "24-Hour Front Desk",
+      "Safety deposit box",
+      "Wifi",
+      "Parking"
+    ],
+    "maxGuests": 2,
+    "rating": 5,
+    "pricePerNight": 7886364,
+    "location": {
+      "address": "Dusun Gili Trawangan, Gili Indah Pemenang, Lombok Utara, Gili Trawangan, Gili Islands, Nusa Tenggara Barat, Indonesia, 83352",
+      "city": "Lombok Utara",
+      "state": "Nusa Tenggara Barat",
+      "country": "Indonesia",
+      "zipCode": "83352"
+    },
+    "contact": {
+      "phoneNumber": "081907057504"
+    }
+  },
+  {
+    "name": "Hotel Lumi Gili Trawangan",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20030542-be26b0e05895363efce35bede46f4762.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/generic-asset/TzEv3ZUmG4-4Dz22hvmO9NUDzw1DGCIdWl4oPtKumOg=/lodging/42000000/41970000/41965500/41965414/4e94fcfd_z.jpg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20030542-b5a371e9bac828b1903a4b3b8d765d1f.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968"
+    ],
+    "facilities": [
+      "Swimming Pool",
+      "Air Conditioner",
+      "Restaurant",
+      "24-Hour Front Desk",
+      "Safety deposit box",
+      "Wifi",
+      "Parking"
+    ],
+    "maxGuests": 2,
+    "rating": 4,
+    "pricePerNight": 2378562,
+    "location": {
+      "address": "Jl. Pantai Gili Trawangan, Gili Indah, Pemenang, Gili Trawangan, Gili Islands, Nusa Tenggara Barat, Indonesia, 83352",
+      "city": "Lombok Utara",
+      "state": "Nusa Tenggara Barat",
+      "country": "Indonesia",
+      "zipCode": "83352"
+    },
+    "contact": {
+      "phoneNumber": "03706193000"
+    }
+  },
+  {
+    "name": "Pesona Beach Resort & Spa",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020376-6bcd53feacf2216c27db8ca46168cb14.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67734188-3333x2222-FIT_AND_TRIM-83b59e431e85d2e9c3655303ef889a00.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67734188-1280x853-FIT_AND_TRIM-1791f1c7d411a60b3009a3cfebc166e4.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968"
+    ],
+    "facilities": ["Swimming Pool", "Air Conditioner", "Restaurant", "Wifi"],
+    "maxGuests": 3,
+    "rating": 3,
+    "pricePerNight": 1550618,
+    "location": {
+      "address": "Jalan Raya Trawangan, Gili Trawangan, Gili Islands, Nusa Tenggara Barat, Indonesia, 83355",
+      "city": "Lombok Utara",
+      "state": "Nusa Tenggara Barat",
+      "country": "Indonesia",
+      "zipCode": "83355"
+    },
+    "contact": {
+      "phoneNumber": "081338088963"
+    }
+  },
+  {
+    "name": "Teras Seroja Villas",
+    "type": "B&b",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680001766-fc9f1c109ed9f34a85a08983d356eea6.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680001766-9deca34db13bdc25cdc731433c87384a.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680001766-b614c2a23fd81b865d96e3d4028e33cc.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680001766-aa31f01bd61e078571c3ccdb0326c848.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968"
+    ],
+    "facilities": [
+      "Swimming Pool",
+      "Air Conditioner",
+      "Restaurant",
+      "Front Desk",
+      "Heater",
+      "Breakfast",
+      "Family room"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 482093,
+    "location": {
+      "address": "Tlogo, Kec. Garung, Kabupaten Wonosobo, Garung, Wonosobo, Jawa Tengah, Indonesia, 56353",
+      "city": "Kabupaten Wonosobo",
+      "state": "Jawa Tengah",
+      "country": "Indonesia",
+      "zipCode": "56353"
+    },
+    "contact": {
+      "phoneNumber": "08882723673"
+    }
+  },
+  {
+    "name": "Cozy Room at Umbrella Homestay",
+    "type": "Homestays",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20017812-a4b1e60de270ca0da7835257df34be81.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20017812-245bc258ca73f8fcc5b2446f5abb0d0a.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20017812-fc8033ea3663ddfc107859d4c824d40b.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20017812-1c2313c1e2c850da4d36e5508efd8b8b.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968"
+    ],
+    "facilities": [
+      "Conference room",
+      "Air Conditioner",
+      "Restaurant",
+      "24-Hour Front Desk",
+      "Recreation room",
+      "Wifi",
+      "Parking"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 262259,
+    "location": {
+      "address": "Jl. Dieng Kab Wonosobo Kec. Garung, Garung, Wonosobo, Jawa Tengah, Indonesia, 56353",
+      "city": "Kabupaten Wonosobo",
+      "state": "Jawa Tengah",
+      "country": "Indonesia",
+      "zipCode": "56353"
+    },
+    "contact": {
+      "phoneNumber": "081288397105"
+    }
+  },
+  {
+    "name": "Bintang Homestay Sikunir",
+    "type": "Hostels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20064700-77adc1052a316d55d79a33dd565a8254.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20064700-0c17b8a18e275eb546fbb4a214e3a094.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20064700-276f60548ce56f15a483c6613439138b.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20064700-0878271071fc484d770c3d5cf2f44a3a.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-574,q-40,w-968"
+    ],
+    "facilities": [
+      "Rooftop terrace",
+      "Air Conditioner",
+      "Restaurant",
+      "Wifi",
+      "24-Hour Front Desk",
+      "Parking"
+    ],
+    "maxGuests": 4,
+    "rating": 1,
+    "pricePerNight": 950413,
+    "location": {
+      "address": "Jalan Dieng - Sembungan, Dieng, Wonosobo, Jawa Tengah, Indonesia, 55663",
+      "city": "Kabupaten Wonosobo",
+      "state": "Jawa Tengah",
+      "country": "Indonesia",
+      "zipCode": "55663"
+    },
+    "contact": {
+      "phoneNumber": "087817130825"
+    }
+  },
+  {
+    "name": "Pulo Cinta 1 Bedroom Villa",
+    "type": "Villas",
+    "images": [
+      "https://www.pulocinta.com/images/1BR-1.jpg",
+      "https://www.pulocinta.com/images/1BR-2.jpg",
+      "https://www.pulocinta.com/images/1BR-3.jpg",
+      "https://www.pulocinta.com/images/1BR-4.jpg",
+      "https://www.pulocinta.com/images/1BR-5.jpg"
+    ],
+    "facilities": [
+      "100% Solar Energy Villa",
+      "Spacious living area with full-height windows",
+      "Private sun deck",
+      "Built in audio system",
+      "Fresh water shower",
+      "1 Super kings bed"
+    ],
+    "maxGuests": 2,
+    "rating": 5,
+    "pricePerNight": 1234000,
+    "location": {
+      "address": "Kabupaten Boalemo, Gorontalo, Indonesia",
+      "city": "Kabupaten Boalemo",
+      "state": "Gorontalo",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "phoneNumber": "08119848818"
+    }
+  },
+  {
+    "name": "Pulo Cinta 2 Bedroom Villa",
+    "type": "Villas",
+    "images": [
+      "https://www.pulocinta.com/images/2BR-1.jpg",
+      "https://www.pulocinta.com/images/2BR-2.jpg",
+      "https://www.pulocinta.com/images/2BR-3.jpg",
+      "https://www.pulocinta.com/images/2BR-4.jpg",
+      "https://www.pulocinta.com/images/2BR-5.jpg"
+    ],
+    "facilities": [
+      "100% Solar Energy Villa",
+      "Spacious living area with full-height windows",
+      "Private sun deck",
+      "Built in audio system",
+      "Fresh water shower",
+      "2 Super kings bed"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 2468000,
+    "location": {
+      "address": "Kabupaten Boalemo, Gorontalo, Indonesia",
+      "city": "Kabupaten Boalemo",
+      "state": "Gorontalo",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "phoneNumber": "08119848818"
+    }
+  },
+  {
+    "name": "Pulo Cinta 3 Bedroom Villa",
+    "type": "Villas",
+    "images": [
+      "https://www.pulocinta.com/images/3BR-1.jpg",
+      "https://www.pulocinta.com/images/3BR-2.jpg",
+      "https://www.pulocinta.com/images/3BR-3.jpg",
+      "https://www.pulocinta.com/images/3BR-4.jpg",
+      "https://www.pulocinta.com/images/3BR-5.jpg"
+    ],
+    "facilities": [
+      "100% Solar Energy Villa",
+      "Spacious living area with full-height windows",
+      "Private sun deck",
+      "Built in audio system",
+      "Fresh water shower",
+      "3 Super kings bed"
+    ],
+    "maxGuests": 6,
+    "rating": 5,
+    "pricePerNight": 3702000,
+    "location": {
+      "address": "Kabupaten Boalemo, Gorontalo, Indonesia",
+      "city": "Kabupaten Boalemo",
+      "state": "Gorontalo",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "phoneNumber": "08119848818"
+    }
+  },
+  {
+    "name": "Cemara Indah Hotel Bromo",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000169-f5262cc0a52514341d5650aa7db2d6fb.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000169-2facc3b0d0838bc9910965ef3721a0ff.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000169-17b9441d285178a1a59d47612ae8088e.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Swimming Pool",
+      "Air Conditioner",
+      "Heater",
+      "24-hour Receptionist",
+      "Safety deposit box",
+      "Hairdryer",
+      "Garden"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 1109586,
+    "location": {
+      "address": "Jl. Seruni Point (Turun Tol Tongas atau Tol Probolinggo Barat ke Arah Bromo), Sukapura, Probolinggo, Jawa Timur, Indonesia, 67254",
+      "city": "Probolinggo",
+      "state": "Jawa Timur",
+      "country": "Indonesia",
+      "zipCode": "67254"
+    },
+    "contact": {
+      "email": "cemaraindah@gmail.com",
+      "phoneNumber": "081299867788"
+    }
+  },
+  {
+    "name": "Saputra View Bromo",
+    "type": "Guest Houses",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67746637-2010x1375-FIT_AND_TRIM-cbc8009c38d129a6342b05cc75592407.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67746637-1828x1428-FIT_AND_TRIM-13a9fb1d871fa6f7e1cedbb634b1c485.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67746637-2172x1448-FIT_AND_TRIM-8019236de5f92aa857ce1e895cc5b1e2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Heater",
+      "Smoking & Non-smoking room",
+      "Wifi",
+      "Outdoor pool",
+      "Early check-in",
+      "Pool sun loungers"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 266116,
+    "location": {
+      "address": "Jl. Raya Bromo, Dusun Cemorolawang, Desa Ngadisari, Kecamatan Sukapura, Sukapura, Probolinggo, Jawa Timur, Indonesia, 67254",
+      "city": "Probolinggo",
+      "state": "Jawa Timur",
+      "country": "Indonesia",
+      "zipCode": "67254"
+    },
+    "contact": {
+      "email": "saputraview@gmail.com",
+      "phoneNumber": "082339631478"
+    }
+  },
+  {
+    "name": "Bromo Permai 1",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000207-e8b4e2be34a4394a4ee042c555a940ca.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000207-ce71d2e52bc82b41683cea0267deaa1f.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000207-122e69401b41dc562a96574d1d7ae378.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000207-22b31e44d09b68b21a175b49e3fb30e3.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000207-85a3ea1f0f7036d9bd49cca71d64dbc8.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Family room",
+      "Smoking & Non-smoking room",
+      "TV",
+      "Shower",
+      "Bathrobe",
+      "Airport transfer",
+      "Fitness center",
+      "Outdoor pool",
+      "Bar",
+      "Poolside bar",
+      "Laundry Service"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 2028926,
+    "location": {
+      "address": "Jl Raya Bromo,Dsun Cemorolawang Desa ngadisari , Sukapura, Probolinggo, Jawa Timur, Indonesia, 67254",
+      "city": "Probolinggo",
+      "state": "Jawa Timur",
+      "country": "Indonesia",
+      "zipCode": "67254"
+    },
+    "contact": {
+      "email": "bromopermai@gmail.com",
+      "phoneNumber": "03616208999"
+    }
+  },
+  {
+    "name": "Balecatur Inn",
+    "type": "Hostels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005143-1300x865-FIT_AND_TRIM-e445b3f6533c2074ce273b10dce617a2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005143-900x599-FIT_AND_TRIM-7ad671db5ca2e1343b9c0712354b2eee.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005143-e34d45a94d1d999b3f9513776280814a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "TV",
+      "Shower",
+      "Laundry Service",
+      "Airport transfer",
+      "Smoking & Non-smoking room",
+      "Wifi"
+    ],
+    "maxGuests": 2,
+    "rating": 2,
+    "pricePerNight": 208264,
+    "location": {
+      "address": "Jalan Wates Km 8 Gamol Rt. 07, Rw.17, Balecatur Gamping, Sleman, Gamping, Sleman, Yogyakarta Province, Indonesia, 55295",
+      "city": "Sleman",
+      "state": "Daerah Istimewa Yogyakarta",
+      "country": "Indonesia",
+      "zipCode": "55295"
+    },
+    "contact": {
+      "email": "balecatur@gmail.com",
+      "phoneNumber": "081337876334"
+    }
+  },
+  {
+    "name": "Bueno Colombo Hotel ",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001089-fbaef745d435fd2a69dd6ad9b9b875eb.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10001089-3524x2350-FIT_AND_TRIM-06eabaddc81c861be1f2ba251f40b29c.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10001089-2551x1701-FIT_AND_TRIM-93a281cc38d4c2b49f007134b90fd356.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10001089-54682e14b3cf59f9c98346be5aa9c456.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10001089-e696e1040c8c7023cf891f76cfe6a3db.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Ballroom",
+      "Clothes dryer",
+      "Airport transfer",
+      "Swimming pool & Children pool",
+      "Projector",
+      "Wifi",
+      "Refrigerator",
+      "Bar"
+    ],
+    "maxGuests": 3,
+    "rating": 3,
+    "pricePerNight": 398547,
+    "location": {
+      "address": "Jl. Raya Jogya - Solo KM 14, Kalasan, Sleman, Yogyakarta Province, Indonesia, 55571",
+      "city": "Sleman",
+      "state": "Daerah Istimewa Yogyakarta",
+      "country": "Indonesia",
+      "zipCode": "55571"
+    },
+    "contact": {
+      "email": "buenocolombo@gmail.com",
+      "phoneNumber": "081238925568"
+    }
+  },
+  {
+    "name": "Abhayagiri Sumberwatu Heritage Resort",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20019093-b6576703e3cd5cf53ce59cfa92008910.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20019093-9a473df23567c4c9d38e83d40f2d7deb.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20019093-caf6430d15fedfd119370f50fbe13980.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20019093-f056ea5e64067ff9837f65f5d5e93b0c.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20019093-2a8ab16fc6a4bc90691a261b8fc1cf14.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20019093-80f299206e709718233b43a2b7ddb256.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Bathtub",
+      "Air Conditioner",
+      "Heater",
+      "Hairdryer",
+      "Smoking & Non-smoking room",
+      "Rooftop terrace",
+      "Fireplace in lobby",
+      "Airport transfer",
+      "Fitness center",
+      "Swimming pool & Children pool",
+      "Wifi",
+      "Diving & Snorkeling",
+      "Laundry Service"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 1295058,
+    "location": {
+      "address": "Dusun Sumberwatu, RT 02 RW 01, Sambirejo, Prambanan, Prambanan, Sleman, Yogyakarta Province, Indonesia, 55572",
+      "city": "Sleman",
+      "state": "Daerah Istimewa Yogyakarta",
+      "country": "Indonesia",
+      "zipCode": "55572"
+    },
+    "contact": {
+      "email": "abhayagiri@gmail.com",
+      "phoneNumber": "03852440234"
+    }
+  },
+  {
+    "name": "Guerilla Dive Homestay Penginapan Pulau Pari",
+    "type": "Resorts",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPS3Gb_qTap3H2F_wV-RB2CSNEclNPHS11JtC88=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipOZo0-ABRG0GIcO427rkaBKk_ub8K2KUWG4f8c5=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipOELItoWViIiZh_5WihWWwKyNZl1fXLHvU85QjH=w287-h192-n-k-rw-no-v1"
+    ],
+    "facilities": ["Air Conditioner", "Family room", "Terrace", "Wifi", "Shuttle", "Snorkeling"],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 200000,
+    "location": {
+      "address": "4JRC+WGC, administrasi, Pulau Pari, Kec. Kepulauan Seribu Sel., Kab. Administrasi Kepulauan Seribu, Daerah Khusus Ibukota Jakarta 14520",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "email": "guerilla@gmail.com",
+      "phoneNumber": "081399553241"
+    }
+  },
+  {
+    "name": "Pari Solata Seaview",
+    "type": "Hotels",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipN-tTSZAeN763tczJsJibIcS1pj1hU9rHwAj3u5=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipOktPayHIDWZaRCt5M3MQ2g7319c7v0M_s03_0I=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipOOyyrLH8wbJR0wXwVIadglaYZiEuM5kSXdkK5r=w287-h192-n-k-rw-no-v1"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Swimming Pool",
+      "Airport transfer",
+      "Wifi",
+      "Terrace",
+      "Diving & Snorkeling",
+      "Table tennis",
+      "Bar",
+      "Barbecue",
+      "Laundry Service",
+      "Pool sun loungers",
+      "Ferry terminal shuttle",
+      "Shower"
+    ],
+    "maxGuests": 3,
+    "rating": 4,
+    "pricePerNight": 600000,
+    "location": {
+      "address": "Jalan Dermaga No.2, Pulau Pari, Kec. Kepulauan Seribu Sel., Kab. Administrasi Kepulauan Seribu, Daerah Khusus Ibukota Jakarta 14520",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "email": "parisolata@gmail.com",
+      "phoneNumber": "082248540774"
+    }
+  },
+  {
+    "name": "Pari Island Guest House",
+    "type": "Guest Houses",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipOx8DUafyxpm6JgwpQCIj5SrMppXq-70X9mpGji=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipPGCQmUoSyIC9tbb6D2HkKh6jYQe7gAO24ZPjMq=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipOxbVRPTLP_APLs4rYpu6SHHiP9f8dgql-6ie77=w287-h192-n-k-rw-no-v1"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Terrace",
+      "Wifi",
+      "Concierge",
+      "Diving & Snorkeling",
+      "Express check-in & check-out",
+      "Laundry Service",
+      "Wedding service",
+      "Smoking Area & Non-smoking room"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 450000,
+    "location": {
+      "address": "4JVC+7PC, Jl. Pari Utama, Pulau Pari, Kec. Kepulauan Seribu Sel., Kab. Administrasi Kepulauan Seribu, Daerah Khusus Ibukota Jakarta 14520",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "email": "pariguesthouse@gmail.com",
+      "phoneNumber": "081256557832"
+    }
+  },
+  {
+    "name": "Mutiara Harapan Resort",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-5bd18d83ebc921f70c23f84bec4a8d43.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-10e29365780d7b52a01f9dea1e34b000.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008005-9cc35217f9588b6f9a15e3a9123426e7.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Snorkeling",
+      "Airport transfer",
+      "Wifi",
+      "Smoking Area & Non-smoking room",
+      "TV",
+      "Private beach nearby",
+      "Beach sun loungers"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 728926,
+    "location": {
+      "address": "Jl. Johar Baru Utara 3 No.25C, RT.4/RW.3, Pulau Harapan, Kec. Kepulauan Seribu Sel., Kab. Administrasi Kepulauan Seribu, Daerah Khusus Ibukota Jakarta 10560",
+      "city": "Banyuasin",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "email": "mutiaraharapan@gmail.com",
+      "phoneNumber": "081285097822"
+    }
+  },
+  {
+    "name": "La Nadiya Villa Pulau Harapan",
+    "type": "Villas",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-9d08dc538edfc84746f781625fbb0d2e.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-3ab6effda15ee0fe128b488e2045721b.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-b1e9ca6d005df7fa0891ca732486671b.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-54d4617967f7d3d5a48a62b3358b4893.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-6ef5f1f5b2f5ac3185483c6dd83ee52f.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-ce3e37b45474773d6ff8940d41d4340d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20027614-ce3e37b45474773d6ff8940d41d4340d.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Connecting rooms",
+      "Family room",
+      "Smoking & Non-smoking room",
+      "Rooftop terrace",
+      "Private beach nearby",
+      "Sun loungers",
+      "Barbecue",
+      "Karaoke",
+      "Airport transfer",
+      "Cruise shuttle",
+      "Wifi"
+    ],
+    "maxGuests": 3,
+    "rating": 2,
+    "pricePerNight": 1278860,
+    "location": {
+      "address": "Jl. Pantai Selatan, RT.003/RW.01, Pulau Harapan, Kec. Kepulauan Seribu Sel., Kab. Administrasi Kepulauan Seribu, Daerah Khusus Ibukota Jakarta 14520",
+      "city": "Banyuasin",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "email": "lanadiyaharapan@gmail.com",
+      "phoneNumber": "0817858085"
+    }
+  },
+  {
+    "name": "Andreas Resort Villa Air Pulau Harapan",
+    "type": "Resorts",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMX1PcuKT8dGCwMK_bVoxMY10XrvkQa5ArUrHkk=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipM_dlrLrdLhvo9bOAy-XhNYjuIQFiLVBBXJo5k4=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipMySXHk8iIzCcRav18Ds2GToWfZRPNFPmlpt5YE=w287-h192-n-k-rw-no-v1"
+    ],
+    "facilities": [
+      "Snorkeling",
+      "Air Conditioner",
+      "Wifi",
+      "Children pool",
+      "TV",
+      "Bathtub",
+      "Shower",
+      "Smoking Area & Non-smoking room",
+      "Bar",
+      "Barbecue",
+      "Karaoke",
+      "Rooftop terrace"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 3249799,
+    "location": {
+      "address": "Main street harapan island, 14520, Pulau Harapan, Kepulauan Seribu Utara, Kab. Administrasi Kepulauan Seribu, Daerah Khusus Ibukota Jakarta 14520",
+      "city": "Banyuasin",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "email": "andreasresortpahawang@andreasresort.com",
+      "phoneNumber": "08118888513"
+    }
+  },
+  {
+    "name": "Blue Orchid Hotel Pangandaran",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007734-5a3a9b5cb693125d6a174260439046cf.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007734-2389d0a87c13a4f7a2943aed6209c98e.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20007734-e18780f83d13b5845492436f5323308f.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007734-e80a8b71da69fb22ba92ee2892cd0be8.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20007734-e33bbda6c5cb93c2974dff1deef86950.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20007734-84413f51e2e2e22b0db59da297ed7157.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Refrigerator",
+      "Smoking & Non-smoking room",
+      "Family room",
+      "Swimming Pool",
+      "Cable TV",
+      "Meeting facilities",
+      "Wifi"
+    ],
+    "maxGuests": 2,
+    "rating": 2,
+    "pricePerNight": 263223,
+    "location": {
+      "address": "Jl. Kalen Buaya No.22, Pantai Barat Pangandara, Pantai Barat, Pangandaran, Jawa Barat, Indonesia, 46396",
+      "city": "Pangandaran",
+      "state": "Jawa Barat",
+      "country": "Indonesia",
+      "zipCode": "46396"
+    },
+    "contact": {
+      "email": "blueorchid@gmail.com",
+      "phoneNumber": "081267880965"
+    }
+  },
+  {
+    "name": "The Arnawa Hotel",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-c2bd59414bdcf82700a14beb55b45e49.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-6e7f2dca42a02f05d9783deef54282de.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-2ef400c6613f19a6ba37b829f2ccf864.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-685988bbb0889b2472ee5c8f38b0e9c6.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-800x533-FIT_AND_TRIM-73ae2a0c559b6944a9cc38cb41bdcba3.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-800x600-FIT_AND_TRIM-8fbdc583d8b0ca8310a405be422455f8.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-774247468a38186fc3635c26b6cf3680.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000456-800x600-FIT_AND_TRIM-4b6deb1d0362888549e105a92ecf7b0e.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Ballroom",
+      "Banquet",
+      "Swimming pool & Children pool",
+      "Hairdryer",
+      "Bathtub",
+      "Minibar",
+      "Kitchenette",
+      "Diving & Snorkeling"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 656043,
+    "location": {
+      "address": "Jl. Bulak Laut No. 12, Pantai Barat, Pangandaran, Jawa Barat, Indonesia, 46396",
+      "city": "Pangandaran",
+      "state": "Jawa Barat",
+      "country": "Indonesia",
+      "zipCode": "46396"
+    },
+    "contact": {
+      "email": "thearnawa@gmail.com",
+      "phoneNumber": "08117057999"
+    }
+  },
+  {
+    "name": "Bamboo House Pangandaran",
+    "type": "Guest Houses",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10038717-1024x655-FIT_AND_TRIM-c43481d7fdfe1dc23346877553ffa3bc.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10038717-d665d0b80e928c757c7d723d2737f081.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10038717-934x768-FIT_AND_TRIM-c9926354446c1406e498fabfd6797b28.png?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": ["TV", "Air Conditioner", "Smoking & Non-smoking room", "Garden"],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 133884,
+    "location": {
+      "address": "Jalan Baru Bulak Laut No. 8, Pantai Barat, Pangandaran, Jawa Barat, Indonesia, 46396",
+      "city": "Pangandaran",
+      "state": "Jawa Barat",
+      "country": "Indonesia",
+      "zipCode": "46396"
+    },
+    "contact": {
+      "email": "bamboohouse@gmail.com",
+      "phoneNumber": "087865746677"
+    }
+  },
+  {
+    "name": "Mahagiri Resort Nusa Lembongan",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-18d1935d4fa49e24dfdba34f3a1b2e3f.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-1920x1280-FIT_AND_TRIM-bdd6d02cde9783540c2e0c52f4070ec4.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-1920x1280-FIT_AND_TRIM-dcb7c3e59c6edf6aba799851766dad56.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-0c4a59c380f0edf99f0a79a5c770a5f5.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-58d971b7cc67681f4a42cc1caf3f74be.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-1a7a99fa6fb6a032bd3f237d02f98535.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67703045-1920x1280-FIT_AND_TRIM-c8d1f10f180b5c9ffe9dbc80582b7d04.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-9f723c076107ebd118c0fe787bc76f34.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67703045-1869x1246-FIT_AND_TRIM-bca725f86676451ca0f05c7a38a20471.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-cefc2d559726b990befbc0a7256cd907.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10018173-1863465d31fa923aaa2d0b9fb8c862f3.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Heater",
+      "Hairdryer",
+      "Bathtub",
+      "Swimming pool & Children pool",
+      "Diving & Snorkeling",
+      "Airport transfer",
+      "Ferry terminal shuttle",
+      "Meeting facilities",
+      "Outdoor pool",
+      "Private beach nearby",
+      "Wifi"
+    ],
+    "maxGuests": 3,
+    "rating": 4,
+    "pricePerNight": 1882747,
+    "location": {
+      "address": "Banjar Kaja, Desa Jungutbatu Nusa Lembongan, Nusa Penida - Klungkung, Nusa Lembongan, Nusa Island, Bali, Indonesia, 80771",
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "email": "royaloceanresort@gmail.com",
+      "phoneNumber": "081326713238"
+    }
+  },
+  {
+    "name": "The Tanis Beach Resort",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10003613-f93538e0ee67a83e8b85ef5b934b52cf.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10003613-fb24514dc90b2cedcb5e4ce1baa32b29.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10003613-7100ba36cc0c9718baaa1fb17e1117eb.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10003613-a7b95cdba4ea0fbe464e828121b5c76b.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10003613-a31d6d50740e55c67b8dcd0c7c893a05.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10003613-b69cbfe307a4e71102129a1d987c8ed1.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10003613-32a6b2eeef107718670b0d7620377f8e.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10003613-b1c3b6e1ef4b55c6ee5933e3acfcbaa5.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Massage",
+      "Wifi",
+      "Air Conditioner",
+      "Cable TV",
+      "Smoking & Non-smoking room",
+      "Swimming pool & Children pool",
+      "Diving & Snorkeling",
+      "Catamaran sailing",
+      "Poolside bar",
+      "Bar",
+      "Pool sun loungers"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 624283,
+    "location": {
+      "address": "Mushroom Bay, Pulau Nusa Lembongan, Nusa Lembongan, Nusa Island, Bali, Indonesia, 80771",
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "email": "thetanis@gmail.com",
+      "phoneNumber": "087737793332"
+    }
+  },
+  {
+    "name": "Dream Beach Kubu & SPA by ABM",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20075772-7f2f655cbcdd3e39fc0c96dae6b1a657.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20075772-fdc1c045c23439bed7480257da005064.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20075772-62cbae84233b2565b9bbfb4ce407da8a.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20075772-d48b2b5f485115594ac6078576cee4dc.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Air Conditioner",
+      "Wedding service",
+      "Diving & Snorkeling",
+      "Canoeing",
+      "Minibar",
+      "Smoking & Non-smoking room",
+      "Airport transfer",
+      "Ferry terminal shuttle",
+      "Barbecue"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 348099,
+    "location": {
+      "address": "Lembongan Island, Jungutbatu, Klungkung, Nusa Lembongan, Nusa Island, Bali, Indonesia, 80771",
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "email": "dreambeach@gmail.com",
+      "phoneNumber": "0878-3191-5360"
+    }
+  },
+  {
+    "name": "Plataran Menjangan Resort and Spa",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/generic-asset/2bHVGnnWooIqvSBA6ae4odylBix7UChbwSnyQroeq5E=/tdcoverseahoteldark/cbbcb6c287e1c59b7bd4b2e89a8213ea90530.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-460,pr-true,q-100,w-724",
+      "https://ik.imagekit.io/tvlk/generic-asset/2bHVGnnWooIqvSBA6ae4odylBix7UChbwSnyQroeq5E=/tdcoverseahoteldark/49ada74cb5bbcf4e7c8d7ea70b0288f3100705.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-460,pr-true,q-100,w-724",
+      "https://ik.imagekit.io/tvlk/generic-asset/2bHVGnnWooIqvSBA6ae4odylBix7UChbwSnyQroeq5E=/tdcoverseahoteldark/f276f7c43f9aaf58c9382fd6e0680643111002.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-460,pr-true,q-100,w-724",
+      "https://ik.imagekit.io/tvlk/generic-asset/2bHVGnnWooIqvSBA6ae4odylBix7UChbwSnyQroeq5E=/tdcoverseahoteldark/fcb9aa5d6878cb886ed1d291a0509fad100636.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-460,pr-true,q-100,w-724",
+      "https://ik.imagekit.io/tvlk/generic-asset/2bHVGnnWooIqvSBA6ae4odylBix7UChbwSnyQroeq5E=/tdcoverseahoteldark/fd76997691ece113bb9aacc8bba9d3f494830.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-460,pr-true,q-100,w-724",
+      "https://ik.imagekit.io/tvlk/generic-asset/H18io0dGK-xTayt5wXXPvNylBix7UChbwSnyQroeq5E=/tdcoverseahoteldark/6f68a86b32f348890c6b9f450457487e88537.jpg?_src=imagekit&tr=c-at_max,f-jpg,h-460,pr-true,q-100,w-724"
+    ],
+    "facilities": [
+      "Cable TV",
+      "Air Conditioner",
+      "Billiard",
+      "Diving & Snorkeling",
+      "Fitness center",
+      "Minibar",
+      "Outdoor pool",
+      "Laundry Service",
+      "Poolside bar",
+      "Safety deposit box",
+      "Family room",
+      "Airport transfer",
+      "Area shuttle",
+      "Wifi",
+      "Barbecue",
+      "Karaoke",
+      "Meeting facilities",
+      "Bathtub"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 10150866,
+    "location": {
+      "address": "West Bali National Park, Jl. Raya Seririt Gilimanuk, Gerokgak, Menjangan, Buleleng, Bali, Indonesia",
+      "city": "Buleleng",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "81155"
+    },
+    "contact": {
+      "email": "plataranmenjangan@gmail.com",
+      "phoneNumber": "04318858222"
+    }
+  },
+  {
+    "name": "Maha Nusa Menjangan",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67868625-ff9986c40dda1fcc68f7c1d7b60dfbb8.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67868625-7379816cc9df904c24602aa0be81436d.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67868625-deaffdd37d20b1937e74c13926a1c433.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20069593-77c07fb05a2d3dc1ae7eb21f3061beb0.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20069593-77c07fb05a2d3dc1ae7eb21f3061beb0.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67868625-f3e86d077d87e82336480e7f12317a00.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/67868625-f3e86d077d87e82336480e7f12317a00.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Wifi",
+      "Hairdryer",
+      "Shower",
+      "Disabled access friendly",
+      "Barbecue",
+      "Sharing refrigerator"
+    ],
+    "maxGuests": 2,
+    "rating": 2,
+    "pricePerNight": 687893,
+    "location": {
+      "address": "Jalan Banyuwedang,  Banyuwedang, Indonesia, Menjangan, Buleleng, Bali, Indonesia, 81155",
+      "city": "Buleleng",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "81155"
+    },
+    "contact": {
+      "email": "mahanusa@gmail.com",
+      "phoneNumber": "081120031470"
+    }
+  },
+  {
+    "name": "Mimpi Resort Menjangan",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-9ce4d0425d1b08746573992054f8018c.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-a16945103ee68f0e94e700f31a93e039.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-a16945103ee68f0e94e700f31a93e039.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-c2da091e5f3897f115fb66e6d55de186.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-c2da091e5f3897f115fb66e6d55de186.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-26a041670c4de8de4ed0b78e0fabd444.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-e8d58136af4b6c739ac7af1acd029aa8.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008395-e8d58136af4b6c739ac7af1acd029aa8.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Hot tub",
+      "Smoking & Non-smoking room",
+      "Cable TV",
+      "Laundry Service",
+      "Wifi",
+      "Air Conditioner"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 1145455,
+    "location": {
+      "address": "Jalan Banyuwedang - Pejarakan Singaraja , Menjangan, Buleleng, Bali, Indonesia, 81155",
+      "city": "Buleleng",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "81155"
+    },
+    "contact": {
+      "email": "mimpiresortmenjangan@gmail.com",
+      "phoneNumber": "081298786566"
+    }
+  },
+  {
+    "name": "Blue Lagoon Avia Villas",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-df7a55bc6a7736d64a773cdcfc1ca2e2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-d5f1c1a4cc1b37d76baff2b81e8ea98e.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-8510bd8ec071fe09238a901ab13af425.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-231431fb0604a7907b311aa8f19edc80.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-809c1a71cf4a9424f0174c2f496644fc.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-300e4f26c318a03e405e4876490dc9ea.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-e3a2ef45ecbf7060f4fbdbd828166c47.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/680008429-b5dcc50ea43bbbbc3d0cb007bbaadc6d.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Swimming Pool",
+      "Air Conditioner",
+      "Restaurant",
+      "24-Hour Front Desk",
+      "Safety deposit box",
+      "Wifi",
+      "Parking"
+    ],
+    "maxGuests": 4,
+    "rating": 5,
+    "pricePerNight": 3268833,
+    "location": {
+      "address": "Jalan Sarang Burung, Lembongan, Nusapenida, Kabupaten Klungkung, Bali 80771, Indonesia, Nusa Ceningan, Nusa Island, Bali, Indonesia, 80771",
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "phoneNumber": "081907057504"
+    }
+  },
+  {
+    "name": "The Bridge Huts",
+    "type": "Hotels",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10033733-93feacf8ee4e065aebe8c892630bf083.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10033733-4a9ed630e2edf21cb4dda57d3a064162.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10033733-4a9ed630e2edf21cb4dda57d3a064162.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Swimming Pool",
+      "Air Conditioner",
+      "Restaurant",
+      "24-Hour Front Desk",
+      "Safety deposit box",
+      "Wifi",
+      "Parking"
+    ],
+    "maxGuests": 2,
+    "rating": 4,
+    "pricePerNight": 1249587,
+    "location": {
+      "address": "Nusa Ceningan, Nusa Ceningan, Nusa Island, Bali, Indonesia, 80771",
+      "city": "Klungkung",
+      "state": "Bali",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "phoneNumber": "03706193000"
+    }
+  },
+  {
+    "name": "Tatak Bunut Villa Nusa Ceningan",
+    "type": "Villas",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67757289-4000x4000-FIT_AND_TRIM-9a2d8ea42ea42cec5a02155d26c37c88.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67757289-800x600-FIT_AND_TRIM-5dd60f3146c210463e976c2a4da886d5.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67757289-800x600-FIT_AND_TRIM-5dd60f3146c210463e976c2a4da886d5.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": ["Swimming Pool", "Air Conditioner", "Restaurant", "Wifi"],
+    "maxGuests": 3,
+    "rating": 3,
+    "pricePerNight": 824727,
+    "location": {
+      "address": "Jalan nusa ceningan lembongan klungkung bali, Nusa Ceningan, Nusa Island, Bali, Indonesia, 80771",
+      "city": "Klungkung",
+      "state": "",
+      "country": "Indonesia",
+      "zipCode": "80771"
+    },
+    "contact": {
+      "phoneNumber": "081338088963"
+    }
+  },
+  {
+    "name": "Tidung Lagoon",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20022525-208c4d399598f77205f3a5879f817d59.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20022525-4e6eee5c0796da70c5e8273464997dd2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20022525-4e6eee5c0796da70c5e8273464997dd2.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20022525-4ca6771b4b77d9fc35235cb25354bf32.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Swimming Pool",
+      "Air Conditioner",
+      "Restaurant",
+      "Front Desk",
+      "Heater",
+      "Breakfast",
+      "Family room"
+    ],
+    "maxGuests": 2,
+    "rating": 5,
+    "pricePerNight": 1727273,
+    "location": {
+      "address": "Tidung Lagoon Resort Pulau Tidung Kepulauan Seribu, Kepulauan Seribu Selatan, Pulau Tidung, Jakarta, Indonesia, 14520",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "phoneNumber": "08882723673"
+    }
+  },
+  {
+    "name": "Grand Lagoon",
+    "type": "Resorts",
+    "images": [
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20059196-1212c2dcfbda81aba5fb18fa5923e718.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20059196-1212c2dcfbda81aba5fb18fa5923e718.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20059196-1212c2dcfbda81aba5fb18fa5923e718.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20059196-1212c2dcfbda81aba5fb18fa5923e718.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Conference room",
+      "Air Conditioner",
+      "Restaurant",
+      "24-Hour Front Desk",
+      "Recreation room",
+      "Wifi",
+      "Parking"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 801818,
+    "location": {
+      "address": "Grand Tidung Lagoon Pulau Tidung Besar, Kepulauan Seribu Selatan, Pulau Tidung, Jakarta, Indonesia, 14520",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "phoneNumber": "081288397105"
+    }
+  },
+  {
+    "name": "Cemara 38 Cottage",
+    "type": "Homestays",
+    "images": [
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67727234-2000x2000-FIT_AND_TRIM-292ecf8c9a3d5d8de080a57f2c4e3937.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20013709-936cb0e3db0bd1ce16cd0706875fcd35.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67727234-1000x1000-FIT_AND_TRIM-b7fc8df931913d63a92550f9f1090764.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640",
+      "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67727234-1000x1000-FIT_AND_TRIM-b7fc8df931913d63a92550f9f1090764.jpeg?_src=imagekit&tr=c-at_max,f-jpg,h-360,pr-true,q-100,w-640"
+    ],
+    "facilities": [
+      "Rooftop terrace",
+      "Air Conditioner",
+      "Restaurant",
+      "Wifi",
+      "24-Hour Front Desk",
+      "Parking"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 392562,
+    "location": {
+      "address": "Jl. Kampung Baru RT.01 RW.03 Kel. Pulau tidung Kec. Pulau tidung Kab. Pulau Seribu, Kepulauan Seribu Selatan, Pulau Tidung, Jakarta, Indonesia, 14520",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "zipCode": "14520"
+    },
+    "contact": {
+      "phoneNumber": "087817130825"
+    }
+  },
+  {
+    "name": "Sahir Resort at Pulau Pramuka",
+    "type": "Resorts",
+    "images": [
+      "https://lh3.googleusercontent.com/proxy/VOp4O8uECKbhqjMSOPGMGs8LRPk_Hw56Zc_eNe7gvSnAjwnzD9adLi2WZZ-_8gfr8MkcXSQH20oIAqQ_fp0Xd9ELM7ixdhIkaGjqsQ33ttX3nGRcGXm0kog1O9E4dKu_FbLecEFtbS5LWyDJ1gKIwMHd3m-JSg=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/proxy/lJzHYEh38cpDYmYh4_YzxVeA-kztLbAfWxeu57_YUDUsfhQqH2AlKctUetsdStzNfLpDyEwzH_yTETuYBfsb5BMMw6CJwiITp8DwAtVlZWhaZz7yHI2EVZalsk0c6tUF1Dy3rZz9DaiLqBA2LR1V56jWIF7vp7M=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/proxy/QrGL3Uw7WvmAx1mlf_VyF7EXYx1klct7QOTN1qyaFxPjnqatXyfZZ9rZvvn_Q8-veQMxP1W_DRdIIrRw1_FMYAVNb7crQk8j1poAo8-seb6L-kJNlBb_ZVeOydGP9hGhmnAUqv1C7N03lVoXUs2WtpzDylhnSg=w287-h192-n-k-rw-no-v1"
+    ],
+    "facilities": [
+      "100% Solar Energy Villa",
+      "Spacious living area with full-height windows",
+      "Private sun deck",
+      "Built in audio system",
+      "Fresh water shower",
+      "1 Super kings bed"
+    ],
+    "maxGuests": 2,
+    "rating": 3,
+    "pricePerNight": 300000,
+    "location": {
+      "address": "Sahir resort pulau pramuka 14530",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "phoneNumber": "08119848818"
+    }
+  },
+  {
+    "name": "Pramuka Resort Island",
+    "type": "Villas",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipM3qLwvkrUulnkdkXy1repCxbPpWmbUkXzAA--k=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipON7ZJJqiA-G2JeJ9EsPg1aaYXQvXzHKeYyjYS6=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipOjuGT2pACxBcYKio-h4EHk2C0CxDo3UeARTTQZ=w287-h192-n-k-rw-no-v1"
+    ],
+    "facilities": [
+      "100% Solar Energy Villa",
+      "Spacious living area with full-height windows",
+      "Private sun deck",
+      "Built in audio system",
+      "Fresh water shower",
+      "2 Super kings bed"
+    ],
+    "maxGuests": 3,
+    "rating": 4,
+    "pricePerNight": 840000,
+    "location": {
+      "address": "Main street pramuka island, 14530, Pulau Pramuka, Kepulauan Seribu Utara, Kab. Administrasi Kepulauan Seribu, Daerah Khusus Ibukota Jakarta 14530",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "phoneNumber": "08119848818"
+    }
+  },
+  {
+    "name": "Mutiara Pramuka Resort",
+    "type": "Homestays",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMBhtkjC42RlysbjNoMYgVQSNQ5HIQiHYkJI-_y=w287-h192-n-k-rw-no-v1",
+      "https://lh3.googleusercontent.com/p/AF1QipPgIJwQpk0Xw0vc36pFQ64-ixufLr4GlmOm_zdX=w287-h192-n-k-rw-no-v1"
+    ],
+    "facilities": [
+      "100% Solar Energy Villa",
+      "Spacious living area with full-height windows",
+      "Private sun deck",
+      "Built in audio system",
+      "Fresh water shower",
+      "3 Super kings bed"
+    ],
+    "maxGuests": 2,
+    "rating": 1,
+    "pricePerNight": 200000,
+    "location": {
+      "address": "Mutiara resort main street pramuka island 14530",
+      "city": "Kepulauan Seribu",
+      "state": "DKI Jakarta",
+      "country": "Indonesia"
+    },
+    "contact": {
+      "phoneNumber": "08119848818"
+    }
+  }
+]

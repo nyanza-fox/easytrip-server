@@ -1,15 +1,24 @@
-import { NextFunction, Request, Response } from 'express';
+import { NextFunction } from 'express';
 
-const errorMiddleware = (err: any, _req: Request, res: Response, _next: NextFunction) => {
-  err.status = err.status || 500;
-  err.message = err.message || 'Internal server error';
+import type { CustomError, CustomRequest, CustomResponse } from '../types/express';
+
+const errorMiddleware = (
+  err: CustomError,
+  _req: CustomRequest,
+  res: CustomResponse,
+  _next: NextFunction
+) => {
+  let statusCode = err.statusCode || 500;
+  let error = err.name || 'Internal Server Error';
+  let message = err.message || 'Something went wrong';
 
   if (err.name === 'JsonWebTokenError') {
-    err.status = 401;
-    err.message = 'Invalid token';
+    statusCode = 401;
+    error = 'Unauthorized';
+    message = 'Invalid token';
   }
 
-  res.status(err.status).json({ message: err.message });
+  res.status(statusCode).json({ statusCode, error, message });
 };
 
 export default errorMiddleware;

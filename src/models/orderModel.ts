@@ -68,11 +68,11 @@ const orderModel: OrderModel = {
     const orders = (await db
       .collection('orders')
       .aggregate([
-        {
-          $match: {
-            userId: { $regex: search, $options: 'i' },
-          },
-        },
+        // {
+        //   $match: {
+        //     userId: { $regex: search, $options: 'i' },
+        //   },
+        // },
         {
           $sort: { createdAt: -1 },
         },
@@ -102,7 +102,7 @@ const orderModel: OrderModel = {
       .toArray()) as Order[];
 
     const count = await db.collection('orders').countDocuments({
-      userId: { $regex: search, $options: 'i' },
+      // userId: { $regex: search, $options: 'i' },
     });
 
     const result = {
@@ -185,6 +185,7 @@ const orderModel: OrderModel = {
   create: async (payload: OrderInput) => {
     const result = await db.collection('orders').insertOne({
       ...payload,
+      userId: ObjectId.createFromHexString(payload.userId),
       status: 'pending',
       createdAt: new Date(),
       updatedAt: new Date(),
